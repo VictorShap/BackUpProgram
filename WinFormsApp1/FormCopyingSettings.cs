@@ -17,10 +17,5 @@ namespace WinFormsApp1
         {
 
         }
-
-        private void FormCopyingSettings_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
