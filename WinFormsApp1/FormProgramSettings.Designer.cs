@@ -42,11 +42,9 @@ namespace WinFormsApp1
             // 
             this.GroupProgramSettings.Controls.Add(this.CheckedListBoxProgramSettings);
             this.GroupProgramSettings.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupProgramSettings.Location = new System.Drawing.Point(15, 127);
-            this.GroupProgramSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupProgramSettings.Location = new System.Drawing.Point(12, 12);
             this.GroupProgramSettings.Name = "GroupProgramSettings";
-            this.GroupProgramSettings.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupProgramSettings.Size = new System.Drawing.Size(426, 227);
+            this.GroupProgramSettings.Size = new System.Drawing.Size(384, 76);
             this.GroupProgramSettings.TabIndex = 2;
             this.GroupProgramSettings.TabStop = false;
             this.GroupProgramSettings.Text = "Программные настройки";
@@ -58,21 +56,18 @@ namespace WinFormsApp1
             this.CheckedListBoxProgramSettings.Items.AddRange(new object[] {
             "Запуск программы вместе с windows",
             "Скрыть окно подсказок в основном окне"});
-            this.CheckedListBoxProgramSettings.Location = new System.Drawing.Point(10, 36);
-            this.CheckedListBoxProgramSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckedListBoxProgramSettings.Location = new System.Drawing.Point(9, 27);
             this.CheckedListBoxProgramSettings.Name = "CheckedListBoxProgramSettings";
-            this.CheckedListBoxProgramSettings.Size = new System.Drawing.Size(416, 119);
+            this.CheckedListBoxProgramSettings.Size = new System.Drawing.Size(364, 42);
             this.CheckedListBoxProgramSettings.TabIndex = 0;
             // 
             // GroupLanguage
             // 
             this.GroupLanguage.Controls.Add(this.RadioButtonEnglish);
             this.GroupLanguage.Controls.Add(this.RadioButtonRussian);
-            this.GroupLanguage.Location = new System.Drawing.Point(15, 17);
-            this.GroupLanguage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupLanguage.Location = new System.Drawing.Point(402, 12);
             this.GroupLanguage.Name = "GroupLanguage";
-            this.GroupLanguage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupLanguage.Size = new System.Drawing.Size(142, 101);
+            this.GroupLanguage.Size = new System.Drawing.Size(124, 76);
             this.GroupLanguage.TabIndex = 3;
             this.GroupLanguage.TabStop = false;
             this.GroupLanguage.Text = "Язык";
@@ -80,10 +75,9 @@ namespace WinFormsApp1
             // RadioButtonEnglish
             // 
             this.RadioButtonEnglish.AutoSize = true;
-            this.RadioButtonEnglish.Location = new System.Drawing.Point(9, 64);
-            this.RadioButtonEnglish.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RadioButtonEnglish.Location = new System.Drawing.Point(8, 48);
             this.RadioButtonEnglish.Name = "RadioButtonEnglish";
-            this.RadioButtonEnglish.Size = new System.Drawing.Size(113, 24);
+            this.RadioButtonEnglish.Size = new System.Drawing.Size(92, 19);
             this.RadioButtonEnglish.TabIndex = 1;
             this.RadioButtonEnglish.TabStop = true;
             this.RadioButtonEnglish.Text = "Английский";
@@ -92,10 +86,9 @@ namespace WinFormsApp1
             // RadioButtonRussian
             // 
             this.RadioButtonRussian.AutoSize = true;
-            this.RadioButtonRussian.Location = new System.Drawing.Point(9, 31);
-            this.RadioButtonRussian.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RadioButtonRussian.Location = new System.Drawing.Point(8, 23);
             this.RadioButtonRussian.Name = "RadioButtonRussian";
-            this.RadioButtonRussian.Size = new System.Drawing.Size(84, 24);
+            this.RadioButtonRussian.Size = new System.Drawing.Size(70, 19);
             this.RadioButtonRussian.TabIndex = 0;
             this.RadioButtonRussian.TabStop = true;
             this.RadioButtonRussian.Text = "Русский";
@@ -103,13 +96,12 @@ namespace WinFormsApp1
             // 
             // FormProgramSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 357);
+            this.ClientSize = new System.Drawing.Size(538, 94);
             this.Controls.Add(this.GroupLanguage);
             this.Controls.Add(this.GroupProgramSettings);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormProgramSettings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки программы";
