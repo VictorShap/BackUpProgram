@@ -121,7 +121,7 @@ namespace WinFormsApp1
             this.GroupScheduleCopying.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.GroupScheduleCopying.Location = new System.Drawing.Point(12, 30);
             this.GroupScheduleCopying.Name = "GroupScheduleCopying";
-            this.GroupScheduleCopying.Size = new System.Drawing.Size(444, 256);
+            this.GroupScheduleCopying.Size = new System.Drawing.Size(444, 205);
             this.GroupScheduleCopying.TabIndex = 2;
             this.GroupScheduleCopying.TabStop = false;
             this.GroupScheduleCopying.Text = "Запланировать копирование";
@@ -132,7 +132,7 @@ namespace WinFormsApp1
             this.ListBoxScheduleCopying.ItemHeight = 19;
             this.ListBoxScheduleCopying.Location = new System.Drawing.Point(6, 56);
             this.ListBoxScheduleCopying.Name = "ListBoxScheduleCopying";
-            this.ListBoxScheduleCopying.Size = new System.Drawing.Size(434, 194);
+            this.ListBoxScheduleCopying.Size = new System.Drawing.Size(434, 137);
             this.ListBoxScheduleCopying.TabIndex = 3;
             // 
             // ButtonRemoveSchedule
@@ -178,7 +178,7 @@ namespace WinFormsApp1
             // 
             this.GroupCurrentSettings.Controls.Add(this.ListBoxCurrentSettings);
             this.GroupCurrentSettings.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupCurrentSettings.Location = new System.Drawing.Point(348, 303);
+            this.GroupCurrentSettings.Location = new System.Drawing.Point(348, 252);
             this.GroupCurrentSettings.Name = "GroupCurrentSettings";
             this.GroupCurrentSettings.Size = new System.Drawing.Size(357, 235);
             this.GroupCurrentSettings.TabIndex = 4;
@@ -198,7 +198,7 @@ namespace WinFormsApp1
             // label1
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(0, 298);
+            this.label1.Location = new System.Drawing.Point(0, 247);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(714, 2);
             this.label1.TabIndex = 2;
@@ -206,7 +206,7 @@ namespace WinFormsApp1
             // label2
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(0, 289);
+            this.label2.Location = new System.Drawing.Point(0, 238);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(714, 2);
             this.label2.TabIndex = 5;
@@ -217,7 +217,7 @@ namespace WinFormsApp1
             this.LabelTips.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.LabelTips.Location = new System.Drawing.Point(478, 30);
             this.LabelTips.Name = "LabelTips";
-            this.LabelTips.Size = new System.Drawing.Size(227, 250);
+            this.LabelTips.Size = new System.Drawing.Size(227, 205);
             this.LabelTips.TabIndex = 6;
             this.LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация";
             // 
@@ -239,7 +239,7 @@ namespace WinFormsApp1
             this.GroupCopyingProcess.Controls.Add(this.LabelCopyingInProgress);
             this.GroupCopyingProcess.Controls.Add(this.progressBar1);
             this.GroupCopyingProcess.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupCopyingProcess.Location = new System.Drawing.Point(13, 430);
+            this.GroupCopyingProcess.Location = new System.Drawing.Point(13, 379);
             this.GroupCopyingProcess.Name = "GroupCopyingProcess";
             this.GroupCopyingProcess.Size = new System.Drawing.Size(313, 108);
             this.GroupCopyingProcess.TabIndex = 8;
@@ -266,7 +266,7 @@ namespace WinFormsApp1
             this.GroupAutoCopying.Controls.Add(this.RadioButtonOnceInThreeDays);
             this.GroupAutoCopying.Controls.Add(this.RadioButtonEveryDay);
             this.GroupAutoCopying.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupAutoCopying.Location = new System.Drawing.Point(18, 303);
+            this.GroupAutoCopying.Location = new System.Drawing.Point(18, 252);
             this.GroupAutoCopying.Name = "GroupAutoCopying";
             this.GroupAutoCopying.Size = new System.Drawing.Size(302, 121);
             this.GroupAutoCopying.TabIndex = 13;
@@ -351,13 +351,13 @@ namespace WinFormsApp1
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Location = new System.Drawing.Point(462, 27);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(2, 263);
+            this.label3.Size = new System.Drawing.Size(2, 212);
             this.label3.TabIndex = 16;
             // 
             // label6
             // 
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Location = new System.Drawing.Point(332, 298);
+            this.label6.Location = new System.Drawing.Point(332, 247);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(2, 244);
             this.label6.TabIndex = 18;
@@ -365,7 +365,7 @@ namespace WinFormsApp1
             // label7
             // 
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Location = new System.Drawing.Point(340, 298);
+            this.label7.Location = new System.Drawing.Point(340, 247);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(2, 244);
             this.label7.TabIndex = 19;
@@ -375,7 +375,7 @@ namespace WinFormsApp1
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label4.Location = new System.Drawing.Point(470, 27);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(2, 263);
+            this.label4.Size = new System.Drawing.Size(2, 212);
             this.label4.TabIndex = 20;
             // 
             // button1
@@ -392,7 +392,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(713, 541);
+            this.ClientSize = new System.Drawing.Size(713, 489);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
