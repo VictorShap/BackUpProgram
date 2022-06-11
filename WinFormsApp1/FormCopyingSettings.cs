@@ -17,5 +17,10 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void GroupAutoCopying_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -60,6 +60,7 @@ namespace WinFormsApp1
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.GroupScheduleCopying.SuspendLayout();
             this.GroupCurrentSettings.SuspendLayout();
@@ -112,6 +113,7 @@ namespace WinFormsApp1
             // GroupScheduleCopying
             // 
             this.GroupScheduleCopying.BackColor = System.Drawing.SystemColors.Control;
+            this.GroupScheduleCopying.Controls.Add(this.button1);
             this.GroupScheduleCopying.Controls.Add(this.ListBoxScheduleCopying);
             this.GroupScheduleCopying.Controls.Add(this.ButtonRemoveSchedule);
             this.GroupScheduleCopying.Controls.Add(this.ButtonChangeSchedule);
@@ -136,7 +138,7 @@ namespace WinFormsApp1
             // ButtonRemoveSchedule
             // 
             this.ButtonRemoveSchedule.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ButtonRemoveSchedule.Location = new System.Drawing.Point(293, 22);
+            this.ButtonRemoveSchedule.Location = new System.Drawing.Point(228, 22);
             this.ButtonRemoveSchedule.Name = "ButtonRemoveSchedule";
             this.ButtonRemoveSchedule.Size = new System.Drawing.Size(99, 28);
             this.ButtonRemoveSchedule.TabIndex = 2;
@@ -146,7 +148,7 @@ namespace WinFormsApp1
             // ButtonChangeSchedule
             // 
             this.ButtonChangeSchedule.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ButtonChangeSchedule.Location = new System.Drawing.Point(175, 22);
+            this.ButtonChangeSchedule.Location = new System.Drawing.Point(118, 23);
             this.ButtonChangeSchedule.Name = "ButtonChangeSchedule";
             this.ButtonChangeSchedule.Size = new System.Drawing.Size(99, 28);
             this.ButtonChangeSchedule.TabIndex = 1;
@@ -156,7 +158,7 @@ namespace WinFormsApp1
             // ButtonAddSchedule
             // 
             this.ButtonAddSchedule.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ButtonAddSchedule.Location = new System.Drawing.Point(57, 22);
+            this.ButtonAddSchedule.Location = new System.Drawing.Point(8, 23);
             this.ButtonAddSchedule.Name = "ButtonAddSchedule";
             this.ButtonAddSchedule.Size = new System.Drawing.Size(99, 28);
             this.ButtonAddSchedule.TabIndex = 0;
@@ -376,6 +378,16 @@ namespace WinFormsApp1
             this.label4.Size = new System.Drawing.Size(2, 263);
             this.label4.TabIndex = 20;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(337, 22);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 28);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Копировать";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -445,6 +457,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
 
