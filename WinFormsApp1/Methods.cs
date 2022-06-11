@@ -17,7 +17,7 @@ namespace WinFormsApp1
             {
                 path = folderBrowserDialog.SelectedPath;
             }
-            else path = "Не выбрано blyat5555555555";
+            else path = "Не выбрано blyat6666666666";
 
         }
         public static string EnoughSpaceOrThreeDots(string str, int max)
