@@ -367,9 +367,9 @@ namespace WinFormsApp1
             this.GroupAutoCopying.Controls.Add(this.RadioButtonOnceInThreeDays);
             this.GroupAutoCopying.Controls.Add(this.RadioButtonEveryDay);
             this.GroupAutoCopying.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupAutoCopying.Location = new System.Drawing.Point(293, 27);
+            this.GroupAutoCopying.Location = new System.Drawing.Point(292, 26);
             this.GroupAutoCopying.Name = "GroupAutoCopying";
-            this.GroupAutoCopying.Size = new System.Drawing.Size(224, 204);
+            this.GroupAutoCopying.Size = new System.Drawing.Size(224, 206);
             this.GroupAutoCopying.TabIndex = 13;
             this.GroupAutoCopying.TabStop = false;
             this.GroupAutoCopying.Text = "Автоматическое копирование";
@@ -377,7 +377,7 @@ namespace WinFormsApp1
             // ButtonAutoCopyingSettings
             // 
             this.ButtonAutoCopyingSettings.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ButtonAutoCopyingSettings.Location = new System.Drawing.Point(6, 141);
+            this.ButtonAutoCopyingSettings.Location = new System.Drawing.Point(6, 167);
             this.ButtonAutoCopyingSettings.Name = "ButtonAutoCopyingSettings";
             this.ButtonAutoCopyingSettings.Size = new System.Drawing.Size(99, 28);
             this.ButtonAutoCopyingSettings.TabIndex = 6;
@@ -387,7 +387,7 @@ namespace WinFormsApp1
             // ButtonAutoCopyingApply
             // 
             this.ButtonAutoCopyingApply.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ButtonAutoCopyingApply.Location = new System.Drawing.Point(124, 141);
+            this.ButtonAutoCopyingApply.Location = new System.Drawing.Point(122, 167);
             this.ButtonAutoCopyingApply.Name = "ButtonAutoCopyingApply";
             this.ButtonAutoCopyingApply.Size = new System.Drawing.Size(99, 28);
             this.ButtonAutoCopyingApply.TabIndex = 4;
@@ -398,7 +398,7 @@ namespace WinFormsApp1
             // RadioButtonNever
             // 
             this.RadioButtonNever.AutoSize = true;
-            this.RadioButtonNever.Location = new System.Drawing.Point(6, 110);
+            this.RadioButtonNever.Location = new System.Drawing.Point(6, 132);
             this.RadioButtonNever.Name = "RadioButtonNever";
             this.RadioButtonNever.Size = new System.Drawing.Size(84, 23);
             this.RadioButtonNever.TabIndex = 5;
@@ -409,7 +409,7 @@ namespace WinFormsApp1
             // RadioButtonOnceAWeek
             // 
             this.RadioButtonOnceAWeek.AutoSize = true;
-            this.RadioButtonOnceAWeek.Location = new System.Drawing.Point(7, 81);
+            this.RadioButtonOnceAWeek.Location = new System.Drawing.Point(7, 103);
             this.RadioButtonOnceAWeek.Name = "RadioButtonOnceAWeek";
             this.RadioButtonOnceAWeek.Size = new System.Drawing.Size(116, 23);
             this.RadioButtonOnceAWeek.TabIndex = 2;
@@ -420,7 +420,7 @@ namespace WinFormsApp1
             // RadioButtonOnceInThreeDays
             // 
             this.RadioButtonOnceInThreeDays.AutoSize = true;
-            this.RadioButtonOnceInThreeDays.Location = new System.Drawing.Point(6, 52);
+            this.RadioButtonOnceInThreeDays.Location = new System.Drawing.Point(6, 74);
             this.RadioButtonOnceInThreeDays.Name = "RadioButtonOnceInThreeDays";
             this.RadioButtonOnceInThreeDays.Size = new System.Drawing.Size(118, 23);
             this.RadioButtonOnceInThreeDays.TabIndex = 1;
@@ -431,7 +431,7 @@ namespace WinFormsApp1
             // RadioButtonEveryDay
             // 
             this.RadioButtonEveryDay.AutoSize = true;
-            this.RadioButtonEveryDay.Location = new System.Drawing.Point(6, 23);
+            this.RadioButtonEveryDay.Location = new System.Drawing.Point(6, 45);
             this.RadioButtonEveryDay.Name = "RadioButtonEveryDay";
             this.RadioButtonEveryDay.Size = new System.Drawing.Size(117, 23);
             this.RadioButtonEveryDay.TabIndex = 0;
