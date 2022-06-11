@@ -35,6 +35,7 @@ namespace WinFormsApp1
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GroupScheduleCopying = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.ListBoxScheduleCopying = new System.Windows.Forms.ListBox();
             this.ButtonRemoveSchedule = new System.Windows.Forms.Button();
             this.ButtonChangeSchedule = new System.Windows.Forms.Button();
@@ -60,7 +61,6 @@ namespace WinFormsApp1
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.GroupScheduleCopying.SuspendLayout();
             this.GroupCurrentSettings.SuspendLayout();
@@ -125,6 +125,16 @@ namespace WinFormsApp1
             this.GroupScheduleCopying.TabIndex = 2;
             this.GroupScheduleCopying.TabStop = false;
             this.GroupScheduleCopying.Text = "Запланировать копирование";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(337, 22);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 28);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Копировать";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ListBoxScheduleCopying
             // 
@@ -219,7 +229,7 @@ namespace WinFormsApp1
             this.LabelTips.Name = "LabelTips";
             this.LabelTips.Size = new System.Drawing.Size(227, 205);
             this.LabelTips.TabIndex = 6;
-            this.LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация";
+            this.LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
             // 
             // LabelCopyingInProgress
             // 
@@ -377,16 +387,6 @@ namespace WinFormsApp1
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(2, 212);
             this.label4.TabIndex = 20;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(337, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 28);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Копировать";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
