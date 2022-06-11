@@ -51,13 +51,11 @@ namespace WinFormsApp1
         private void ButtonChooseTargetFolderClick(object sender, EventArgs e)
         {
             Methods.ChooseFolder(out TargetDirectoryPath);
-            ChosenTargetFolderStatus.Text = Methods.EnoughSpaceOrThreeDots(TargetDirectoryPath, 23);
         }
 
         private void ButtonChooseFolderToCopyClick(object sender, EventArgs e)
         {
             Methods.ChooseFolder(out DirectoryToCopyPath);
-            ChosenFolderToCopyStatus.Text = Methods.EnoughSpaceOrThreeDots(DirectoryToCopyPath, 23); ;
         }
 
     }
