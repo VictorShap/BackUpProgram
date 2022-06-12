@@ -6,8 +6,10 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
+
     public partial class FormCopyingSettings : Form
     {
+        string lableDefault = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
         public FormCopyingSettings()
         {
             InitializeComponent();
@@ -48,12 +50,12 @@ namespace WinFormsApp1
 
         private void checkBox1NotifyAboutCopying_MouseLeave(object sender, EventArgs e)
         {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+            LabelTips.Text = lableDefault;
         }
 
         private void LabelDirectoryToCopy_MouseLeave(object sender, EventArgs e)
         {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+            LabelTips.Text = lableDefault;
         }
     }
 }
