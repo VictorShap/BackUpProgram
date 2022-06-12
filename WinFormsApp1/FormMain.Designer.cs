@@ -35,7 +35,7 @@ namespace WinFormsApp1
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GroupScheduleCopying = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ButtonCopyFiles = new System.Windows.Forms.Button();
             this.ListBoxScheduleCopying = new System.Windows.Forms.ListBox();
             this.ButtonRemoveSchedule = new System.Windows.Forms.Button();
             this.ButtonChangeSchedule = new System.Windows.Forms.Button();
@@ -113,7 +113,7 @@ namespace WinFormsApp1
             // GroupScheduleCopying
             // 
             this.GroupScheduleCopying.BackColor = System.Drawing.SystemColors.Control;
-            this.GroupScheduleCopying.Controls.Add(this.button1);
+            this.GroupScheduleCopying.Controls.Add(this.ButtonCopyFiles);
             this.GroupScheduleCopying.Controls.Add(this.ListBoxScheduleCopying);
             this.GroupScheduleCopying.Controls.Add(this.ButtonRemoveSchedule);
             this.GroupScheduleCopying.Controls.Add(this.ButtonChangeSchedule);
@@ -126,15 +126,17 @@ namespace WinFormsApp1
             this.GroupScheduleCopying.TabStop = false;
             this.GroupScheduleCopying.Text = "Запланировать копирование";
             // 
-            // button1
+            // ButtonCopyFiles
             // 
-            this.button1.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(337, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 28);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Копировать";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ButtonCopyFiles.Font = new System.Drawing.Font("Sitka Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtonCopyFiles.Location = new System.Drawing.Point(337, 22);
+            this.ButtonCopyFiles.Name = "ButtonCopyFiles";
+            this.ButtonCopyFiles.Size = new System.Drawing.Size(99, 28);
+            this.ButtonCopyFiles.TabIndex = 4;
+            this.ButtonCopyFiles.Text = "Копировать";
+            this.ButtonCopyFiles.UseVisualStyleBackColor = true;
+            this.ButtonCopyFiles.MouseLeave += new System.EventHandler(this.ButtonAddSchedule_MouseLeave);
+            this.ButtonCopyFiles.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
             // 
             // ListBoxScheduleCopying
             // 
@@ -154,6 +156,8 @@ namespace WinFormsApp1
             this.ButtonRemoveSchedule.TabIndex = 2;
             this.ButtonRemoveSchedule.Text = "Удалить";
             this.ButtonRemoveSchedule.UseVisualStyleBackColor = true;
+            this.ButtonRemoveSchedule.MouseLeave += new System.EventHandler(this.ButtonAddSchedule_MouseLeave);
+            this.ButtonRemoveSchedule.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
             // 
             // ButtonChangeSchedule
             // 
@@ -164,6 +168,8 @@ namespace WinFormsApp1
             this.ButtonChangeSchedule.TabIndex = 1;
             this.ButtonChangeSchedule.Text = "Изменить";
             this.ButtonChangeSchedule.UseVisualStyleBackColor = true;
+            this.ButtonChangeSchedule.MouseLeave += new System.EventHandler(this.ButtonAddSchedule_MouseLeave);
+            this.ButtonChangeSchedule.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
             // 
             // ButtonAddSchedule
             // 
@@ -175,6 +181,8 @@ namespace WinFormsApp1
             this.ButtonAddSchedule.Text = "Добавить";
             this.ButtonAddSchedule.UseVisualStyleBackColor = true;
             this.ButtonAddSchedule.Click += new System.EventHandler(this.button1_Click);
+            this.ButtonAddSchedule.MouseLeave += new System.EventHandler(this.ButtonAddSchedule_MouseLeave);
+            this.ButtonAddSchedule.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
             // 
             // progressBar1
             // 
@@ -412,6 +420,7 @@ namespace WinFormsApp1
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.GroupScheduleCopying.ResumeLayout(false);
@@ -457,7 +466,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ButtonCopyFiles;
     }
 }
 

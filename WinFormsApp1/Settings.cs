@@ -10,7 +10,7 @@ using System.Windows.Forms;
 namespace WinFormsApp1
 {
     public class Settings
-    {
-        
+    {   
+
     }
 }

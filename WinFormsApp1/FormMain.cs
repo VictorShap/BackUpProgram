@@ -21,7 +21,16 @@ namespace WinFormsApp1
             InitializeComponent();
 
         }
+        ToolTip toolTip = new ToolTip();
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            toolTip.Active = false;
+            toolTip.SetToolTip(ButtonAddSchedule, "Настроить и добавить задачу копирования в определенный день.");
+            toolTip.SetToolTip(ButtonChangeSchedule, "Выберите одиночным кликом мышки задачу, которую нужно редактировать и нажмите на кнопку.");
+            toolTip.SetToolTip(ButtonRemoveSchedule, "Выберите одиночным кликом мышки задачу, которую нужно удалить и нажмите на кнопку.");
+            toolTip.SetToolTip(ButtonCopyFiles, "Выберите одиночным кликом мышки задачу, которую нужно копировать незамедлительно.");
 
+        }
         private void button7_Click(object sender, EventArgs e)
         {
         }
@@ -58,5 +67,14 @@ namespace WinFormsApp1
             Methods.ChooseFolder(out DirectoryToCopyPath);
         }
 
+        private void ButtonAddSchedule_MouseHover(object sender, EventArgs e)//Отображение подсказок
+        {
+            LabelTips.Text = toolTip.GetToolTip((Button)sender);
+        }
+
+        private void ButtonAddSchedule_MouseLeave(object sender, EventArgs e)
+        {
+            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        }
     }
 }
