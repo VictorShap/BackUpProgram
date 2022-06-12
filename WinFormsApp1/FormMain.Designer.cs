@@ -391,33 +391,33 @@ namespace WinFormsApp1
             // label3
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(528, 18);
+            this.label3.Location = new System.Drawing.Point(528, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(2, 227);
+            this.label3.Size = new System.Drawing.Size(2, 211);
             this.label3.TabIndex = 16;
             // 
             // label6
             // 
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Location = new System.Drawing.Point(379, 259);
+            this.label6.Location = new System.Drawing.Point(379, 256);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(2, 325);
+            this.label6.Size = new System.Drawing.Size(2, 327);
             this.label6.TabIndex = 18;
             // 
             // label7
             // 
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Location = new System.Drawing.Point(389, 259);
+            this.label7.Location = new System.Drawing.Point(389, 256);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(2, 325);
+            this.label7.Size = new System.Drawing.Size(2, 327);
             this.label7.TabIndex = 19;
             // 
             // label4
             // 
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(537, 18);
+            this.label4.Location = new System.Drawing.Point(537, 33);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(2, 227);
+            this.label4.Size = new System.Drawing.Size(2, 211);
             this.label4.TabIndex = 20;
             // 
             // FormMain
