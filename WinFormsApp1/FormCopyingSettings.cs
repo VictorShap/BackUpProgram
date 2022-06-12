@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
@@ -9,8 +10,14 @@ namespace WinFormsApp1
 
     public partial class FormCopyingSettings : Form
     {
+<<<<<<< HEAD
         static string SourceDirectoryPath;
         static string TargetDirectoryPath;
+=======
+        //файл в котором хранятся все настройки
+        Settings settings = new Settings();
+        string SettingsFile = "Settings.xml";
+>>>>>>> 12123
         string lableDefault = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
         public FormCopyingSettings()
         {
@@ -27,8 +34,9 @@ namespace WinFormsApp1
             toolTip.SetToolTip(CheckBoxCopyAllTheFiles, "Файлы всех типов, находящиеся в выбранной директории, будут скопированы.");
             toolTip.SetToolTip(checkBox1NotifyAboutCopying, "Всплывающие окно предупредит вас об начале и завершении копирования");
             toolTip.SetToolTip(checkBox2ShutDownProgram, "Если копирование сегодня не запланировано, то и программе нет смысла работать");
-            toolTip.SetToolTip(checkBox3AbortCopying, "Появится кнопка, которая позволит принудительно прервать процесс копирования");
+            toolTip.SetToolTip(checkBox3PermissionToStopCopy, "Появится кнопка, которая позволит принудительно прервать процесс копирования");
             toolTip.SetToolTip(checkBox4StartCopyingAgain, "Если копирование было завершено с ошибкой, программа предложит его провоторить");
+            DeserializeXML(settings);
         }
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
@@ -59,6 +67,7 @@ namespace WinFormsApp1
         {
             LabelTips.Text = lableDefault;
         }
+<<<<<<< HEAD
 
         private void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
         {
@@ -114,5 +123,40 @@ namespace WinFormsApp1
         {
 
         }
+=======
+        private void ButtonApply_Click(object sender, EventArgs e)
+        {
+            settings.fileExtension = TextBoxTypeExtension.Text;
+            settings.countDays = TextBoxDaysToCopy.Text;
+            settings.copyAllFilesFromFolder = CheckBoxCopyAllTheFiles.Checked;
+            settings.notifyAboutCopy = checkBox1NotifyAboutCopying.Checked;
+            settings.programShutdown = checkBox2ShutDownProgram.Checked;
+            settings.permissionToStopCopy = checkBox3PermissionToStopCopy.Checked;
+            settings.tryСopyingAgain = checkBox4StartCopyingAgain.Checked;
+            SerializeXML(settings);
+        }
+
+
+
+        private void SerializeXML(Settings settings)
+        {
+            using (var fs = new FileStream(SettingsFile, FileMode.Create))
+            {
+                var ds = new DataContractSerializer(typeof(Settings));
+                ds.WriteObject(fs, settings);
+            }
+        }
+        private void DeserializeXML(Settings settings)
+        {
+            if (File.Exists(SettingsFile))
+            {
+                using (var fs = new FileStream(SettingsFile, FileMode.Open))
+                {
+                    var ds = new DataContractSerializer(typeof(Settings));
+                    settings = (Settings)ds.ReadObject(fs);
+                }
+            }
+        }
+>>>>>>> 12123
     }
 }

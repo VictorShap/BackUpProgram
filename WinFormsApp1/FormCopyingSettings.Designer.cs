@@ -47,7 +47,7 @@ namespace WinFormsApp1
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GroupAdditionalSettings = new System.Windows.Forms.GroupBox();
             this.checkBox4StartCopyingAgain = new System.Windows.Forms.CheckBox();
-            this.checkBox3AbortCopying = new System.Windows.Forms.CheckBox();
+            this.checkBox3PermissionToStopCopy = new System.Windows.Forms.CheckBox();
             this.checkBox2ShutDownProgram = new System.Windows.Forms.CheckBox();
             this.checkBox1NotifyAboutCopying = new System.Windows.Forms.CheckBox();
             this.ButtonApply = new System.Windows.Forms.Button();
@@ -238,7 +238,7 @@ namespace WinFormsApp1
             // GroupAdditionalSettings
             // 
             this.GroupAdditionalSettings.Controls.Add(this.checkBox4StartCopyingAgain);
-            this.GroupAdditionalSettings.Controls.Add(this.checkBox3AbortCopying);
+            this.GroupAdditionalSettings.Controls.Add(this.checkBox3PermissionToStopCopy);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox2ShutDownProgram);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox1NotifyAboutCopying);
             this.GroupAdditionalSettings.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -263,8 +263,9 @@ namespace WinFormsApp1
             this.checkBox4StartCopyingAgain.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
             this.checkBox4StartCopyingAgain.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
             // 
-            // checkBox3AbortCopying
+            // checkBox3PermissionToStopCopy
             // 
+<<<<<<< HEAD
             this.checkBox3AbortCopying.Location = new System.Drawing.Point(7, 111);
             this.checkBox3AbortCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox3AbortCopying.Name = "checkBox3AbortCopying";
@@ -274,6 +275,16 @@ namespace WinFormsApp1
             this.checkBox3AbortCopying.UseVisualStyleBackColor = true;
             this.checkBox3AbortCopying.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
             this.checkBox3AbortCopying.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+=======
+            this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(6, 83);
+            this.checkBox3PermissionToStopCopy.Name = "checkBox3PermissionToStopCopy";
+            this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(361, 24);
+            this.checkBox3PermissionToStopCopy.TabIndex = 2;
+            this.checkBox3PermissionToStopCopy.Text = "Разрешить прерывать процесс копирования";
+            this.checkBox3PermissionToStopCopy.UseVisualStyleBackColor = true;
+            this.checkBox3PermissionToStopCopy.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
+            this.checkBox3PermissionToStopCopy.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+>>>>>>> 12123
             // 
             // checkBox2ShutDownProgram
             // 
@@ -385,7 +396,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox4StartCopyingAgain;
-        private System.Windows.Forms.CheckBox checkBox3AbortCopying;
+        private System.Windows.Forms.CheckBox checkBox3PermissionToStopCopy;
         private System.Windows.Forms.CheckBox checkBox2ShutDownProgram;
         private System.Windows.Forms.CheckBox checkBox1NotifyAboutCopying;
     }
