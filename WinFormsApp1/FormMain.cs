@@ -19,6 +19,8 @@ namespace WinFormsApp1
             InitializeComponent();
 
         }
+        Settings settings = new Settings();
+        string SettingsFile = "Settings.xml";
         ToolTip toolTip = new ToolTip();
         private void FormMain_Load(object sender, EventArgs e)
         {
