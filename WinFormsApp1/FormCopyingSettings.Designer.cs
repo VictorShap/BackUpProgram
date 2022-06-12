@@ -265,17 +265,17 @@ namespace WinFormsApp1
             // 
             // checkBox3PermissionToStopCopy
             // 
-<<<<<<< HEAD
-            this.checkBox3AbortCopying.Location = new System.Drawing.Point(7, 111);
-            this.checkBox3AbortCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.checkBox3AbortCopying.Name = "checkBox3AbortCopying";
-            this.checkBox3AbortCopying.Size = new System.Drawing.Size(413, 32);
-            this.checkBox3AbortCopying.TabIndex = 2;
-            this.checkBox3AbortCopying.Text = "Разрешить прерывать процесс копирования";
-            this.checkBox3AbortCopying.UseVisualStyleBackColor = true;
-            this.checkBox3AbortCopying.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
-            this.checkBox3AbortCopying.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
-=======
+            this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(7, 111);
+            this.checkBox3PermissionToStopCopy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.checkBox3PermissionToStopCopy.Name = "checkBox3AbortCopying";
+            this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(413, 32);
+
+            this.checkBox3PermissionToStopCopy.TabIndex = 2;
+            this.checkBox3PermissionToStopCopy.Text = "Разрешить прерывать процесс копирования";
+            this.checkBox3PermissionToStopCopy.UseVisualStyleBackColor = true;
+            this.checkBox3PermissionToStopCopy.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
+            this.checkBox3PermissionToStopCopy.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+
             this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(6, 83);
             this.checkBox3PermissionToStopCopy.Name = "checkBox3PermissionToStopCopy";
             this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(361, 24);
@@ -284,7 +284,7 @@ namespace WinFormsApp1
             this.checkBox3PermissionToStopCopy.UseVisualStyleBackColor = true;
             this.checkBox3PermissionToStopCopy.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
             this.checkBox3PermissionToStopCopy.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
->>>>>>> 12123
+
             // 
             // checkBox2ShutDownProgram
             // 
