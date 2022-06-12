@@ -391,7 +391,7 @@ namespace WinFormsApp1
             // label3
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(528, 33);
+            this.label3.Location = new System.Drawing.Point(528, 34);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(2, 211);
             this.label3.TabIndex = 16;
@@ -415,7 +415,7 @@ namespace WinFormsApp1
             // label4
             // 
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(537, 33);
+            this.label4.Location = new System.Drawing.Point(537, 34);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(2, 211);
             this.label4.TabIndex = 20;
