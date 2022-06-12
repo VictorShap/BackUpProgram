@@ -30,7 +30,6 @@ namespace WinFormsApp1
             toolTip.SetToolTip(checkBox2ShutDownProgram, "Если копирование сегодня не запланировано, то и программе нет смысла работать");
             toolTip.SetToolTip(checkBox3PermissionToStopCopy, "Появится кнопка, которая позволит принудительно прервать процесс копирования");
             toolTip.SetToolTip(checkBox4StartCopyingAgain, "Если копирование было завершено с ошибкой, программа предложит его провоторить");
-            
         }
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
