@@ -14,8 +14,6 @@ namespace WinFormsApp1
 {
     public partial class FormMain : Form
     {
-        static string DirectoryToCopyPath;
-        static string TargetDirectoryPath;
         public FormMain()
         {
             InitializeComponent();
@@ -58,12 +56,11 @@ namespace WinFormsApp1
 
         private void ButtonChooseTargetFolderClick(object sender, EventArgs e)
         {
-            Methods.ChooseFolder(out TargetDirectoryPath);
+
         }
 
         private void ButtonChooseFolderToCopyClick(object sender, EventArgs e)
         {
-            Methods.ChooseFolder(out DirectoryToCopyPath);
         }
 
         private void ButtonAddSchedule_MouseHover(object sender, EventArgs e)//Отображение подсказок
@@ -74,6 +71,12 @@ namespace WinFormsApp1
         private void ButtonAddSchedule_MouseLeave(object sender, EventArgs e)
         {
             LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        }
+
+        private void ButtonAutoCopyingSettings_Click(object sender, EventArgs e)
+        {
+            FormCopyingSettings formCopyingSettings = new FormCopyingSettings();
+            formCopyingSettings.Show();
         }
     }
 }

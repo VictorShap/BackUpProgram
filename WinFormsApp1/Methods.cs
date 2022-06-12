@@ -4,14 +4,14 @@ namespace WinFormsApp1
 {
     static class Methods
     {
-        public static void ChooseFolder(out string path)
+        public static string ChooseFolder(string path)
         {
             FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
             if (folderBrowserDialog.ShowDialog() != DialogResult.Cancel)
             {
                 path = folderBrowserDialog.SelectedPath;
             }
-            else path = "Не выбрано";
+            return path;
         }
         public static string EnoughSpaceOrThreeDots(string str, int max)
         {

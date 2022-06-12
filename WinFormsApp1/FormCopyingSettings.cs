@@ -9,6 +9,8 @@ namespace WinFormsApp1
 
     public partial class FormCopyingSettings : Form
     {
+        static string SourceDirectoryPath;
+        static string TargetDirectoryPath;
         string lableDefault = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
         public FormCopyingSettings()
         {
@@ -56,6 +58,61 @@ namespace WinFormsApp1
         private void LabelDirectoryToCopy_MouseLeave(object sender, EventArgs e)
         {
             LabelTips.Text = lableDefault;
+        }
+
+        private void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
+        {
+            int index;
+            string SourceDirectoryPath1 = SourceDirectoryPath;
+            string SourceDirectoryPath2 = Methods.ChooseFolder(SourceDirectoryPath);
+            if (SourceDirectoryPath2 != null)
+            {
+                if (SourceDirectoryPath2 == TargetDirectoryPath) MessageBox.Show("Директории не должны совпадать");
+                else
+                {
+                    SourceDirectoryPath = SourceDirectoryPath2;
+                    index = ListBoxDirectoriesResult.Items.IndexOf("Основная директория: " + SourceDirectoryPath1);
+                    if (index! != -1) ListBoxDirectoriesResult.Items.Insert(index, "Основная директория: " + SourceDirectoryPath);
+                    else ListBoxDirectoriesResult.Items.Add("Основная директория: " + SourceDirectoryPath);
+                    ListBoxDirectoriesResult.Items.Remove("Основная директория: " + SourceDirectoryPath1);
+                    if (!ListBoxDirectoriesResult.Visible) ListBoxDirectoriesResult.Visible = true;
+                }
+            }
+        }
+
+        private void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
+        {
+            int index;
+            string TargetDirectoryPath1 = TargetDirectoryPath;
+            string TargetDirectoryPath2 = Methods.ChooseFolder(TargetDirectoryPath);
+            if (TargetDirectoryPath2 != null)
+            {
+                if (SourceDirectoryPath == TargetDirectoryPath2) MessageBox.Show("Директории не должны совпадать");
+                else
+                {
+                    TargetDirectoryPath = TargetDirectoryPath2;
+                    index = ListBoxDirectoriesResult.Items.IndexOf("Директория назначения: " + TargetDirectoryPath1);
+                    if (index != -1) ListBoxDirectoriesResult.Items.Insert(index, "Директория назначения: " + TargetDirectoryPath);
+                    else ListBoxDirectoriesResult.Items.Add("Директория назначения: " + TargetDirectoryPath);
+                    ListBoxDirectoriesResult.Items.Remove("Директория назначения: " + TargetDirectoryPath1);
+                    if (!ListBoxDirectoriesResult.Visible) ListBoxDirectoriesResult.Visible = true;
+                }
+            }
+        }
+
+        private void ButtonApply_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelDirectoryToCopy_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelTargetDirectory_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
