@@ -9,6 +9,8 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace WinFormsApp1
 {
@@ -19,6 +21,10 @@ namespace WinFormsApp1
             InitializeComponent();
 
         }
+        static Task TaskToShowToolTips;
+        static Task TaskToHideToolTips;
+
+
         Settings settings = new Settings();
         string SettingsFile = "Settings.xml";
         ToolTip toolTip = new ToolTip();
@@ -67,12 +73,16 @@ namespace WinFormsApp1
 
         private void ButtonAddSchedule_MouseHover(object sender, EventArgs e)//Отображение подсказок
         {
-            LabelTips.Text = toolTip.GetToolTip((Button)sender);
+            TaskToShowToolTips = new Task(() => LabelTips.Text = toolTip.GetToolTip((Button)sender));
+            TaskToShowToolTips.Wait(250);
+            TaskToShowToolTips.RunSynchronously();
         }
 
         private void ButtonAddSchedule_MouseLeave(object sender, EventArgs e)
         {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+            TaskToHideToolTips = new Task(() => LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.");
+            TaskToHideToolTips.Wait();
+            TaskToHideToolTips.RunSynchronously();
         }
 
         private void ButtonAutoCopyingSettings_Click(object sender, EventArgs e)
