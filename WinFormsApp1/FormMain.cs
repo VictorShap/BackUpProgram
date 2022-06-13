@@ -57,14 +57,35 @@ namespace WinFormsApp1
             formCopyingSettings.Show();
         }
 
-
-
-        private void PanelForButtonsScheduleCopying_MouseHover(object sender, EventArgs e)
+        private void ListBoxScheduleCopying_MouseHover(object sender, EventArgs e)
         {
             LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
         }
 
+        private void LabelTips_MouseHover(object sender, EventArgs e)
+        {
+            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        }
 
+        private void GroupAutoCopying_MouseHover(object sender, EventArgs e)
+        {
+            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        }
+
+        private void GroupCopyingProcess_MouseHover(object sender, EventArgs e)
+        {
+            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        }
+
+        private void GroupCurrentSettings_MouseHover(object sender, EventArgs e)
+        {
+            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        }
+
+        private void menuStrip1_MouseHover(object sender, EventArgs e)
+        {
+            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        }
     }
 }
 
