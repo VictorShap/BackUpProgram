@@ -36,24 +36,6 @@ namespace WinFormsApp1
         //Показ подсказок true - да, false - нет
         [DataMember(Name = "DisplayingHints")] public bool displayingHints;
 
-        public void SerializeXML(Settings settings, string SettingsFile)
-        {
-            using (var fs = new FileStream(SettingsFile, FileMode.Create))
-            {
-                var ds = new DataContractSerializer(typeof(Settings));
-                ds.WriteObject(fs, settings);
-            }
-        }
-        public void DeserializeXML(Settings settings, string SettingsFile)
-        {
-            if (File.Exists(SettingsFile))
-            {
-                using (var fs = new FileStream(SettingsFile, FileMode.Open))
-                {
-                    var ds = new DataContractSerializer(typeof(Settings));
-                    settings = (Settings)ds.ReadObject(fs);
-                }
-            }
-        }
+        
     }
 }

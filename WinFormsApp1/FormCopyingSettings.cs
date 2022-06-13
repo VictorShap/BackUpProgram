@@ -32,25 +32,6 @@ namespace WinFormsApp1
             toolTip.SetToolTip(checkBox2ShutDownProgram, "Если копирование сегодня не запланировано, то и программе нет смысла работать");
             toolTip.SetToolTip(checkBox3PermissionToStopCopy, "Появится кнопка, которая позволит принудительно прервать процесс копирования");
             toolTip.SetToolTip(checkBox4StartCopyingAgain, "Если копирование было завершено с ошибкой, программа предложит его провоторить");
-            settings.DeserializeXML(settings, SettingsFile);
-            SourceDirectoryPath = settings.mainFolder;
-            TargetDirectoryPath = settings.backupFolder;
-            TextBoxTypeExtension.Text = settings.fileExtension;
-            TextBoxDaysToCopy.Text = settings.countDays;
-            CheckBoxCopyAllTheFiles.Checked = settings.copyAllFilesFromFolder;
-            checkBox1NotifyAboutCopying.Checked = settings.notifyAboutCopy;
-            checkBox2ShutDownProgram.Checked = settings.programShutdown;
-            checkBox3PermissionToStopCopy.Checked = settings.permissionToStopCopy;
-            checkBox4StartCopyingAgain.Checked = settings.tryСopyingAgain;
-        }
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void GroupAutoCopying_Enter(object sender, EventArgs e)
-        {
-
         }
 
         private void LabelDirectoryToCopy_MouseHover(object sender, EventArgs e)
@@ -115,25 +96,26 @@ namespace WinFormsApp1
         }
         private void ButtonApply_Click(object sender, EventArgs e)
         {
-            settings.mainFolder = SourceDirectoryPath;
-            settings.backupFolder = TargetDirectoryPath;
-            settings.fileExtension = TextBoxTypeExtension.Text;
-            settings.countDays = TextBoxDaysToCopy.Text;
-            settings.copyAllFilesFromFolder = CheckBoxCopyAllTheFiles.Checked;
-            settings.notifyAboutCopy = checkBox1NotifyAboutCopying.Checked;
-            settings.programShutdown = checkBox2ShutDownProgram.Checked;
-            settings.permissionToStopCopy = checkBox3PermissionToStopCopy.Checked;
-            settings.tryСopyingAgain = checkBox4StartCopyingAgain.Checked;
-            settings.SerializeXML(settings, SettingsFile);
+            
         }
-        private void LabelDirectoryToCopy_Click(object sender, EventArgs e)
+        public void SerializeXML(Settings settings)
         {
-
+            using (var fs = new FileStream(SettingsFile, FileMode.Create))
+            {
+                var ds = new DataContractSerializer(typeof(Settings));
+                ds.WriteObject(fs, settings);
+            }
         }
-
-        private void LabelTargetDirectory_Click(object sender, EventArgs e)
+        public void DeserializeXML(Settings settings)
         {
-
+            if (File.Exists(SettingsFile))
+            {
+                using (var fs = new FileStream(SettingsFile, FileMode.Open))
+                {
+                    var ds = new DataContractSerializer(typeof(Settings));
+                    settings = (Settings)ds.ReadObject(fs);
+                }
+            }
         }
     }
 }

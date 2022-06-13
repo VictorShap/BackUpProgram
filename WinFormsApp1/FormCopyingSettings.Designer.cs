@@ -79,7 +79,6 @@ namespace WinFormsApp1
             this.GroupAutoCopying.TabIndex = 0;
             this.GroupAutoCopying.TabStop = false;
             this.GroupAutoCopying.Text = "Автоматическое копирование";
-            this.GroupAutoCopying.Enter += new System.EventHandler(this.GroupAutoCopying_Enter);
             // 
             // label2
             // 
@@ -125,7 +124,6 @@ namespace WinFormsApp1
             this.LabelTargetDirectory.Size = new System.Drawing.Size(284, 23);
             this.LabelTargetDirectory.TabIndex = 3;
             this.LabelTargetDirectory.Text = "Укажите директорию назначения";
-            this.LabelTargetDirectory.Click += new System.EventHandler(this.LabelTargetDirectory_Click);
             this.LabelTargetDirectory.MouseHover += new System.EventHandler(this.LabelDirectoryToCopy_MouseHover);
             // 
             // LabelDaysToCopy
@@ -144,7 +142,6 @@ namespace WinFormsApp1
             this.LabelDirectoryToCopy.Size = new System.Drawing.Size(273, 29);
             this.LabelDirectoryToCopy.TabIndex = 2;
             this.LabelDirectoryToCopy.Text = "Укажите основную директорию";
-            this.LabelDirectoryToCopy.Click += new System.EventHandler(this.LabelDirectoryToCopy_Click);
             this.LabelDirectoryToCopy.MouseLeave += new System.EventHandler(this.LabelDirectoryToCopy_MouseLeave);
             this.LabelDirectoryToCopy.MouseHover += new System.EventHandler(this.LabelDirectoryToCopy_MouseHover);
             // 
@@ -218,7 +215,6 @@ namespace WinFormsApp1
             this.menuStrip1.Size = new System.Drawing.Size(844, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // справкаToolStripMenuItem
             // 

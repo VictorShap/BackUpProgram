@@ -1,5 +1,6 @@
-﻿using System.Windows.Forms;
 using System.IO;
+using System.Runtime.Serialization;
+using System.Windows.Forms;
 namespace WinFormsApp1
 {
     static class Methods
@@ -46,7 +47,6 @@ namespace WinFormsApp1
                     fileInfo.CopyTo(newTargetPath);
                 }
             }
-
         }
     }
 }
