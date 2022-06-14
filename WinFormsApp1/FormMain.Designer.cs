@@ -83,7 +83,6 @@ namespace WinFormsApp1
             this.menuStrip1.Size = new System.Drawing.Size(835, 34);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.MouseHover += new System.EventHandler(this.menuStrip1_MouseHover);
             // 
             // настройкиToolStripMenuItem
             // 
@@ -131,6 +130,7 @@ namespace WinFormsApp1
             this.GroupScheduleCopying.TabIndex = 2;
             this.GroupScheduleCopying.TabStop = false;
             this.GroupScheduleCopying.Text = "Запланировать копирование";
+            this.GroupScheduleCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ListBoxScheduleCopying
             // 
@@ -141,7 +141,7 @@ namespace WinFormsApp1
             this.ListBoxScheduleCopying.Name = "ListBoxScheduleCopying";
             this.ListBoxScheduleCopying.Size = new System.Drawing.Size(495, 96);
             this.ListBoxScheduleCopying.TabIndex = 3;
-            this.ListBoxScheduleCopying.MouseHover += new System.EventHandler(this.ListBoxScheduleCopying_MouseHover);
+            this.ListBoxScheduleCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonAddSchedule
             // 
@@ -154,7 +154,7 @@ namespace WinFormsApp1
             this.ButtonAddSchedule.Text = "Добавить";
             this.ButtonAddSchedule.UseVisualStyleBackColor = true;
             this.ButtonAddSchedule.Click += new System.EventHandler(this.button1_Click);
-            this.ButtonAddSchedule.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
+            this.ButtonAddSchedule.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonChangeSchedule
             // 
@@ -166,7 +166,7 @@ namespace WinFormsApp1
             this.ButtonChangeSchedule.TabIndex = 1;
             this.ButtonChangeSchedule.Text = "Изменить";
             this.ButtonChangeSchedule.UseVisualStyleBackColor = true;
-            this.ButtonChangeSchedule.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
+            this.ButtonChangeSchedule.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonRemoveSchedule
             // 
@@ -178,7 +178,7 @@ namespace WinFormsApp1
             this.ButtonRemoveSchedule.TabIndex = 2;
             this.ButtonRemoveSchedule.Text = "Удалить";
             this.ButtonRemoveSchedule.UseVisualStyleBackColor = true;
-            this.ButtonRemoveSchedule.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
+            this.ButtonRemoveSchedule.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonCopyFiles
             // 
@@ -190,7 +190,7 @@ namespace WinFormsApp1
             this.ButtonCopyFiles.TabIndex = 4;
             this.ButtonCopyFiles.Text = "Копировать";
             this.ButtonCopyFiles.UseVisualStyleBackColor = true;
-            this.ButtonCopyFiles.MouseHover += new System.EventHandler(this.ButtonAddSchedule_MouseHover);
+            this.ButtonCopyFiles.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // PanelForButtonsScheduleCopying
             // 
@@ -210,6 +210,7 @@ namespace WinFormsApp1
             this.PanelForButtonsScheduleCopying.Name = "PanelForButtonsScheduleCopying";
             this.PanelForButtonsScheduleCopying.Size = new System.Drawing.Size(835, 579);
             this.PanelForButtonsScheduleCopying.TabIndex = 5;
+            this.PanelForButtonsScheduleCopying.MouseHover += new System.EventHandler(this.PanelForButtonsScheduleCopying_MouseHover);
             // 
             // label7
             // 
@@ -247,7 +248,7 @@ namespace WinFormsApp1
             this.GroupCurrentSettings.TabIndex = 4;
             this.GroupCurrentSettings.TabStop = false;
             this.GroupCurrentSettings.Text = "Текущие настройки";
-            this.GroupCurrentSettings.MouseHover += new System.EventHandler(this.GroupCurrentSettings_MouseHover);
+            this.GroupCurrentSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ListBoxCurrentSettings
             // 
@@ -259,6 +260,7 @@ namespace WinFormsApp1
             this.ListBoxCurrentSettings.Name = "ListBoxCurrentSettings";
             this.ListBoxCurrentSettings.Size = new System.Drawing.Size(387, 257);
             this.ListBoxCurrentSettings.TabIndex = 4;
+            this.ListBoxCurrentSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // GroupAutoCopying
             // 
@@ -276,8 +278,8 @@ namespace WinFormsApp1
             this.GroupAutoCopying.Size = new System.Drawing.Size(391, 161);
             this.GroupAutoCopying.TabIndex = 13;
             this.GroupAutoCopying.TabStop = false;
-            this.GroupAutoCopying.Text = "Автоматическое копирование";
-            this.GroupAutoCopying.MouseHover += new System.EventHandler(this.GroupAutoCopying_MouseHover);
+            this.GroupAutoCopying.Text = "Регулярное копирование";
+            this.GroupAutoCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonAutoCopyingSettings
             // 
@@ -290,6 +292,7 @@ namespace WinFormsApp1
             this.ButtonAutoCopyingSettings.Text = "Настройки";
             this.ButtonAutoCopyingSettings.UseVisualStyleBackColor = true;
             this.ButtonAutoCopyingSettings.Click += new System.EventHandler(this.ButtonAutoCopyingSettings_Click);
+            this.ButtonAutoCopyingSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonAutoCopyingApply
             // 
@@ -301,6 +304,7 @@ namespace WinFormsApp1
             this.ButtonAutoCopyingApply.TabIndex = 4;
             this.ButtonAutoCopyingApply.Text = "Принять";
             this.ButtonAutoCopyingApply.UseVisualStyleBackColor = true;
+            this.ButtonAutoCopyingApply.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // RadioButtonNever
             // 
@@ -313,6 +317,7 @@ namespace WinFormsApp1
             this.RadioButtonNever.TabStop = true;
             this.RadioButtonNever.Text = "Никогда";
             this.RadioButtonNever.UseVisualStyleBackColor = true;
+            this.RadioButtonNever.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // RadioButtonOnceAWeek
             // 
@@ -325,6 +330,7 @@ namespace WinFormsApp1
             this.RadioButtonOnceAWeek.TabStop = true;
             this.RadioButtonOnceAWeek.Text = "Раз в неделю";
             this.RadioButtonOnceAWeek.UseVisualStyleBackColor = true;
+            this.RadioButtonOnceAWeek.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // RadioButtonOnceInThreeDays
             // 
@@ -337,6 +343,7 @@ namespace WinFormsApp1
             this.RadioButtonOnceInThreeDays.TabStop = true;
             this.RadioButtonOnceInThreeDays.Text = "Раз в три дня";
             this.RadioButtonOnceInThreeDays.UseVisualStyleBackColor = true;
+            this.RadioButtonOnceInThreeDays.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // RadioButtonEveryDay
             // 
@@ -349,6 +356,7 @@ namespace WinFormsApp1
             this.RadioButtonEveryDay.TabStop = true;
             this.RadioButtonEveryDay.Text = "Каждый день";
             this.RadioButtonEveryDay.UseVisualStyleBackColor = true;
+            this.RadioButtonEveryDay.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // GroupCopyingProcess
             // 
@@ -364,7 +372,7 @@ namespace WinFormsApp1
             this.GroupCopyingProcess.TabIndex = 8;
             this.GroupCopyingProcess.TabStop = false;
             this.GroupCopyingProcess.Text = "Процесс копирования";
-            this.GroupCopyingProcess.MouseHover += new System.EventHandler(this.GroupCopyingProcess_MouseHover);
+            this.GroupCopyingProcess.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonCancelCopying
             // 
@@ -377,6 +385,7 @@ namespace WinFormsApp1
             this.ButtonCancelCopying.Text = "Отмена";
             this.ButtonCancelCopying.UseVisualStyleBackColor = true;
             this.ButtonCancelCopying.Visible = false;
+            this.ButtonCancelCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelCopyingInProgress
             // 
@@ -432,7 +441,7 @@ namespace WinFormsApp1
             this.LabelTips.Size = new System.Drawing.Size(290, 201);
             this.LabelTips.TabIndex = 6;
             this.LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
-            this.LabelTips.MouseHover += new System.EventHandler(this.LabelTips_MouseHover);
+            this.LabelTips.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // label9
             // 

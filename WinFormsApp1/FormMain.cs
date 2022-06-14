@@ -25,10 +25,24 @@ namespace WinFormsApp1
         private void FormMain_Load(object sender, EventArgs e)
         {
             toolTip.Active = false;
-            toolTip.SetToolTip(ButtonAddSchedule, "Настроить и добавить задачу копирования в определенный день.");
-            toolTip.SetToolTip(ButtonChangeSchedule, "Выберите одиночным кликом мышки задачу, которую нужно редактировать и нажмите на кнопку.");
-            toolTip.SetToolTip(ButtonRemoveSchedule, "Выберите одиночным кликом мышки задачу, которую нужно удалить и нажмите на кнопку.");
-            toolTip.SetToolTip(ButtonCopyFiles, "Выберите одиночным кликом мышки задачу, которую нужно копировать незамедлительно.");
+            toolTip.SetToolTip(ButtonAddSchedule, "Настроить и добавить запланированную задачу копирования");
+            toolTip.SetToolTip(ButtonChangeSchedule, "Выберите одиночным кликом мышки задачу, которую нужно редактировать, и нажмите на кнопку.");
+            toolTip.SetToolTip(ButtonRemoveSchedule, "Выберите одиночным кликом мышки задачу, которую нужно удалить, и нажмите на кнопку.");
+            toolTip.SetToolTip(ButtonCopyFiles, "Выберите одиночным кликом мышки задачу, которую нужно копировать незамедлительно, и нажмите на кнопку.");
+            toolTip.SetToolTip(GroupScheduleCopying, "Здесь вы можете выполнить и настроить запланированное копирование.");
+            toolTip.SetToolTip(GroupAutoCopying, "Здесь вы можете выполнить и настроить регуляроное копирование.");
+            toolTip.SetToolTip(GroupCurrentSettings, "Здесь вы можете увидеть текущие настройки программы.");
+            toolTip.SetToolTip(ButtonCancelCopying, "Отменить текущий процесс копирования.");
+            toolTip.SetToolTip(ButtonAutoCopyingSettings, "Настроить и добавить задачу копирования с определенной регулярностью.");
+            toolTip.SetToolTip(ButtonAutoCopyingApply, "Принять текущие настройки для регулярного копирования.");
+            toolTip.SetToolTip(GroupCopyingProcess, "Здесь вы можете управлять и наблюдать процесс копирования.");
+            toolTip.SetToolTip(RadioButtonEveryDay, "Повторять задачу копирования каждый день.");
+            toolTip.SetToolTip(RadioButtonOnceAWeek, "Повторять задачу копирования раз в неделю.");
+            toolTip.SetToolTip(RadioButtonOnceInThreeDays, "Повторять задачу копирования каждые 3 дня.");
+            toolTip.SetToolTip(RadioButtonNever, "Никогда не повторять задачу копирования.");
+            toolTip.SetToolTip(ListBoxScheduleCopying, "Здесь отображаются ранее запланированные задачи копирования.");
+            toolTip.SetToolTip(ListBoxCurrentSettings, "Здесь вы можете увидеть текущие настройки программы.");
+            toolTip.SetToolTip(LabelTips, "Наведите курсор на любой объект в программе - и тут отобразится подробная информация.");
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -44,10 +58,13 @@ namespace WinFormsApp1
 
 
 
-        private void ButtonAddSchedule_MouseHover(object sender, EventArgs e)//Отображение подсказок
+        private void ShowToolTips_MouseHover(object sender, EventArgs e)//Отображение подсказок
         {
-            LabelTips.Text = toolTip.GetToolTip((Button)sender);
-
+            if (sender is Button) LabelTips.Text = toolTip.GetToolTip((Button)sender);
+            if (sender is GroupBox) LabelTips.Text = toolTip.GetToolTip((GroupBox)sender);
+            if (sender is RadioButton) LabelTips.Text = toolTip.GetToolTip((RadioButton)sender);
+            if (sender is ListBox) LabelTips.Text = toolTip.GetToolTip((ListBox)sender);
+            if (sender is Label) LabelTips.Text = toolTip.GetToolTip((Label)sender);
         }
 
 
@@ -57,35 +74,14 @@ namespace WinFormsApp1
             formCopyingSettings.Show();
         }
 
-        private void ListBoxScheduleCopying_MouseHover(object sender, EventArgs e)
+
+
+        private void PanelForButtonsScheduleCopying_MouseHover(object sender, EventArgs e)
         {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+            LabelTips.Text = "Наведите курсор на любой объект в программе - и тут отобразится подробная информация.";
         }
 
-        private void LabelTips_MouseHover(object sender, EventArgs e)
-        {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
-        }
 
-        private void GroupAutoCopying_MouseHover(object sender, EventArgs e)
-        {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
-        }
-
-        private void GroupCopyingProcess_MouseHover(object sender, EventArgs e)
-        {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
-        }
-
-        private void GroupCurrentSettings_MouseHover(object sender, EventArgs e)
-        {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
-        }
-
-        private void menuStrip1_MouseHover(object sender, EventArgs e)
-        {
-            LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
-        }
     }
 }
 
