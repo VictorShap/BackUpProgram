@@ -96,7 +96,7 @@ namespace WinFormsApp1
         }
         private void ButtonApply_Click(object sender, EventArgs e)
         {
-            
+
         }
         public void SerializeXML(Settings settings)
         {
@@ -117,5 +117,7 @@ namespace WinFormsApp1
                 }
             }
         }
+
+
     }
 }

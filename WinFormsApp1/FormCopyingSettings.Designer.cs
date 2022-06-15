@@ -248,10 +248,10 @@ namespace WinFormsApp1
             // 
             // checkBox4StartCopyingAgain
             // 
-            this.checkBox4StartCopyingAgain.Location = new System.Drawing.Point(7, 151);
+            this.checkBox4StartCopyingAgain.Location = new System.Drawing.Point(6, 135);
             this.checkBox4StartCopyingAgain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox4StartCopyingAgain.Name = "checkBox4StartCopyingAgain";
-            this.checkBox4StartCopyingAgain.Size = new System.Drawing.Size(592, 32);
+            this.checkBox4StartCopyingAgain.Size = new System.Drawing.Size(592, 58);
             this.checkBox4StartCopyingAgain.TabIndex = 3;
             this.checkBox4StartCopyingAgain.Text = "Если копирование было внезапно прервано, предлагать повторить его";
             this.checkBox4StartCopyingAgain.UseVisualStyleBackColor = true;
@@ -260,7 +260,7 @@ namespace WinFormsApp1
             // 
             // checkBox3PermissionToStopCopy
             // 
-            this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(7, 107);
+            this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(6, 107);
             this.checkBox3PermissionToStopCopy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox3PermissionToStopCopy.Name = "checkBox3PermissionToStopCopy";
             this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(378, 36);
@@ -272,10 +272,10 @@ namespace WinFormsApp1
             // 
             // checkBox2ShutDownProgram
             // 
-            this.checkBox2ShutDownProgram.Location = new System.Drawing.Point(7, 71);
+            this.checkBox2ShutDownProgram.Location = new System.Drawing.Point(6, 58);
             this.checkBox2ShutDownProgram.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox2ShutDownProgram.Name = "checkBox2ShutDownProgram";
-            this.checkBox2ShutDownProgram.Size = new System.Drawing.Size(659, 32);
+            this.checkBox2ShutDownProgram.Size = new System.Drawing.Size(661, 53);
             this.checkBox2ShutDownProgram.TabIndex = 1;
             this.checkBox2ShutDownProgram.Text = "Предлагать завершить работу программы, если копирование не запланировано";
             this.checkBox2ShutDownProgram.UseVisualStyleBackColor = true;
