@@ -86,7 +86,7 @@ namespace WinFormsApp1
             // label2
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(489, 11);
+            this.label2.Location = new System.Drawing.Point(499, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(2, 193);
             this.label2.TabIndex = 9;
@@ -95,7 +95,7 @@ namespace WinFormsApp1
             // label1
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(481, 11);
+            this.label1.Location = new System.Drawing.Point(491, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(2, 193);
             this.label1.TabIndex = 8;
@@ -110,7 +110,7 @@ namespace WinFormsApp1
             this.ListBoxDirectoriesResult.Location = new System.Drawing.Point(7, 105);
             this.ListBoxDirectoriesResult.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ListBoxDirectoriesResult.Name = "ListBoxDirectoriesResult";
-            this.ListBoxDirectoriesResult.Size = new System.Drawing.Size(454, 73);
+            this.ListBoxDirectoriesResult.Size = new System.Drawing.Size(476, 73);
             this.ListBoxDirectoriesResult.TabIndex = 5;
             this.ListBoxDirectoriesResult.Visible = false;
             this.ListBoxDirectoriesResult.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
@@ -157,7 +157,7 @@ namespace WinFormsApp1
             this.ButtonChooseTargetDirectory.Location = new System.Drawing.Point(338, 67);
             this.ButtonChooseTargetDirectory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonChooseTargetDirectory.Name = "ButtonChooseTargetDirectory";
-            this.ButtonChooseTargetDirectory.Size = new System.Drawing.Size(82, 31);
+            this.ButtonChooseTargetDirectory.Size = new System.Drawing.Size(108, 31);
             this.ButtonChooseTargetDirectory.TabIndex = 4;
             this.ButtonChooseTargetDirectory.Text = "добавить";
             this.ButtonChooseTargetDirectory.UseVisualStyleBackColor = true;
@@ -179,7 +179,7 @@ namespace WinFormsApp1
             this.ButtonChooseDirectoryToCopy.Location = new System.Drawing.Point(338, 29);
             this.ButtonChooseDirectoryToCopy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonChooseDirectoryToCopy.Name = "ButtonChooseDirectoryToCopy";
-            this.ButtonChooseDirectoryToCopy.Size = new System.Drawing.Size(82, 31);
+            this.ButtonChooseDirectoryToCopy.Size = new System.Drawing.Size(108, 31);
             this.ButtonChooseDirectoryToCopy.TabIndex = 3;
             this.ButtonChooseDirectoryToCopy.Text = "добавить";
             this.ButtonChooseDirectoryToCopy.UseVisualStyleBackColor = true;
@@ -197,10 +197,10 @@ namespace WinFormsApp1
             // 
             // CheckBoxCopyAllTheFiles
             // 
-            this.CheckBoxCopyAllTheFiles.Location = new System.Drawing.Point(503, 127);
+            this.CheckBoxCopyAllTheFiles.Location = new System.Drawing.Point(519, 127);
             this.CheckBoxCopyAllTheFiles.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CheckBoxCopyAllTheFiles.Name = "CheckBoxCopyAllTheFiles";
-            this.CheckBoxCopyAllTheFiles.Size = new System.Drawing.Size(444, 56);
+            this.CheckBoxCopyAllTheFiles.Size = new System.Drawing.Size(420, 56);
             this.CheckBoxCopyAllTheFiles.TabIndex = 7;
             this.CheckBoxCopyAllTheFiles.Text = "Копировать все файлы из выбранной директории";
             this.CheckBoxCopyAllTheFiles.UseVisualStyleBackColor = true;
