@@ -80,7 +80,8 @@ namespace WinFormsApp1
             this.GroupAutoCopying.Size = new System.Drawing.Size(947, 205);
             this.GroupAutoCopying.TabIndex = 0;
             this.GroupAutoCopying.TabStop = false;
-            this.GroupAutoCopying.Text = "Автоматическое копирование";
+            this.GroupAutoCopying.Text = "Регулярное копирование";
+            this.GroupAutoCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // label2
             // 
@@ -112,14 +113,16 @@ namespace WinFormsApp1
             this.ListBoxDirectoriesResult.Size = new System.Drawing.Size(454, 73);
             this.ListBoxDirectoriesResult.TabIndex = 5;
             this.ListBoxDirectoriesResult.Visible = false;
+            this.ListBoxDirectoriesResult.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // TextBoxDaysToCopy
             // 
-            this.TextBoxDaysToCopy.Location = new System.Drawing.Point(818, 91);
+            this.TextBoxDaysToCopy.Location = new System.Drawing.Point(805, 91);
             this.TextBoxDaysToCopy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxDaysToCopy.Name = "TextBoxDaysToCopy";
-            this.TextBoxDaysToCopy.Size = new System.Drawing.Size(114, 28);
+            this.TextBoxDaysToCopy.Size = new System.Drawing.Size(136, 28);
             this.TextBoxDaysToCopy.TabIndex = 6;
+            this.TextBoxDaysToCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTargetDirectory
             // 
@@ -128,16 +131,16 @@ namespace WinFormsApp1
             this.LabelTargetDirectory.Size = new System.Drawing.Size(325, 31);
             this.LabelTargetDirectory.TabIndex = 3;
             this.LabelTargetDirectory.Text = "Укажите директорию назначения";
-            this.LabelTargetDirectory.MouseHover += new System.EventHandler(this.LabelDirectoryToCopy_MouseHover);
+            this.LabelTargetDirectory.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelDaysToCopy
             // 
-            this.LabelDaysToCopy.Location = new System.Drawing.Point(519, 69);
+            this.LabelDaysToCopy.Location = new System.Drawing.Point(519, 70);
             this.LabelDaysToCopy.Name = "LabelDaysToCopy";
-            this.LabelDaysToCopy.Size = new System.Drawing.Size(293, 53);
+            this.LabelDaysToCopy.Size = new System.Drawing.Size(280, 67);
             this.LabelDaysToCopy.TabIndex = 1;
-            this.LabelDaysToCopy.Text = "Укажите за сколько последних дней производить копирование";
-            this.LabelDaysToCopy.MouseHover += new System.EventHandler(this.LabelDirectoryToCopy_MouseHover);
+            this.LabelDaysToCopy.Text = "Укажите, за сколько последних дней производить копирование";
+            this.LabelDaysToCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelDirectoryToCopy
             // 
@@ -146,8 +149,7 @@ namespace WinFormsApp1
             this.LabelDirectoryToCopy.Size = new System.Drawing.Size(312, 39);
             this.LabelDirectoryToCopy.TabIndex = 2;
             this.LabelDirectoryToCopy.Text = "Укажите основную директорию";
-            this.LabelDirectoryToCopy.MouseLeave += new System.EventHandler(this.LabelDirectoryToCopy_MouseLeave);
-            this.LabelDirectoryToCopy.MouseHover += new System.EventHandler(this.LabelDirectoryToCopy_MouseHover);
+            this.LabelDirectoryToCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonChooseTargetDirectory
             // 
@@ -160,14 +162,16 @@ namespace WinFormsApp1
             this.ButtonChooseTargetDirectory.Text = "добавить";
             this.ButtonChooseTargetDirectory.UseVisualStyleBackColor = true;
             this.ButtonChooseTargetDirectory.Click += new System.EventHandler(this.ButtonChooseTargetDirectory_Click);
+            this.ButtonChooseTargetDirectory.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // TextBoxTypeExtension
             // 
-            this.TextBoxTypeExtension.Location = new System.Drawing.Point(766, 27);
+            this.TextBoxTypeExtension.Location = new System.Drawing.Point(805, 27);
             this.TextBoxTypeExtension.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxTypeExtension.Name = "TextBoxTypeExtension";
-            this.TextBoxTypeExtension.Size = new System.Drawing.Size(166, 28);
+            this.TextBoxTypeExtension.Size = new System.Drawing.Size(136, 28);
             this.TextBoxTypeExtension.TabIndex = 5;
+            this.TextBoxTypeExtension.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonChooseDirectoryToCopy
             // 
@@ -180,27 +184,27 @@ namespace WinFormsApp1
             this.ButtonChooseDirectoryToCopy.Text = "добавить";
             this.ButtonChooseDirectoryToCopy.UseVisualStyleBackColor = true;
             this.ButtonChooseDirectoryToCopy.Click += new System.EventHandler(this.ButtonChooseDirectoryToCopy_Click);
+            this.ButtonChooseDirectoryToCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTypeExtension
             // 
-            this.LabelTypeExtension.Location = new System.Drawing.Point(519, 27);
+            this.LabelTypeExtension.Location = new System.Drawing.Point(519, 12);
             this.LabelTypeExtension.Name = "LabelTypeExtension";
-            this.LabelTypeExtension.Size = new System.Drawing.Size(241, 31);
+            this.LabelTypeExtension.Size = new System.Drawing.Size(280, 86);
             this.LabelTypeExtension.TabIndex = 0;
-            this.LabelTypeExtension.Text = "Укажите расширение файлов";
-            this.LabelTypeExtension.MouseHover += new System.EventHandler(this.LabelDirectoryToCopy_MouseHover);
+            this.LabelTypeExtension.Text = "Укажите расширение файлов, которые нужно копировать";
+            this.LabelTypeExtension.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // CheckBoxCopyAllTheFiles
             // 
-            this.CheckBoxCopyAllTheFiles.Location = new System.Drawing.Point(504, 127);
+            this.CheckBoxCopyAllTheFiles.Location = new System.Drawing.Point(503, 127);
             this.CheckBoxCopyAllTheFiles.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CheckBoxCopyAllTheFiles.Name = "CheckBoxCopyAllTheFiles";
-            this.CheckBoxCopyAllTheFiles.Size = new System.Drawing.Size(444, 70);
+            this.CheckBoxCopyAllTheFiles.Size = new System.Drawing.Size(444, 56);
             this.CheckBoxCopyAllTheFiles.TabIndex = 7;
             this.CheckBoxCopyAllTheFiles.Text = "Копировать все файлы из выбранной директории";
             this.CheckBoxCopyAllTheFiles.UseVisualStyleBackColor = true;
-            this.CheckBoxCopyAllTheFiles.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
-            this.CheckBoxCopyAllTheFiles.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+            this.CheckBoxCopyAllTheFiles.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTips
             // 
@@ -210,7 +214,8 @@ namespace WinFormsApp1
             this.LabelTips.Name = "LabelTips";
             this.LabelTips.Size = new System.Drawing.Size(267, 201);
             this.LabelTips.TabIndex = 2;
-            this.LabelTips.Text = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+            this.LabelTips.Text = "Наведите курсор на любой из заголовков - и тут отобразится подробная информация.";
+            this.LabelTips.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // menuStrip1
             // 
@@ -245,6 +250,7 @@ namespace WinFormsApp1
             this.GroupAdditionalSettings.TabIndex = 1;
             this.GroupAdditionalSettings.TabStop = false;
             this.GroupAdditionalSettings.Text = "Дополнительные настройки";
+            this.GroupAdditionalSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // checkBox4StartCopyingAgain
             // 
@@ -255,8 +261,7 @@ namespace WinFormsApp1
             this.checkBox4StartCopyingAgain.TabIndex = 3;
             this.checkBox4StartCopyingAgain.Text = "Если копирование было внезапно прервано, предлагать повторить его";
             this.checkBox4StartCopyingAgain.UseVisualStyleBackColor = true;
-            this.checkBox4StartCopyingAgain.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
-            this.checkBox4StartCopyingAgain.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+            this.checkBox4StartCopyingAgain.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // checkBox3PermissionToStopCopy
             // 
@@ -265,10 +270,9 @@ namespace WinFormsApp1
             this.checkBox3PermissionToStopCopy.Name = "checkBox3PermissionToStopCopy";
             this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(455, 36);
             this.checkBox3PermissionToStopCopy.TabIndex = 2;
-            this.checkBox3PermissionToStopCopy.Text = "Разрешить прерывать процесс копирования";
+            this.checkBox3PermissionToStopCopy.Text = "Разрешить прерывание процесса копирования";
             this.checkBox3PermissionToStopCopy.UseVisualStyleBackColor = true;
-            this.checkBox3PermissionToStopCopy.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
-            this.checkBox3PermissionToStopCopy.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+            this.checkBox3PermissionToStopCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // checkBox2ShutDownProgram
             // 
@@ -279,20 +283,18 @@ namespace WinFormsApp1
             this.checkBox2ShutDownProgram.TabIndex = 1;
             this.checkBox2ShutDownProgram.Text = "Предлагать завершить работу программы, если копирование не запланировано";
             this.checkBox2ShutDownProgram.UseVisualStyleBackColor = true;
-            this.checkBox2ShutDownProgram.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
-            this.checkBox2ShutDownProgram.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+            this.checkBox2ShutDownProgram.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // checkBox1NotifyAboutCopying
             // 
             this.checkBox1NotifyAboutCopying.Location = new System.Drawing.Point(7, 31);
             this.checkBox1NotifyAboutCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox1NotifyAboutCopying.Name = "checkBox1NotifyAboutCopying";
-            this.checkBox1NotifyAboutCopying.Size = new System.Drawing.Size(413, 32);
+            this.checkBox1NotifyAboutCopying.Size = new System.Drawing.Size(476, 32);
             this.checkBox1NotifyAboutCopying.TabIndex = 0;
             this.checkBox1NotifyAboutCopying.Text = "Оповещать о начале и завершении копирования";
             this.checkBox1NotifyAboutCopying.UseVisualStyleBackColor = true;
-            this.checkBox1NotifyAboutCopying.MouseLeave += new System.EventHandler(this.checkBox1NotifyAboutCopying_MouseLeave);
-            this.checkBox1NotifyAboutCopying.MouseHover += new System.EventHandler(this.CheckBoxCopyAllTheFiles_MouseHover);
+            this.checkBox1NotifyAboutCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonApply
             // 
@@ -305,6 +307,7 @@ namespace WinFormsApp1
             this.ButtonApply.Text = "Принять";
             this.ButtonApply.UseVisualStyleBackColor = true;
             this.ButtonApply.Click += new System.EventHandler(this.ButtonApply_Click);
+            this.ButtonApply.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonCancel
             // 
@@ -316,6 +319,7 @@ namespace WinFormsApp1
             this.ButtonCancel.TabIndex = 10;
             this.ButtonCancel.Text = "Отмена";
             this.ButtonCancel.UseVisualStyleBackColor = true;
+            this.ButtonCancel.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonOk
             // 
@@ -327,6 +331,7 @@ namespace WinFormsApp1
             this.ButtonOk.TabIndex = 11;
             this.ButtonOk.Text = "Ок";
             this.ButtonOk.UseVisualStyleBackColor = true;
+            this.ButtonOk.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // FormCopyingSettings
             // 

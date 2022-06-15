@@ -14,7 +14,7 @@ namespace WinFormsApp1
         string SettingsFile = "Settings.xml";
         static string SourceDirectoryPath;
         static string TargetDirectoryPath;
-        string lableDefault = "Наведите курсор на любой из заголовков и тут отобразится подробная информация.";
+        string lableDefault = "Наведите курсор на любой из заголовков - и тут отобразится подробная информация.";
         public FormCopyingSettings()
         {
             InitializeComponent();
@@ -23,39 +23,36 @@ namespace WinFormsApp1
         private void FormCopyingSettings_Load(object sender, EventArgs e)
         {
             toolTip.Active = false;
-            toolTip.SetToolTip(LabelDirectoryToCopy, "Директория в которой находятся нужные файлы для копирования");
-            toolTip.SetToolTip(LabelTargetDirectory, "Директория в которую нужно копировать файлы");
-            toolTip.SetToolTip(LabelTypeExtension, "Для разделителя использовать /\nНапримпер: .txt/.mp3");
-            toolTip.SetToolTip(LabelDaysToCopy, "Указав, допустим, цифру 3, будут скопированы файлы созданные за три последних дня");
-            toolTip.SetToolTip(CheckBoxCopyAllTheFiles, "Файлы всех типов, находящиеся в выбранной директории, будут скопированы.");
-            toolTip.SetToolTip(checkBox1NotifyAboutCopying, "Всплывающие окно предупредит вас об начале и завершении копирования");
-            toolTip.SetToolTip(checkBox2ShutDownProgram, "Если копирование сегодня не запланировано, то и программе нет смысла работать");
-            toolTip.SetToolTip(checkBox3PermissionToStopCopy, "Появится кнопка, которая позволит принудительно прервать процесс копирования");
-            toolTip.SetToolTip(checkBox4StartCopyingAgain, "Если копирование было завершено с ошибкой, программа предложит его провоторить");
+            toolTip.SetToolTip(LabelDirectoryToCopy, "Нажмите на кнопку справа, чтобы выбрать директорию с файлами для копирования.");
+            toolTip.SetToolTip(LabelTargetDirectory, "Нажмите на кнопку справа, чтобы выбрать директорию, в которую нужно скопировать файлы, выбранные выше.");
+            toolTip.SetToolTip(ListBoxDirectoriesResult, "Здесь отображаются выбранные директории.");
+            toolTip.SetToolTip(GroupAutoCopying, "Здесь вы можете задать настройки для регулярного копирования.");
+            toolTip.SetToolTip(LabelTypeExtension, "Укажите, с каким расширением файлы нужно копировать. Разширения указывайте, разделяя запятой.");
+            toolTip.SetToolTip(LabelDaysToCopy, "Укажите, за сколько последних дней осуществлять копирование. Дни указывайте числом.");
+            toolTip.SetToolTip(CheckBoxCopyAllTheFiles, "Будут скопированы все файлы из выбранной директории.");
+            toolTip.SetToolTip(GroupAdditionalSettings, "Здесь вы можете добавить дополнительные настройки.");
+            toolTip.SetToolTip(LabelTips, lableDefault);
+            toolTip.SetToolTip(menuStrip1, lableDefault);
+            toolTip.SetToolTip(checkBox1NotifyAboutCopying, "Программа оповестит вас о начале и завершении копирования");
+            toolTip.SetToolTip(checkBox2ShutDownProgram, "Вам будет предложено завершить работу программы, если нету запланированного копированя.");
+            toolTip.SetToolTip(checkBox3PermissionToStopCopy, "На в начальном окне программы появится кнопка, позволяющая прервать процесс копированя.");
+            toolTip.SetToolTip(checkBox4StartCopyingAgain, "В случае прерывания процесса копирования будет предложено повторить его попытку.");
+            toolTip.SetToolTip(ButtonApply, "Применить все выбранные настройки.");
+            toolTip.SetToolTip(ButtonCancel, "Отменить все выбранные настройки и вернуться на начальное окно программы.");
+            toolTip.SetToolTip(ButtonOk, "Применить все выбранные настройки и вернуться на начальное окно программы.");
+            toolTip.SetToolTip(ButtonChooseDirectoryToCopy, "Выберите директорию с файлами для копирования.");
+            toolTip.SetToolTip(ButtonChooseTargetDirectory, "Выберите директорию, в которую будет осуществляться копирование.");
+            toolTip.SetToolTip(TextBoxTypeExtension, "Укажите, с каким расширением файлы нужно копировать. Разширения указывайте, разделяя запятой.");
+            toolTip.SetToolTip(TextBoxDaysToCopy, "Укажите, за сколько последних дней осуществлять копирование. Дни указывайте числом.");
         }
 
-        private void LabelDirectoryToCopy_MouseHover(object sender, EventArgs e)
+        void ShowToolTips_MouseHover(object sender, EventArgs e)
         {
-            LabelTips.Text = toolTip.GetToolTip((Label)sender);
-        }
-
-        private void CheckBoxCopyAllTheFiles_MouseHover(object sender, EventArgs e)
-        {
-            LabelTips.Text = toolTip.GetToolTip((CheckBox)sender);
-        }
-
-        private void checkBox1NotifyAboutCopying_MouseLeave(object sender, EventArgs e)
-        {
-            LabelTips.Text = lableDefault;
-        }
-
-        private void LabelDirectoryToCopy_MouseLeave(object sender, EventArgs e)
-        {
-            LabelTips.Text = lableDefault;
+            if (sender is Control) LabelTips.Text = toolTip.GetToolTip((Control)sender);
         }
 
 
-        private void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
+        void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
         {
             int index;
             string SourceDirectoryPath1 = SourceDirectoryPath;
@@ -75,7 +72,7 @@ namespace WinFormsApp1
             }
         }
 
-        private void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
+        void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
         {
             int index;
             string TargetDirectoryPath1 = TargetDirectoryPath;
@@ -94,11 +91,11 @@ namespace WinFormsApp1
                 }
             }
         }
-        private void ButtonApply_Click(object sender, EventArgs e)
+        void ButtonApply_Click(object sender, EventArgs e)
         {
 
         }
-        public void SerializeXML(Settings settings)
+        void SerializeXML(Settings settings)
         {
             using (var fs = new FileStream(SettingsFile, FileMode.Create))
             {
@@ -106,7 +103,7 @@ namespace WinFormsApp1
                 ds.WriteObject(fs, settings);
             }
         }
-        public void DeserializeXML(Settings settings)
+        void DeserializeXML(Settings settings)
         {
             if (File.Exists(SettingsFile))
             {
@@ -118,6 +115,6 @@ namespace WinFormsApp1
             }
         }
 
-
     }
 }
+
