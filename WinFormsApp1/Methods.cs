@@ -1,4 +1,5 @@
 using System.IO;
+using System;
 using System.Runtime.Serialization;
 using System.Windows.Forms;
 namespace WinFormsApp1
@@ -48,5 +49,38 @@ namespace WinFormsApp1
                 }
             }
         }
+        public static void CopyFolder(string SourcePath, string TargertPath, string[] Extentions, int Days)
+        {
+            if (ForCopying == 0)
+            {
+                TargertPath = Directory.CreateDirectory(TargertPath + SourcePath.Substring(SourcePath.LastIndexOf('\\'))).FullName;
+                ForCopying++;
+                CopyFolder(SourcePath, TargertPath, Extentions, Days);
+            }
+            else
+            {
+                foreach (string directory in Directory.GetDirectories(SourcePath))
+                {
+                    CopyFolder(directory, TargertPath + directory.Substring(directory.LastIndexOf('\\')), Extentions, Days);
+                }
+                if (Directory.GetFiles(SourcePath).Length == 0) Directory.CreateDirectory(TargertPath);
+                foreach (string file in Directory.GetFiles(SourcePath))
+                {
+                    FileInfo fileInfo = new FileInfo(file);
+                    foreach (string extension in Extentions)
+                    {
+                        if (fileInfo.Extension == extension && DateTime.Now - fileInfo.LastWriteTime < new TimeSpan(Days, 0, 0, 0))
+                        {
+                            Directory.CreateDirectory(TargertPath);
+                            string newTargetPath = TargertPath + fileInfo.FullName.Substring(fileInfo.FullName.LastIndexOf('\\'));
+                            fileInfo.CopyTo(newTargetPath);
+                        }
+                    }
+
+                }
+            }
+
+        }
+
     }
 }
