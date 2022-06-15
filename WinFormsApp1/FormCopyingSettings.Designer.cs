@@ -263,7 +263,7 @@ namespace WinFormsApp1
             this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(6, 107);
             this.checkBox3PermissionToStopCopy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox3PermissionToStopCopy.Name = "checkBox3PermissionToStopCopy";
-            this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(378, 36);
+            this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(455, 36);
             this.checkBox3PermissionToStopCopy.TabIndex = 2;
             this.checkBox3PermissionToStopCopy.Text = "Разрешить прерывать процесс копирования";
             this.checkBox3PermissionToStopCopy.UseVisualStyleBackColor = true;
