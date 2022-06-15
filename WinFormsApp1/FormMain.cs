@@ -60,11 +60,7 @@ namespace WinFormsApp1
 
         private void ShowToolTips_MouseHover(object sender, EventArgs e)//Отображение подсказок
         {
-            if (sender is Button) LabelTips.Text = toolTip.GetToolTip((Button)sender);
-            if (sender is GroupBox) LabelTips.Text = toolTip.GetToolTip((GroupBox)sender);
-            if (sender is RadioButton) LabelTips.Text = toolTip.GetToolTip((RadioButton)sender);
-            if (sender is ListBox) LabelTips.Text = toolTip.GetToolTip((ListBox)sender);
-            if (sender is Label) LabelTips.Text = toolTip.GetToolTip((Label)sender);
+            if (sender is Control) LabelTips.Text = toolTip.GetToolTip((Control)sender);
         }
 
 
