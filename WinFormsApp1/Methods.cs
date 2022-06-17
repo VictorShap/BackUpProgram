@@ -49,7 +49,6 @@ namespace WinFormsApp1
                 }
             }
         }
-<<<<<<< HEAD
         public static void CopyFolder(string SourcePath, string TargertPath, string[] Extentions, int Days)
         {
             if (ForCopying == 0)
@@ -80,8 +79,8 @@ namespace WinFormsApp1
 
                 }
             }
+        }
 
-=======
         public static Settings DeserializeXML(Settings settings, string SettingsFile)
         {
             if (File.Exists(SettingsFile))
@@ -96,8 +95,7 @@ namespace WinFormsApp1
             {
                 return null;
             }
->>>>>>> кеке
-        }
 
+        }
     }
 }
