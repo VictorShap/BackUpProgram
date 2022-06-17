@@ -49,6 +49,7 @@ namespace WinFormsApp1
                 }
             }
         }
+<<<<<<< HEAD
         public static void CopyFolder(string SourcePath, string TargertPath, string[] Extentions, int Days)
         {
             if (ForCopying == 0)
@@ -80,6 +81,22 @@ namespace WinFormsApp1
                 }
             }
 
+=======
+        public static Settings DeserializeXML(Settings settings, string SettingsFile)
+        {
+            if (File.Exists(SettingsFile))
+            {
+                using (var fs = new FileStream(SettingsFile, FileMode.Open))
+                {
+                    var ds = new DataContractSerializer(typeof(Settings));
+                    return settings = (Settings)ds.ReadObject(fs);
+                }
+            }
+            else
+            {
+                return null;
+            }
+>>>>>>> кеке
         }
 
     }

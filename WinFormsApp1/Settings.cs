@@ -36,6 +36,30 @@ namespace WinFormsApp1
         //Показ подсказок true - да, false - нет
         [DataMember(Name = "DisplayingHints")] public bool displayingHints;
 
-        
+        public Settings() { }
+        public Settings(string mainFolder, string backupFolder, string fileExtension, string countDays, bool copyAllFilesFromFolder, bool notifyAboutCopy, bool programShutdown, bool permissionToStopCopy, bool tryСopyingAgain) 
+        {
+            this.mainFolder = mainFolder;
+            this.backupFolder = backupFolder;
+            this.fileExtension = fileExtension;
+            this.countDays = countDays;
+            this.copyAllFilesFromFolder = copyAllFilesFromFolder;
+            this.notifyAboutCopy = notifyAboutCopy;
+            this.programShutdown = programShutdown;
+            this.permissionToStopCopy = permissionToStopCopy;
+            this.tryСopyingAgain = tryСopyingAgain;
+        }
+        public void ReturnSettings(string mainFolder, string backupFolder, TextBox fileExtension, TextBox countDays, CheckBox copyAllFilesFromFolder, CheckBox notifyAboutCopy, CheckBox programShutdown, CheckBox permissionToStopCopy, CheckBox tryСopyingAgain)
+        {
+            mainFolder = this.mainFolder;
+            backupFolder = this.backupFolder;
+            fileExtension.Text = this.fileExtension;
+            countDays.Text = this.countDays;
+            copyAllFilesFromFolder.Checked = this.copyAllFilesFromFolder;
+            notifyAboutCopy.Checked = this.notifyAboutCopy;
+            programShutdown.Checked = this.programShutdown;
+            permissionToStopCopy.Checked = this.permissionToStopCopy;
+            tryСopyingAgain.Checked = this.tryСopyingAgain;
+        }
     }
 }
