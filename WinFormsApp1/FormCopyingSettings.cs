@@ -95,6 +95,11 @@ namespace WinFormsApp1
         void ButtonApply_Click(object sender, EventArgs e)
         {
         }
+
+        private void TextBoxTypeExtension_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

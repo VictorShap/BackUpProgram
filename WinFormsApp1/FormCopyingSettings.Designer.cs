@@ -128,10 +128,10 @@ namespace WinFormsApp1
             // 
             // TextBoxDaysToCopy
             // 
-            this.TextBoxDaysToCopy.Location = new System.Drawing.Point(237, 97);
+            this.TextBoxDaysToCopy.Location = new System.Drawing.Point(301, 84);
             this.TextBoxDaysToCopy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxDaysToCopy.Name = "TextBoxDaysToCopy";
-            this.TextBoxDaysToCopy.Size = new System.Drawing.Size(181, 28);
+            this.TextBoxDaysToCopy.Size = new System.Drawing.Size(117, 28);
             this.TextBoxDaysToCopy.TabIndex = 6;
             this.TextBoxDaysToCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
@@ -139,25 +139,26 @@ namespace WinFormsApp1
             // 
             this.LabelDaysToCopy.Location = new System.Drawing.Point(7, 84);
             this.LabelDaysToCopy.Name = "LabelDaysToCopy";
-            this.LabelDaysToCopy.Size = new System.Drawing.Size(264, 53);
+            this.LabelDaysToCopy.Size = new System.Drawing.Size(318, 53);
             this.LabelDaysToCopy.TabIndex = 1;
             this.LabelDaysToCopy.Text = "Укажите, за сколько последних дней производить копирование";
             this.LabelDaysToCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // TextBoxTypeExtension
             // 
-            this.TextBoxTypeExtension.Location = new System.Drawing.Point(237, 45);
+            this.TextBoxTypeExtension.Location = new System.Drawing.Point(301, 32);
             this.TextBoxTypeExtension.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TextBoxTypeExtension.Name = "TextBoxTypeExtension";
-            this.TextBoxTypeExtension.Size = new System.Drawing.Size(181, 28);
+            this.TextBoxTypeExtension.Size = new System.Drawing.Size(117, 28);
             this.TextBoxTypeExtension.TabIndex = 5;
+            this.TextBoxTypeExtension.TextChanged += new System.EventHandler(this.TextBoxTypeExtension_TextChanged);
             this.TextBoxTypeExtension.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTypeExtension
             // 
             this.LabelTypeExtension.Location = new System.Drawing.Point(7, 31);
             this.LabelTypeExtension.Name = "LabelTypeExtension";
-            this.LabelTypeExtension.Size = new System.Drawing.Size(224, 53);
+            this.LabelTypeExtension.Size = new System.Drawing.Size(288, 53);
             this.LabelTypeExtension.TabIndex = 0;
             this.LabelTypeExtension.Text = "Укажите расширение файлов, которые нужно копировать";
             this.LabelTypeExtension.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
