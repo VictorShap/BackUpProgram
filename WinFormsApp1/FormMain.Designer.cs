@@ -377,7 +377,7 @@ namespace WinFormsApp1
             this.ListBoxCurrentSettings.Location = new System.Drawing.Point(8, 36);
             this.ListBoxCurrentSettings.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.ListBoxCurrentSettings.Name = "ListBoxCurrentSettings";
-            this.ListBoxCurrentSettings.Size = new System.Drawing.Size(442, 280);
+            this.ListBoxCurrentSettings.Size = new System.Drawing.Size(339, 213);
             this.ListBoxCurrentSettings.TabIndex = 4;
             this.ListBoxCurrentSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
