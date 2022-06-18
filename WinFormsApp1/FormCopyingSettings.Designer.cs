@@ -40,18 +40,17 @@ namespace WinFormsApp1
             this.TextBoxTypeExtension = new System.Windows.Forms.TextBox();
             this.LabelTypeExtension = new System.Windows.Forms.Label();
             this.CheckBoxCopyAllTheFiles = new System.Windows.Forms.CheckBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ButtonApply = new System.Windows.Forms.Button();
             this.ButtonCancel = new System.Windows.Forms.Button();
             this.ButtonOk = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.LabelTips = new System.Windows.Forms.Label();
+            this.Panel = new System.Windows.Forms.Panel();
             this.GroupAutoCopying.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // GroupAutoCopying
@@ -62,11 +61,11 @@ namespace WinFormsApp1
             this.GroupAutoCopying.Controls.Add(this.ButtonChooseTargetDirectory);
             this.GroupAutoCopying.Controls.Add(this.ButtonChooseDirectoryToCopy);
             this.GroupAutoCopying.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupAutoCopying.Location = new System.Drawing.Point(14, 36);
+            this.GroupAutoCopying.Location = new System.Drawing.Point(1, 1);
             this.GroupAutoCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupAutoCopying.Name = "GroupAutoCopying";
             this.GroupAutoCopying.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupAutoCopying.Size = new System.Drawing.Size(450, 237);
+            this.GroupAutoCopying.Size = new System.Drawing.Size(450, 241);
             this.GroupAutoCopying.TabIndex = 0;
             this.GroupAutoCopying.TabStop = false;
             this.GroupAutoCopying.Text = "Регулярное копирование";
@@ -81,6 +80,7 @@ namespace WinFormsApp1
             this.ListBoxDirectoriesResult.Name = "ListBoxDirectoriesResult";
             this.ListBoxDirectoriesResult.Size = new System.Drawing.Size(431, 119);
             this.ListBoxDirectoriesResult.TabIndex = 25;
+            this.ListBoxDirectoriesResult.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTargetDirectory
             // 
@@ -165,37 +165,19 @@ namespace WinFormsApp1
             // 
             // CheckBoxCopyAllTheFiles
             // 
-            this.CheckBoxCopyAllTheFiles.Location = new System.Drawing.Point(3, -12);
+            this.CheckBoxCopyAllTheFiles.Location = new System.Drawing.Point(-6, -1);
             this.CheckBoxCopyAllTheFiles.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CheckBoxCopyAllTheFiles.Name = "CheckBoxCopyAllTheFiles";
-            this.CheckBoxCopyAllTheFiles.Size = new System.Drawing.Size(444, 62);
+            this.CheckBoxCopyAllTheFiles.Size = new System.Drawing.Size(444, 73);
             this.CheckBoxCopyAllTheFiles.TabIndex = 7;
             this.CheckBoxCopyAllTheFiles.Text = "Копировать все файлы из выбранной директории";
             this.CheckBoxCopyAllTheFiles.UseVisualStyleBackColor = true;
             this.CheckBoxCopyAllTheFiles.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.справкаToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1116, 30);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // справкаToolStripMenuItem
-            // 
-            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
-            this.справкаToolStripMenuItem.Text = "Справка";
-            // 
             // ButtonApply
             // 
             this.ButtonApply.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ButtonApply.Location = new System.Drawing.Point(619, 242);
+            this.ButtonApply.Location = new System.Drawing.Point(591, 223);
             this.ButtonApply.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonApply.Name = "ButtonApply";
             this.ButtonApply.Size = new System.Drawing.Size(77, 31);
@@ -208,7 +190,7 @@ namespace WinFormsApp1
             // ButtonCancel
             // 
             this.ButtonCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ButtonCancel.Location = new System.Drawing.Point(718, 242);
+            this.ButtonCancel.Location = new System.Drawing.Point(692, 223);
             this.ButtonCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonCancel.Name = "ButtonCancel";
             this.ButtonCancel.Size = new System.Drawing.Size(77, 31);
@@ -220,7 +202,7 @@ namespace WinFormsApp1
             // ButtonOk
             // 
             this.ButtonOk.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ButtonOk.Location = new System.Drawing.Point(815, 242);
+            this.ButtonOk.Location = new System.Drawing.Point(798, 223);
             this.ButtonOk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonOk.Name = "ButtonOk";
             this.ButtonOk.Size = new System.Drawing.Size(77, 31);
@@ -236,7 +218,7 @@ namespace WinFormsApp1
             this.groupBox1.Controls.Add(this.TextBoxDaysToCopy);
             this.groupBox1.Controls.Add(this.LabelDaysToCopy);
             this.groupBox1.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(470, 36);
+            this.groupBox1.Location = new System.Drawing.Point(457, 1);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -244,57 +226,65 @@ namespace WinFormsApp1
             this.groupBox1.TabIndex = 26;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Параметры копирования";
+            this.groupBox1.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.CheckBoxCopyAllTheFiles);
             this.panel1.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.panel1.Location = new System.Drawing.Point(470, 188);
+            this.panel1.Location = new System.Drawing.Point(457, 153);
             this.panel1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(426, 49);
+            this.panel1.Size = new System.Drawing.Size(426, 66);
             this.panel1.TabIndex = 27;
             // 
             // LabelTips
             // 
             this.LabelTips.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LabelTips.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.LabelTips.Location = new System.Drawing.Point(906, 47);
+            this.LabelTips.Location = new System.Drawing.Point(891, 10);
             this.LabelTips.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LabelTips.Name = "LabelTips";
-            this.LabelTips.Size = new System.Drawing.Size(208, 226);
+            this.LabelTips.Size = new System.Drawing.Size(208, 232);
             this.LabelTips.TabIndex = 28;
             this.LabelTips.Text = "Наведите курсор на любой из заголовков - и тут отобразится подробная информация.";
+            this.LabelTips.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
+            // 
+            // Panel
+            // 
+            this.Panel.BackColor = System.Drawing.Color.Transparent;
+            this.Panel.Controls.Add(this.ButtonOk);
+            this.Panel.Controls.Add(this.panel1);
+            this.Panel.Controls.Add(this.ButtonCancel);
+            this.Panel.Controls.Add(this.LabelTips);
+            this.Panel.Controls.Add(this.ButtonApply);
+            this.Panel.Controls.Add(this.GroupAutoCopying);
+            this.Panel.Controls.Add(this.groupBox1);
+            this.Panel.Location = new System.Drawing.Point(6, 12);
+            this.Panel.Name = "Panel";
+            this.Panel.Size = new System.Drawing.Size(1116, 258);
+            this.Panel.TabIndex = 29;
+            this.Panel.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // FormCopyingSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1116, 280);
-            this.Controls.Add(this.LabelTips);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.ButtonOk);
-            this.Controls.Add(this.ButtonCancel);
-            this.Controls.Add(this.ButtonApply);
-            this.Controls.Add(this.GroupAutoCopying);
-            this.Controls.Add(this.menuStrip1);
+            this.ClientSize = new System.Drawing.Size(1116, 272);
+            this.Controls.Add(this.Panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormCopyingSettings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "    ";
             this.Load += new System.EventHandler(this.FormCopyingSettings_Load);
             this.GroupAutoCopying.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.Panel.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -310,8 +300,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.CheckBox CheckBoxCopyAllTheFiles;
         private System.Windows.Forms.TextBox TextBoxDaysToCopy;
         private System.Windows.Forms.TextBox TextBoxTypeExtension;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
         private System.Windows.Forms.Button ButtonApply;
         private System.Windows.Forms.Button ButtonCancel;
         private System.Windows.Forms.Button ButtonOk;
@@ -319,5 +307,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label LabelTips;
+        private System.Windows.Forms.Panel Panel;
     }
 }

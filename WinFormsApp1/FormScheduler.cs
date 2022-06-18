@@ -21,7 +21,11 @@ namespace WinFormsApp1
         {
 
         }
-
+        private void ShowToolTips_MouseHover(object sender, EventArgs e)//Отображение подсказок
+        {
+            Control control = sender as Control;
+            Methods.ShowTips(control.Name, LabelTips);
+        }
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 

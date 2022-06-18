@@ -19,37 +19,16 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
-        ToolTip toolTip = new ToolTip();
+
         private void FormCopyingSettings_Load(object sender, EventArgs e)
         {
-            toolTip.Active = true;
-            toolTip.SetToolTip(LabelDirectoryToCopy, "Нажмите на кнопку справа, чтобы выбрать директорию с файлами для копирования.");
-            toolTip.SetToolTip(LabelTargetDirectory, "Нажмите на кнопку справа, чтобы выбрать директорию, в которую нужно скопировать файлы, выбранные выше.");
-            toolTip.SetToolTip(ListBoxDirectoriesResult, "Здесь отображаются выбранные директории.");
-            toolTip.SetToolTip(GroupAutoCopying, "Здесь вы можете задать настройки для регулярного копирования.");
-            toolTip.SetToolTip(LabelTypeExtension, "Укажите, с каким расширением файлы нужно копировать. Разширения указывайте, разделяя запятой.");
-            toolTip.SetToolTip(LabelDaysToCopy, "Укажите, за сколько последних дней осуществлять копирование. Дни указывайте числом.");
-            toolTip.SetToolTip(CheckBoxCopyAllTheFiles, "Будут скопированы все файлы из выбранной директории.");
-            //toolTip.SetToolTip(GroupAdditionalSettings, "Здесь вы можете добавить дополнительные настройки.");
-            toolTip.SetToolTip(LabelTips, lableDefault);
-            toolTip.SetToolTip(menuStrip1, lableDefault);
-            //toolTip.SetToolTip(checkBox1NotifyAboutCopying, "Программа оповестит вас о начале и завершении копирования");
-            //toolTip.SetToolTip(checkBox2ShutDownProgram, "Вам будет предложено завершить работу программы, если нету запланированного копированя.");
-            //toolTip.SetToolTip(checkBox3PermissionToStopCopy, "На в начальном окне программы появится кнопка, позволяющая прервать процесс копированя.");
-            //toolTip.SetToolTip(checkBox4StartCopyingAgain, "В случае прерывания процесса копирования будет предложено повторить его попытку.");
-            toolTip.SetToolTip(ButtonApply, "Применить все выбранные настройки.");
-            toolTip.SetToolTip(ButtonCancel, "Отменить все выбранные настройки и вернуться на начальное окно программы.");
-            toolTip.SetToolTip(ButtonOk, "Применить все выбранные настройки и вернуться на начальное окно программы.");
-            toolTip.SetToolTip(ButtonChooseDirectoryToCopy, "Выберите директорию с файлами для копирования.");
-            toolTip.SetToolTip(ButtonChooseTargetDirectory, "Выберите директорию, в которую будет осуществляться копирование.");
-            toolTip.SetToolTip(TextBoxTypeExtension, "Укажите, с каким расширением файлы нужно копировать. Разширения указывайте, разделяя запятой.");
-            toolTip.SetToolTip(TextBoxDaysToCopy, "Укажите, за сколько последних дней осуществлять копирование. Дни указывайте числом.");
 
         }
 
-        void ShowToolTips_MouseHover(object sender, EventArgs e)
+        private void ShowToolTips_MouseHover(object sender, EventArgs e)
         {
-            if (sender is Control) LabelTips.Text = toolTip.GetToolTip((Control)sender);
+            Control control = sender as Control;
+            Methods.ShowTips(control.Name, LabelTips);
         }
 
 

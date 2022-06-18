@@ -80,7 +80,17 @@ namespace WinFormsApp1
                 }
             }
         }
-
+        public static void ShowTips(string name, Label label)
+        {
+            foreach (string key in ToolTips.RussianToolTips.Keys)
+            {
+                if (key == name)
+                {
+                    label.Text = ToolTips.RussianToolTips[name];
+                    break;
+                }
+            }
+        }
 
     }
 }

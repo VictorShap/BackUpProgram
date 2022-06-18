@@ -35,7 +35,7 @@ namespace WinFormsApp1
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label9 = new System.Windows.Forms.Label();
-            this.PanelForButtonsScheduleCopying = new System.Windows.Forms.Panel();
+            this.Panel = new System.Windows.Forms.Panel();
             this.GroupAutoCopying = new System.Windows.Forms.GroupBox();
             this.ButtonAutoCopyingApply = new System.Windows.Forms.Button();
             this.ButtonAutoCopyingSettings = new System.Windows.Forms.Button();
@@ -57,7 +57,7 @@ namespace WinFormsApp1
             this.ListBoxCurrentSettings = new System.Windows.Forms.ListBox();
             this.LabelTips = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
-            this.PanelForButtonsScheduleCopying.SuspendLayout();
+            this.Panel.SuspendLayout();
             this.GroupAutoCopying.SuspendLayout();
             this.GroupCopyingProcess.SuspendLayout();
             this.GroupScheduleCopying.SuspendLayout();
@@ -77,7 +77,7 @@ namespace WinFormsApp1
             this.menuStrip1.Size = new System.Drawing.Size(1279, 34);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.MouseHover += new System.EventHandler(this.PanelForButtonsScheduleCopying_MouseHover);
+            this.menuStrip1.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // настройкиToolStripMenuItem
             // 
@@ -116,17 +116,17 @@ namespace WinFormsApp1
             this.label9.Size = new System.Drawing.Size(0, 0);
             this.label9.TabIndex = 14;
             // 
-            // PanelForButtonsScheduleCopying
+            // Panel
             // 
-            this.PanelForButtonsScheduleCopying.BackColor = System.Drawing.Color.Transparent;
-            this.PanelForButtonsScheduleCopying.Controls.Add(this.GroupAutoCopying);
-            this.PanelForButtonsScheduleCopying.Controls.Add(this.GroupCopyingProcess);
-            this.PanelForButtonsScheduleCopying.Controls.Add(this.GroupScheduleCopying);
-            this.PanelForButtonsScheduleCopying.Location = new System.Drawing.Point(0, 35);
-            this.PanelForButtonsScheduleCopying.Name = "PanelForButtonsScheduleCopying";
-            this.PanelForButtonsScheduleCopying.Size = new System.Drawing.Size(1067, 495);
-            this.PanelForButtonsScheduleCopying.TabIndex = 5;
-            this.PanelForButtonsScheduleCopying.MouseHover += new System.EventHandler(this.PanelForButtonsScheduleCopying_MouseHover);
+            this.Panel.BackColor = System.Drawing.Color.Transparent;
+            this.Panel.Controls.Add(this.GroupAutoCopying);
+            this.Panel.Controls.Add(this.GroupCopyingProcess);
+            this.Panel.Controls.Add(this.GroupScheduleCopying);
+            this.Panel.Location = new System.Drawing.Point(0, 35);
+            this.Panel.Name = "Panel";
+            this.Panel.Size = new System.Drawing.Size(1067, 495);
+            this.Panel.TabIndex = 5;
+            this.Panel.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // GroupAutoCopying
             // 
@@ -223,7 +223,6 @@ namespace WinFormsApp1
             this.RadioButtonNever.TabStop = true;
             this.RadioButtonNever.Text = "Никогда";
             this.RadioButtonNever.UseVisualStyleBackColor = true;
-            this.RadioButtonNever.CheckedChanged += new System.EventHandler(this.RadioButtonNever_CheckedChanged);
             this.RadioButtonNever.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // GroupCopyingProcess
@@ -240,7 +239,6 @@ namespace WinFormsApp1
             this.GroupCopyingProcess.TabIndex = 8;
             this.GroupCopyingProcess.TabStop = false;
             this.GroupCopyingProcess.Text = "Процесс копирования";
-            this.GroupCopyingProcess.Enter += new System.EventHandler(this.GroupCopyingProcess_Enter);
             this.GroupCopyingProcess.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelCopyingInProgress
@@ -253,7 +251,6 @@ namespace WinFormsApp1
             this.LabelCopyingInProgress.Size = new System.Drawing.Size(452, 59);
             this.LabelCopyingInProgress.TabIndex = 6;
             this.LabelCopyingInProgress.Text = "На данный момент ничего не копируется";
-            this.LabelCopyingInProgress.Click += new System.EventHandler(this.LabelCopyingInProgress_Click);
             // 
             // ButtonCancelCopying
             // 
@@ -391,6 +388,7 @@ namespace WinFormsApp1
             this.LabelTips.Size = new System.Drawing.Size(208, 497);
             this.LabelTips.TabIndex = 29;
             this.LabelTips.Text = "Наведите курсор на любой из заголовков - и тут отобразится подробная информация.";
+            this.LabelTips.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // FormMain
             // 
@@ -399,7 +397,7 @@ namespace WinFormsApp1
             this.ClientSize = new System.Drawing.Size(1279, 533);
             this.Controls.Add(this.GroupCurrentSettings);
             this.Controls.Add(this.LabelTips);
-            this.Controls.Add(this.PanelForButtonsScheduleCopying);
+            this.Controls.Add(this.Panel);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -411,7 +409,7 @@ namespace WinFormsApp1
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.PanelForButtonsScheduleCopying.ResumeLayout(false);
+            this.Panel.ResumeLayout(false);
             this.GroupAutoCopying.ResumeLayout(false);
             this.GroupAutoCopying.PerformLayout();
             this.GroupCopyingProcess.ResumeLayout(false);
@@ -430,7 +428,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.Panel PanelForButtonsScheduleCopying;
+        private System.Windows.Forms.Panel Panel;
         private System.Windows.Forms.GroupBox GroupCurrentSettings;
         private System.Windows.Forms.ListBox ListBoxCurrentSettings;
         private System.Windows.Forms.GroupBox GroupAutoCopying;
