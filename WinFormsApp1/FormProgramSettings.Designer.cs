@@ -50,9 +50,11 @@ namespace WinFormsApp1
             // 
             this.GroupProgramSettings.Controls.Add(this.CheckedListBoxProgramSettings);
             this.GroupProgramSettings.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupProgramSettings.Location = new System.Drawing.Point(12, 12);
+            this.GroupProgramSettings.Location = new System.Drawing.Point(14, 16);
+            this.GroupProgramSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupProgramSettings.Name = "GroupProgramSettings";
-            this.GroupProgramSettings.Size = new System.Drawing.Size(384, 76);
+            this.GroupProgramSettings.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupProgramSettings.Size = new System.Drawing.Size(439, 101);
             this.GroupProgramSettings.TabIndex = 2;
             this.GroupProgramSettings.TabStop = false;
             this.GroupProgramSettings.Text = "Программные настройки";
@@ -64,9 +66,10 @@ namespace WinFormsApp1
             this.CheckedListBoxProgramSettings.Items.AddRange(new object[] {
             "Запуск программы вместе с windows",
             "Скрыть окно подсказок в основном окне"});
-            this.CheckedListBoxProgramSettings.Location = new System.Drawing.Point(9, 27);
+            this.CheckedListBoxProgramSettings.Location = new System.Drawing.Point(10, 36);
+            this.CheckedListBoxProgramSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CheckedListBoxProgramSettings.Name = "CheckedListBoxProgramSettings";
-            this.CheckedListBoxProgramSettings.Size = new System.Drawing.Size(364, 42);
+            this.CheckedListBoxProgramSettings.Size = new System.Drawing.Size(415, 50);
             this.CheckedListBoxProgramSettings.TabIndex = 0;
             // 
             // GroupLanguage
@@ -74,9 +77,11 @@ namespace WinFormsApp1
             this.GroupLanguage.Controls.Add(this.RadioButtonEnglish);
             this.GroupLanguage.Controls.Add(this.RadioButtonRussian);
             this.GroupLanguage.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupLanguage.Location = new System.Drawing.Point(402, 12);
+            this.GroupLanguage.Location = new System.Drawing.Point(459, 16);
+            this.GroupLanguage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupLanguage.Name = "GroupLanguage";
-            this.GroupLanguage.Size = new System.Drawing.Size(141, 76);
+            this.GroupLanguage.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupLanguage.Size = new System.Drawing.Size(161, 101);
             this.GroupLanguage.TabIndex = 3;
             this.GroupLanguage.TabStop = false;
             this.GroupLanguage.Text = "Язык";
@@ -84,9 +89,10 @@ namespace WinFormsApp1
             // RadioButtonEnglish
             // 
             this.RadioButtonEnglish.AutoSize = true;
-            this.RadioButtonEnglish.Location = new System.Drawing.Point(8, 48);
+            this.RadioButtonEnglish.Location = new System.Drawing.Point(9, 64);
+            this.RadioButtonEnglish.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RadioButtonEnglish.Name = "RadioButtonEnglish";
-            this.RadioButtonEnglish.Size = new System.Drawing.Size(110, 23);
+            this.RadioButtonEnglish.Size = new System.Drawing.Size(141, 28);
             this.RadioButtonEnglish.TabIndex = 1;
             this.RadioButtonEnglish.TabStop = true;
             this.RadioButtonEnglish.Text = "Английский";
@@ -95,9 +101,10 @@ namespace WinFormsApp1
             // RadioButtonRussian
             // 
             this.RadioButtonRussian.AutoSize = true;
-            this.RadioButtonRussian.Location = new System.Drawing.Point(8, 23);
+            this.RadioButtonRussian.Location = new System.Drawing.Point(9, 31);
+            this.RadioButtonRussian.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RadioButtonRussian.Name = "RadioButtonRussian";
-            this.RadioButtonRussian.Size = new System.Drawing.Size(80, 23);
+            this.RadioButtonRussian.Size = new System.Drawing.Size(102, 28);
             this.RadioButtonRussian.TabIndex = 0;
             this.RadioButtonRussian.TabStop = true;
             this.RadioButtonRussian.Text = "Русский";
@@ -106,9 +113,10 @@ namespace WinFormsApp1
             // ButtonOk
             // 
             this.ButtonOk.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ButtonOk.Location = new System.Drawing.Point(476, 224);
+            this.ButtonOk.Location = new System.Drawing.Point(544, 299);
+            this.ButtonOk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonOk.Name = "ButtonOk";
-            this.ButtonOk.Size = new System.Drawing.Size(67, 23);
+            this.ButtonOk.Size = new System.Drawing.Size(77, 31);
             this.ButtonOk.TabIndex = 14;
             this.ButtonOk.Text = "Ок";
             this.ButtonOk.UseVisualStyleBackColor = true;
@@ -116,9 +124,10 @@ namespace WinFormsApp1
             // ButtonCancel
             // 
             this.ButtonCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ButtonCancel.Location = new System.Drawing.Point(403, 224);
+            this.ButtonCancel.Location = new System.Drawing.Point(461, 299);
+            this.ButtonCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonCancel.Name = "ButtonCancel";
-            this.ButtonCancel.Size = new System.Drawing.Size(67, 23);
+            this.ButtonCancel.Size = new System.Drawing.Size(77, 31);
             this.ButtonCancel.TabIndex = 12;
             this.ButtonCancel.Text = "Отмена";
             this.ButtonCancel.UseVisualStyleBackColor = true;
@@ -126,9 +135,10 @@ namespace WinFormsApp1
             // ButtonApply
             // 
             this.ButtonApply.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ButtonApply.Location = new System.Drawing.Point(330, 224);
+            this.ButtonApply.Location = new System.Drawing.Point(377, 299);
+            this.ButtonApply.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ButtonApply.Name = "ButtonApply";
-            this.ButtonApply.Size = new System.Drawing.Size(67, 23);
+            this.ButtonApply.Size = new System.Drawing.Size(77, 31);
             this.ButtonApply.TabIndex = 13;
             this.ButtonApply.Text = "Принять";
             this.ButtonApply.UseVisualStyleBackColor = true;
@@ -139,45 +149,50 @@ namespace WinFormsApp1
             this.GroupAdditionalSettings.Controls.Add(this.checkBox3PermissionToStopCopy);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox1NotifyAboutCopying);
             this.GroupAdditionalSettings.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupAdditionalSettings.Location = new System.Drawing.Point(12, 94);
+            this.GroupAdditionalSettings.Location = new System.Drawing.Point(14, 125);
+            this.GroupAdditionalSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupAdditionalSettings.Name = "GroupAdditionalSettings";
-            this.GroupAdditionalSettings.Size = new System.Drawing.Size(531, 124);
+            this.GroupAdditionalSettings.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupAdditionalSettings.Size = new System.Drawing.Size(607, 165);
             this.GroupAdditionalSettings.TabIndex = 15;
             this.GroupAdditionalSettings.TabStop = false;
             this.GroupAdditionalSettings.Text = "Дополнительные настройки";
             // 
             // checkBox4StartCopyingAgain
             // 
-            this.checkBox4StartCopyingAgain.Location = new System.Drawing.Point(6, 74);
+            this.checkBox4StartCopyingAgain.Location = new System.Drawing.Point(7, 99);
+            this.checkBox4StartCopyingAgain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox4StartCopyingAgain.Name = "checkBox4StartCopyingAgain";
-            this.checkBox4StartCopyingAgain.Size = new System.Drawing.Size(517, 44);
+            this.checkBox4StartCopyingAgain.Size = new System.Drawing.Size(591, 59);
             this.checkBox4StartCopyingAgain.TabIndex = 3;
             this.checkBox4StartCopyingAgain.Text = "Если копирование было внезапно прервано, предлагать повторить его";
             this.checkBox4StartCopyingAgain.UseVisualStyleBackColor = true;
             // 
             // checkBox3PermissionToStopCopy
             // 
-            this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(6, 53);
+            this.checkBox3PermissionToStopCopy.Location = new System.Drawing.Point(7, 67);
+            this.checkBox3PermissionToStopCopy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox3PermissionToStopCopy.Name = "checkBox3PermissionToStopCopy";
-            this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(398, 27);
+            this.checkBox3PermissionToStopCopy.Size = new System.Drawing.Size(455, 36);
             this.checkBox3PermissionToStopCopy.TabIndex = 2;
             this.checkBox3PermissionToStopCopy.Text = "Разрешить прерывание процесса копирования";
             this.checkBox3PermissionToStopCopy.UseVisualStyleBackColor = true;
             // 
             // checkBox1NotifyAboutCopying
             // 
-            this.checkBox1NotifyAboutCopying.Location = new System.Drawing.Point(6, 23);
+            this.checkBox1NotifyAboutCopying.Location = new System.Drawing.Point(7, 31);
+            this.checkBox1NotifyAboutCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox1NotifyAboutCopying.Name = "checkBox1NotifyAboutCopying";
-            this.checkBox1NotifyAboutCopying.Size = new System.Drawing.Size(416, 24);
+            this.checkBox1NotifyAboutCopying.Size = new System.Drawing.Size(475, 32);
             this.checkBox1NotifyAboutCopying.TabIndex = 0;
             this.checkBox1NotifyAboutCopying.Text = "Оповещать о начале и завершении копирования";
             this.checkBox1NotifyAboutCopying.UseVisualStyleBackColor = true;
             // 
             // FormProgramSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(549, 249);
+            this.ClientSize = new System.Drawing.Size(627, 332);
             this.Controls.Add(this.GroupAdditionalSettings);
             this.Controls.Add(this.ButtonOk);
             this.Controls.Add(this.ButtonCancel);
@@ -185,6 +200,7 @@ namespace WinFormsApp1
             this.Controls.Add(this.GroupLanguage);
             this.Controls.Add(this.GroupProgramSettings);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormProgramSettings";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки программы";

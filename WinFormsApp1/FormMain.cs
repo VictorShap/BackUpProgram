@@ -87,6 +87,11 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void RadioButtonNever_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
