@@ -80,22 +80,5 @@ namespace WinFormsApp1
                 }
             }
         }
-
-        public static AutoCopy DeserializeXML(AutoCopy settings, string SettingsFile)
-        {
-            if (File.Exists(SettingsFile))
-            {
-                using (var fs = new FileStream(SettingsFile, FileMode.Open))
-                {
-                    var ds = new DataContractSerializer(typeof(AutoCopy));
-                    return settings = (AutoCopy)ds.ReadObject(fs);
-                }
-            }
-            else
-            {
-                return null;
-            }
-
-        }
     }
 }
