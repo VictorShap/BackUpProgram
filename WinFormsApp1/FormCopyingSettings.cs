@@ -22,7 +22,7 @@ namespace WinFormsApp1
         ToolTip toolTip = new ToolTip();
         private void FormCopyingSettings_Load(object sender, EventArgs e)
         {
-            toolTip.Active = false;
+            toolTip.Active = true;
             toolTip.SetToolTip(LabelDirectoryToCopy, "Нажмите на кнопку справа, чтобы выбрать директорию с файлами для копирования.");
             toolTip.SetToolTip(LabelTargetDirectory, "Нажмите на кнопку справа, чтобы выбрать директорию, в которую нужно скопировать файлы, выбранные выше.");
             toolTip.SetToolTip(ListBoxDirectoriesResult, "Здесь отображаются выбранные директории.");
