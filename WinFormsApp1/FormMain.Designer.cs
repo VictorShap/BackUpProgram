@@ -36,8 +36,6 @@ namespace WinFormsApp1
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label9 = new System.Windows.Forms.Label();
             this.PanelForButtonsScheduleCopying = new System.Windows.Forms.Panel();
-            this.GroupCurrentSettings = new System.Windows.Forms.GroupBox();
-            this.ListBoxCurrentSettings = new System.Windows.Forms.ListBox();
             this.GroupAutoCopying = new System.Windows.Forms.GroupBox();
             this.ButtonAutoCopyingApply = new System.Windows.Forms.Button();
             this.ButtonAutoCopyingSettings = new System.Windows.Forms.Button();
@@ -46,8 +44,8 @@ namespace WinFormsApp1
             this.RadioButtonEveryDay = new System.Windows.Forms.RadioButton();
             this.RadioButtonNever = new System.Windows.Forms.RadioButton();
             this.GroupCopyingProcess = new System.Windows.Forms.GroupBox();
-            this.ButtonCancelCopying = new System.Windows.Forms.Button();
             this.LabelCopyingInProgress = new System.Windows.Forms.Label();
+            this.ButtonCancelCopying = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.GroupScheduleCopying = new System.Windows.Forms.GroupBox();
             this.ListBoxScheduleCopying = new System.Windows.Forms.ListBox();
@@ -55,13 +53,15 @@ namespace WinFormsApp1
             this.ButtonChangeSchedule = new System.Windows.Forms.Button();
             this.ButtonRemoveSchedule = new System.Windows.Forms.Button();
             this.ButtonCopyFiles = new System.Windows.Forms.Button();
+            this.GroupCurrentSettings = new System.Windows.Forms.GroupBox();
+            this.ListBoxCurrentSettings = new System.Windows.Forms.ListBox();
             this.LabelTips = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.PanelForButtonsScheduleCopying.SuspendLayout();
-            this.GroupCurrentSettings.SuspendLayout();
             this.GroupAutoCopying.SuspendLayout();
             this.GroupCopyingProcess.SuspendLayout();
             this.GroupScheduleCopying.SuspendLayout();
+            this.GroupCurrentSettings.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -74,7 +74,7 @@ namespace WinFormsApp1
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1237, 34);
+            this.menuStrip1.Size = new System.Drawing.Size(1207, 34);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.MouseHover += new System.EventHandler(this.PanelForButtonsScheduleCopying_MouseHover);
@@ -128,32 +128,6 @@ namespace WinFormsApp1
             this.PanelForButtonsScheduleCopying.TabIndex = 5;
             this.PanelForButtonsScheduleCopying.MouseHover += new System.EventHandler(this.PanelForButtonsScheduleCopying_MouseHover);
             // 
-            // GroupCurrentSettings
-            // 
-            this.GroupCurrentSettings.Controls.Add(this.ListBoxCurrentSettings);
-            this.GroupCurrentSettings.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupCurrentSettings.Location = new System.Drawing.Point(579, 31);
-            this.GroupCurrentSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupCurrentSettings.Name = "GroupCurrentSettings";
-            this.GroupCurrentSettings.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupCurrentSettings.Size = new System.Drawing.Size(408, 335);
-            this.GroupCurrentSettings.TabIndex = 4;
-            this.GroupCurrentSettings.TabStop = false;
-            this.GroupCurrentSettings.Text = "Текущие настройки";
-            this.GroupCurrentSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
-            // 
-            // ListBoxCurrentSettings
-            // 
-            this.ListBoxCurrentSettings.FormattingEnabled = true;
-            this.ListBoxCurrentSettings.HorizontalScrollbar = true;
-            this.ListBoxCurrentSettings.ItemHeight = 23;
-            this.ListBoxCurrentSettings.Location = new System.Drawing.Point(7, 27);
-            this.ListBoxCurrentSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ListBoxCurrentSettings.Name = "ListBoxCurrentSettings";
-            this.ListBoxCurrentSettings.Size = new System.Drawing.Size(387, 280);
-            this.ListBoxCurrentSettings.TabIndex = 4;
-            this.ListBoxCurrentSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
-            // 
             // GroupAutoCopying
             // 
             this.GroupAutoCopying.Controls.Add(this.ButtonAutoCopyingApply);
@@ -163,7 +137,7 @@ namespace WinFormsApp1
             this.GroupAutoCopying.Controls.Add(this.RadioButtonEveryDay);
             this.GroupAutoCopying.Controls.Add(this.RadioButtonNever);
             this.GroupAutoCopying.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupAutoCopying.Location = new System.Drawing.Point(10, 331);
+            this.GroupAutoCopying.Location = new System.Drawing.Point(10, 321);
             this.GroupAutoCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupAutoCopying.Name = "GroupAutoCopying";
             this.GroupAutoCopying.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -258,7 +232,7 @@ namespace WinFormsApp1
             this.GroupCopyingProcess.Controls.Add(this.ButtonCancelCopying);
             this.GroupCopyingProcess.Controls.Add(this.progressBar1);
             this.GroupCopyingProcess.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GroupCopyingProcess.Location = new System.Drawing.Point(579, 331);
+            this.GroupCopyingProcess.Location = new System.Drawing.Point(579, 322);
             this.GroupCopyingProcess.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupCopyingProcess.Name = "GroupCopyingProcess";
             this.GroupCopyingProcess.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -268,6 +242,17 @@ namespace WinFormsApp1
             this.GroupCopyingProcess.Text = "Процесс копирования";
             this.GroupCopyingProcess.Enter += new System.EventHandler(this.GroupCopyingProcess_Enter);
             this.GroupCopyingProcess.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
+            // 
+            // LabelCopyingInProgress
+            // 
+            this.LabelCopyingInProgress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LabelCopyingInProgress.Font = new System.Drawing.Font("Sitka Text", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.LabelCopyingInProgress.ForeColor = System.Drawing.Color.Red;
+            this.LabelCopyingInProgress.Location = new System.Drawing.Point(7, 69);
+            this.LabelCopyingInProgress.Name = "LabelCopyingInProgress";
+            this.LabelCopyingInProgress.Size = new System.Drawing.Size(401, 70);
+            this.LabelCopyingInProgress.TabIndex = 6;
+            this.LabelCopyingInProgress.Text = "На данный момент ничего не копируется";
             // 
             // ButtonCancelCopying
             // 
@@ -281,17 +266,6 @@ namespace WinFormsApp1
             this.ButtonCancelCopying.UseVisualStyleBackColor = true;
             this.ButtonCancelCopying.Visible = false;
             this.ButtonCancelCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
-            // 
-            // LabelCopyingInProgress
-            // 
-            this.LabelCopyingInProgress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LabelCopyingInProgress.Font = new System.Drawing.Font("Sitka Text", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.LabelCopyingInProgress.ForeColor = System.Drawing.Color.Red;
-            this.LabelCopyingInProgress.Location = new System.Drawing.Point(7, 69);
-            this.LabelCopyingInProgress.Name = "LabelCopyingInProgress";
-            this.LabelCopyingInProgress.Size = new System.Drawing.Size(401, 70);
-            this.LabelCopyingInProgress.TabIndex = 6;
-            this.LabelCopyingInProgress.Text = "На данный момент ничего не копируется";
             // 
             // progressBar1
             // 
@@ -314,7 +288,7 @@ namespace WinFormsApp1
             this.GroupScheduleCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GroupScheduleCopying.Name = "GroupScheduleCopying";
             this.GroupScheduleCopying.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.GroupScheduleCopying.Size = new System.Drawing.Size(568, 331);
+            this.GroupScheduleCopying.Size = new System.Drawing.Size(568, 314);
             this.GroupScheduleCopying.TabIndex = 2;
             this.GroupScheduleCopying.TabStop = false;
             this.GroupScheduleCopying.Text = "Запланировать копирование";
@@ -324,7 +298,7 @@ namespace WinFormsApp1
             // 
             this.ListBoxScheduleCopying.FormattingEnabled = true;
             this.ListBoxScheduleCopying.ItemHeight = 23;
-            this.ListBoxScheduleCopying.Location = new System.Drawing.Point(6, 95);
+            this.ListBoxScheduleCopying.Location = new System.Drawing.Point(6, 90);
             this.ListBoxScheduleCopying.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ListBoxScheduleCopying.Name = "ListBoxScheduleCopying";
             this.ListBoxScheduleCopying.Size = new System.Drawing.Size(556, 211);
@@ -380,6 +354,32 @@ namespace WinFormsApp1
             this.ButtonCopyFiles.UseVisualStyleBackColor = true;
             this.ButtonCopyFiles.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
+            // GroupCurrentSettings
+            // 
+            this.GroupCurrentSettings.Controls.Add(this.ListBoxCurrentSettings);
+            this.GroupCurrentSettings.Font = new System.Drawing.Font("Sitka Text", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.GroupCurrentSettings.Location = new System.Drawing.Point(579, 31);
+            this.GroupCurrentSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupCurrentSettings.Name = "GroupCurrentSettings";
+            this.GroupCurrentSettings.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GroupCurrentSettings.Size = new System.Drawing.Size(408, 318);
+            this.GroupCurrentSettings.TabIndex = 4;
+            this.GroupCurrentSettings.TabStop = false;
+            this.GroupCurrentSettings.Text = "Текущие настройки";
+            this.GroupCurrentSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
+            // 
+            // ListBoxCurrentSettings
+            // 
+            this.ListBoxCurrentSettings.FormattingEnabled = true;
+            this.ListBoxCurrentSettings.HorizontalScrollbar = true;
+            this.ListBoxCurrentSettings.ItemHeight = 23;
+            this.ListBoxCurrentSettings.Location = new System.Drawing.Point(7, 27);
+            this.ListBoxCurrentSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ListBoxCurrentSettings.Name = "ListBoxCurrentSettings";
+            this.ListBoxCurrentSettings.Size = new System.Drawing.Size(387, 280);
+            this.ListBoxCurrentSettings.TabIndex = 4;
+            this.ListBoxCurrentSettings.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
+            // 
             // LabelTips
             // 
             this.LabelTips.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -395,7 +395,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1237, 532);
+            this.ClientSize = new System.Drawing.Size(1207, 532);
             this.Controls.Add(this.GroupCurrentSettings);
             this.Controls.Add(this.LabelTips);
             this.Controls.Add(this.PanelForButtonsScheduleCopying);
@@ -411,11 +411,11 @@ namespace WinFormsApp1
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.PanelForButtonsScheduleCopying.ResumeLayout(false);
-            this.GroupCurrentSettings.ResumeLayout(false);
             this.GroupAutoCopying.ResumeLayout(false);
             this.GroupAutoCopying.PerformLayout();
             this.GroupCopyingProcess.ResumeLayout(false);
             this.GroupScheduleCopying.ResumeLayout(false);
+            this.GroupCurrentSettings.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
