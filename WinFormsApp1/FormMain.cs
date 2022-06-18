@@ -19,7 +19,7 @@ namespace WinFormsApp1
             InitializeComponent();
 
         }
-        Settings settings = new Settings();
+        AutoCopy settings = new AutoCopy();
         string SettingsFile = "Settings.xml";
         ToolTip toolTip = new ToolTip();
         private void FormMain_Load(object sender, EventArgs e)
@@ -77,7 +77,16 @@ namespace WinFormsApp1
             LabelTips.Text = "Наведите курсор на любой объект в программе - и тут отобразится подробная информация.";
         }
 
+        private void ButtonAutoCopyingApply_Click(object sender, EventArgs e)
+        {
+            FormScheduler formScheduler = new FormScheduler();
+            formScheduler.Show();
+        }
 
+        private void GroupCopyingProcess_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

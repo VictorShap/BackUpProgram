@@ -16,5 +16,10 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void FormScheduler_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

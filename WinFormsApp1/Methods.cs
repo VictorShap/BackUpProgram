@@ -81,14 +81,14 @@ namespace WinFormsApp1
             }
         }
 
-        public static Settings DeserializeXML(Settings settings, string SettingsFile)
+        public static AutoCopy DeserializeXML(AutoCopy settings, string SettingsFile)
         {
             if (File.Exists(SettingsFile))
             {
                 using (var fs = new FileStream(SettingsFile, FileMode.Open))
                 {
-                    var ds = new DataContractSerializer(typeof(Settings));
-                    return settings = (Settings)ds.ReadObject(fs);
+                    var ds = new DataContractSerializer(typeof(AutoCopy));
+                    return settings = (AutoCopy)ds.ReadObject(fs);
                 }
             }
             else

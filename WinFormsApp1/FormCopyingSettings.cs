@@ -10,7 +10,7 @@ namespace WinFormsApp1
 
     public partial class FormCopyingSettings : Form
     {
-        Settings settings = new Settings();
+        AutoCopy settings = new AutoCopy();
         string SettingsFile = "Settings.xml";
         static string SourceDirectoryPath;
         static string TargetDirectoryPath;
@@ -30,13 +30,13 @@ namespace WinFormsApp1
             toolTip.SetToolTip(LabelTypeExtension, "Укажите, с каким расширением файлы нужно копировать. Разширения указывайте, разделяя запятой.");
             toolTip.SetToolTip(LabelDaysToCopy, "Укажите, за сколько последних дней осуществлять копирование. Дни указывайте числом.");
             toolTip.SetToolTip(CheckBoxCopyAllTheFiles, "Будут скопированы все файлы из выбранной директории.");
-            toolTip.SetToolTip(GroupAdditionalSettings, "Здесь вы можете добавить дополнительные настройки.");
+            //toolTip.SetToolTip(GroupAdditionalSettings, "Здесь вы можете добавить дополнительные настройки.");
             toolTip.SetToolTip(LabelTips, lableDefault);
             toolTip.SetToolTip(menuStrip1, lableDefault);
-            toolTip.SetToolTip(checkBox1NotifyAboutCopying, "Программа оповестит вас о начале и завершении копирования");
-            toolTip.SetToolTip(checkBox2ShutDownProgram, "Вам будет предложено завершить работу программы, если нету запланированного копированя.");
-            toolTip.SetToolTip(checkBox3PermissionToStopCopy, "На в начальном окне программы появится кнопка, позволяющая прервать процесс копированя.");
-            toolTip.SetToolTip(checkBox4StartCopyingAgain, "В случае прерывания процесса копирования будет предложено повторить его попытку.");
+            //toolTip.SetToolTip(checkBox1NotifyAboutCopying, "Программа оповестит вас о начале и завершении копирования");
+            //toolTip.SetToolTip(checkBox2ShutDownProgram, "Вам будет предложено завершить работу программы, если нету запланированного копированя.");
+            //toolTip.SetToolTip(checkBox3PermissionToStopCopy, "На в начальном окне программы появится кнопка, позволяющая прервать процесс копированя.");
+            //toolTip.SetToolTip(checkBox4StartCopyingAgain, "В случае прерывания процесса копирования будет предложено повторить его попытку.");
             toolTip.SetToolTip(ButtonApply, "Применить все выбранные настройки.");
             toolTip.SetToolTip(ButtonCancel, "Отменить все выбранные настройки и вернуться на начальное окно программы.");
             toolTip.SetToolTip(ButtonOk, "Применить все выбранные настройки и вернуться на начальное окно программы.");
@@ -94,27 +94,6 @@ namespace WinFormsApp1
         }
         void ButtonApply_Click(object sender, EventArgs e)
         {
-            var settings = new Settings(SourceDirectoryPath, TargetDirectoryPath, TextBoxTypeExtension.Text, TextBoxDaysToCopy.Text, CheckBoxCopyAllTheFiles.Checked, checkBox1NotifyAboutCopying.Checked, checkBox2ShutDownProgram.Checked, checkBox3PermissionToStopCopy.Checked, checkBox4StartCopyingAgain.Checked);
-            SerializeXML(settings); 
-        }
-        void SerializeXML(Settings settings)
-        {
-            using (var fs = new FileStream(SettingsFile, FileMode.Create))
-            {
-                var ds = new DataContractSerializer(typeof(Settings));
-                ds.WriteObject(fs, settings);
-            }
-        }
-        void DeserializeXML(Settings settings)
-        {
-            if (File.Exists(SettingsFile))
-            {
-                using (var fs = new FileStream(SettingsFile, FileMode.Open))
-                {
-                    var ds = new DataContractSerializer(typeof(Settings));
-                    settings = (Settings)ds.ReadObject(fs);
-                }
-            }
         }
     }
 }
