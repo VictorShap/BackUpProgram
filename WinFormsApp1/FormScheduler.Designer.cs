@@ -70,10 +70,10 @@
             // 
             // TextBoxDaysToCopy
             // 
-            this.TextBoxDaysToCopy.Location = new System.Drawing.Point(330, 103);
+            this.TextBoxDaysToCopy.Location = new System.Drawing.Point(312, 103);
             this.TextBoxDaysToCopy.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.TextBoxDaysToCopy.Name = "TextBoxDaysToCopy";
-            this.TextBoxDaysToCopy.Size = new System.Drawing.Size(135, 28);
+            this.TextBoxDaysToCopy.Size = new System.Drawing.Size(153, 28);
             this.TextBoxDaysToCopy.TabIndex = 12;
             // 
             // LabelDaysToCopy
@@ -87,10 +87,10 @@
             // 
             // TextBoxTypeExtension
             // 
-            this.TextBoxTypeExtension.Location = new System.Drawing.Point(330, 33);
+            this.TextBoxTypeExtension.Location = new System.Drawing.Point(312, 33);
             this.TextBoxTypeExtension.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.TextBoxTypeExtension.Name = "TextBoxTypeExtension";
-            this.TextBoxTypeExtension.Size = new System.Drawing.Size(135, 28);
+            this.TextBoxTypeExtension.Size = new System.Drawing.Size(153, 28);
             this.TextBoxTypeExtension.TabIndex = 11;
             // 
             // LabelTypeExtension
@@ -98,7 +98,7 @@
             this.LabelTypeExtension.Location = new System.Drawing.Point(7, 27);
             this.LabelTypeExtension.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LabelTypeExtension.Name = "LabelTypeExtension";
-            this.LabelTypeExtension.Size = new System.Drawing.Size(315, 57);
+            this.LabelTypeExtension.Size = new System.Drawing.Size(314, 57);
             this.LabelTypeExtension.TabIndex = 9;
             this.LabelTypeExtension.Text = "Укажите расширение файлов, которые нужно копировать";
             // 
@@ -138,7 +138,7 @@
             this.ListBoxDirectoriesResult.Location = new System.Drawing.Point(7, 103);
             this.ListBoxDirectoriesResult.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ListBoxDirectoriesResult.Name = "ListBoxDirectoriesResult";
-            this.ListBoxDirectoriesResult.Size = new System.Drawing.Size(409, 73);
+            this.ListBoxDirectoriesResult.Size = new System.Drawing.Size(423, 73);
             this.ListBoxDirectoriesResult.TabIndex = 24;
             // 
             // LabelDirectoryToCopy
