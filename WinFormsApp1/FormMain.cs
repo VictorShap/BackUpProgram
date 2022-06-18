@@ -92,6 +92,11 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void LabelCopyingInProgress_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
