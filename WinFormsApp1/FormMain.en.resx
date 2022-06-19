@@ -1,0 +1,157 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="настройкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 28</value>
+  </data>
+  <data name="настройкиToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="справкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 28</value>
+  </data>
+  <data name="справкаToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 28</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Copying</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 28</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="GroupAutoCopying.Text" xml:space="preserve">
+    <value>Regular copying</value>
+  </data>
+  <data name="ButtonAutoCopyingApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="ButtonAutoCopyingSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="RadioButtonOnceAWeek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 44</value>
+  </data>
+  <data name="RadioButtonOnceAWeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 28</value>
+  </data>
+  <data name="RadioButtonOnceAWeek.Text" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="RadioButtonOnceInThreeDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 28</value>
+  </data>
+  <data name="RadioButtonOnceInThreeDays.Text" xml:space="preserve">
+    <value>Once in  3 days</value>
+  </data>
+  <data name="RadioButtonEveryDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="RadioButtonEveryDay.Text" xml:space="preserve">
+    <value>Every day</value>
+  </data>
+  <data name="RadioButtonNever.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 44</value>
+  </data>
+  <data name="RadioButtonNever.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 28</value>
+  </data>
+  <data name="RadioButtonNever.Text" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="GroupCopyingProcess.Text" xml:space="preserve">
+    <value>Copying process</value>
+  </data>
+  <data name="LabelCopyingInProgress.Text" xml:space="preserve">
+    <value>No copying process is running at the moment.</value>
+  </data>
+  <data name="ButtonCancelCopying.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="GroupScheduleCopying.Text" xml:space="preserve">
+    <value>Schedule copying process</value>
+  </data>
+  <data name="ButtonAddSchedule.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ButtonChangeSchedule.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="ButtonRemoveSchedule.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="ButtonCopyFiles.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="GroupCurrentSettings.Text" xml:space="preserve">
+    <value>Current settings</value>
+  </data>
+  <data name="LabelTips.Text" xml:space="preserve">
+    <value>Hover the cursor over any object in the program and detailed information will be displayed here.</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Backup program</value>
+  </data>
+</root>

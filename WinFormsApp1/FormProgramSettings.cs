@@ -17,6 +17,16 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
+        public static void AllowAbortingCopyingProcess(bool Checked)
+        {
+            if (Checked)
+            {
 
+            }
+            else
+            {
+
+            }
+        }
     }
 }

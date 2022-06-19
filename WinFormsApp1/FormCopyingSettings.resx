@@ -57,4 +57,524 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListBoxDirectoriesResult.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ListBoxDirectoriesResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 106</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListBoxDirectoriesResult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ListBoxDirectoriesResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 119</value>
+  </data>
+  <data name="ListBoxDirectoriesResult.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;ListBoxDirectoriesResult.Name" xml:space="preserve">
+    <value>ListBoxDirectoriesResult</value>
+  </data>
+  <data name="&gt;&gt;ListBoxDirectoriesResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListBoxDirectoriesResult.Parent" xml:space="preserve">
+    <value>GroupAutoCopying</value>
+  </data>
+  <data name="&gt;&gt;ListBoxDirectoriesResult.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelTargetDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 67</value>
+  </data>
+  <data name="LabelTargetDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="LabelTargetDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LabelTargetDirectory.Text" xml:space="preserve">
+    <value>Укажите директорию назначения</value>
+  </data>
+  <data name="&gt;&gt;LabelTargetDirectory.Name" xml:space="preserve">
+    <value>LabelTargetDirectory</value>
+  </data>
+  <data name="&gt;&gt;LabelTargetDirectory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelTargetDirectory.Parent" xml:space="preserve">
+    <value>GroupAutoCopying</value>
+  </data>
+  <data name="&gt;&gt;LabelTargetDirectory.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="LabelDirectoryToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 39</value>
+  </data>
+  <data name="LabelDirectoryToCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LabelDirectoryToCopy.Text" xml:space="preserve">
+    <value>Укажите основную директорию</value>
+  </data>
+  <data name="&gt;&gt;LabelDirectoryToCopy.Name" xml:space="preserve">
+    <value>LabelDirectoryToCopy</value>
+  </data>
+  <data name="&gt;&gt;LabelDirectoryToCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelDirectoryToCopy.Parent" xml:space="preserve">
+    <value>GroupAutoCopying</value>
+  </data>
+  <data name="&gt;&gt;LabelDirectoryToCopy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 67</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 31</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.Text" xml:space="preserve">
+    <value>добавить</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseTargetDirectory.Name" xml:space="preserve">
+    <value>ButtonChooseTargetDirectory</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseTargetDirectory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseTargetDirectory.Parent" xml:space="preserve">
+    <value>GroupAutoCopying</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseTargetDirectory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 29</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 31</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.Text" xml:space="preserve">
+    <value>добавить</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.Name" xml:space="preserve">
+    <value>ButtonChooseDirectoryToCopy</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.Parent" xml:space="preserve">
+    <value>GroupAutoCopying</value>
+  </data>
+  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GroupAutoCopying.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="GroupAutoCopying.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="GroupAutoCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupAutoCopying.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupAutoCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 241</value>
+  </data>
+  <data name="GroupAutoCopying.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupAutoCopying.Text" xml:space="preserve">
+    <value>Регулярное копирование</value>
+  </data>
+  <data name="&gt;&gt;GroupAutoCopying.Name" xml:space="preserve">
+    <value>GroupAutoCopying</value>
+  </data>
+  <data name="&gt;&gt;GroupAutoCopying.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupAutoCopying.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;GroupAutoCopying.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TextBoxDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 84</value>
+  </data>
+  <data name="TextBoxDaysToCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TextBoxDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 28</value>
+  </data>
+  <data name="TextBoxDaysToCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TextBoxDaysToCopy.Name" xml:space="preserve">
+    <value>TextBoxDaysToCopy</value>
+  </data>
+  <data name="&gt;&gt;TextBoxDaysToCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxDaysToCopy.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxDaysToCopy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 84</value>
+  </data>
+  <data name="LabelDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 53</value>
+  </data>
+  <data name="LabelDaysToCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelDaysToCopy.Text" xml:space="preserve">
+    <value>Укажите, за сколько последних дней производить копирование</value>
+  </data>
+  <data name="&gt;&gt;LabelDaysToCopy.Name" xml:space="preserve">
+    <value>LabelDaysToCopy</value>
+  </data>
+  <data name="&gt;&gt;LabelDaysToCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelDaysToCopy.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelDaysToCopy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TextBoxTypeExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 32</value>
+  </data>
+  <data name="TextBoxTypeExtension.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TextBoxTypeExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 28</value>
+  </data>
+  <data name="TextBoxTypeExtension.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTypeExtension.Name" xml:space="preserve">
+    <value>TextBoxTypeExtension</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTypeExtension.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTypeExtension.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxTypeExtension.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelTypeExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="LabelTypeExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 53</value>
+  </data>
+  <data name="LabelTypeExtension.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelTypeExtension.Text" xml:space="preserve">
+    <value>Укажите расширение файлов, которые нужно копировать</value>
+  </data>
+  <data name="&gt;&gt;LabelTypeExtension.Name" xml:space="preserve">
+    <value>LabelTypeExtension</value>
+  </data>
+  <data name="&gt;&gt;LabelTypeExtension.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelTypeExtension.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelTypeExtension.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -8</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 73</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Text" xml:space="preserve">
+    <value>Копировать все файлы из выбранной директории</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Name" xml:space="preserve">
+    <value>CheckBoxCopyAllTheFiles</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonApply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 223</value>
+  </data>
+  <data name="ButtonApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ButtonApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="ButtonApply.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ButtonApply.Text" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="&gt;&gt;ButtonApply.Name" xml:space="preserve">
+    <value>ButtonApply</value>
+  </data>
+  <data name="&gt;&gt;ButtonApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonApply.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;ButtonApply.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ButtonCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 223</value>
+  </data>
+  <data name="ButtonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="ButtonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.Name" xml:space="preserve">
+    <value>ButtonCancel</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 223</value>
+  </data>
+  <data name="ButtonOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ButtonOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="ButtonOk.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ButtonOk.Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="&gt;&gt;ButtonOk.Name" xml:space="preserve">
+    <value>ButtonOk</value>
+  </data>
+  <data name="&gt;&gt;ButtonOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonOk.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;ButtonOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 1</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 144</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Расширенные настройки</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 153</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 66</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelTips.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Italic</value>
+  </data>
+  <data name="LabelTips.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 10</value>
+  </data>
+  <data name="LabelTips.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="LabelTips.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 232</value>
+  </data>
+  <data name="LabelTips.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="LabelTips.Text" xml:space="preserve">
+    <value>Наведите курсор на любой из заголовков - и тут отобразится подробная информация.</value>
+  </data>
+  <data name="&gt;&gt;LabelTips.Name" xml:space="preserve">
+    <value>LabelTips</value>
+  </data>
+  <data name="&gt;&gt;LabelTips.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelTips.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;LabelTips.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 258</value>
+  </data>
+  <data name="Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;Panel.Name" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 272</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Настройки регулярного копирования</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormCopyingSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
