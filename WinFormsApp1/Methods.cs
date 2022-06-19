@@ -2,6 +2,7 @@ using System.IO;
 using System;
 using System.Runtime.Serialization;
 using System.Windows.Forms;
+using System.Reflection;
 namespace WinFormsApp1
 {
     static class Methods
@@ -91,6 +92,20 @@ namespace WinFormsApp1
                 }
             }
         }
+        public static void SetLaunchingAlongWithWindows()
+        {
+            //HKEY_LOCAL_MACHINE
+            Microsoft.Win32.RegistryKey Key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+            Key.SetValue("WinFormsApp1", Assembly.GetExecutingAssembly().Location);
+            Key.Close();
+        }
+        public static void RemoveLaunchingAlongWithWindows()
+        {
+            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+            key.DeleteValue("WinFormsApp1", false);
+            key.Close();
+        }
+
 
     }
 }

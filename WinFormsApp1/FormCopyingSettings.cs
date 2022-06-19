@@ -14,7 +14,6 @@ namespace WinFormsApp1
         string SettingsFile = "Settings.xml";
         static string SourceDirectoryPath;
         static string TargetDirectoryPath;
-        string lableDefault = "Наведите курсор на любой из заголовков - и тут отобразится подробная информация.";
         public FormCopyingSettings()
         {
             InitializeComponent();
