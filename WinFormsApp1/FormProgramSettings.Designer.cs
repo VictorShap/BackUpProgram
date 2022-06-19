@@ -39,6 +39,7 @@ namespace WinFormsApp1
             this.ButtonCancel = new System.Windows.Forms.Button();
             this.ButtonApply = new System.Windows.Forms.Button();
             this.GroupAdditionalSettings = new System.Windows.Forms.GroupBox();
+            this.checkBoxRunInTheBackground = new System.Windows.Forms.CheckBox();
             this.checkBox4StartCopyingAgain = new System.Windows.Forms.CheckBox();
             this.checkBox3PermissionToStopCopy = new System.Windows.Forms.CheckBox();
             this.checkBox1NotifyAboutCopying = new System.Windows.Forms.CheckBox();
@@ -49,26 +50,26 @@ namespace WinFormsApp1
             // 
             // GroupProgramSettings
             // 
-            this.GroupProgramSettings.Controls.Add(this.CheckedListBoxProgramSettings);
             resources.ApplyResources(this.GroupProgramSettings, "GroupProgramSettings");
+            this.GroupProgramSettings.Controls.Add(this.CheckedListBoxProgramSettings);
             this.GroupProgramSettings.Name = "GroupProgramSettings";
             this.GroupProgramSettings.TabStop = false;
             // 
             // CheckedListBoxProgramSettings
             // 
+            resources.ApplyResources(this.CheckedListBoxProgramSettings, "CheckedListBoxProgramSettings");
             this.CheckedListBoxProgramSettings.BackColor = System.Drawing.SystemColors.Control;
             this.CheckedListBoxProgramSettings.FormattingEnabled = true;
             this.CheckedListBoxProgramSettings.Items.AddRange(new object[] {
             resources.GetString("CheckedListBoxProgramSettings.Items"),
             resources.GetString("CheckedListBoxProgramSettings.Items1")});
-            resources.ApplyResources(this.CheckedListBoxProgramSettings, "CheckedListBoxProgramSettings");
             this.CheckedListBoxProgramSettings.Name = "CheckedListBoxProgramSettings";
             // 
             // GroupLanguage
             // 
+            resources.ApplyResources(this.GroupLanguage, "GroupLanguage");
             this.GroupLanguage.Controls.Add(this.RadioButtonEnglish);
             this.GroupLanguage.Controls.Add(this.RadioButtonRussian);
-            resources.ApplyResources(this.GroupLanguage, "GroupLanguage");
             this.GroupLanguage.Name = "GroupLanguage";
             this.GroupLanguage.TabStop = false;
             // 
@@ -106,12 +107,19 @@ namespace WinFormsApp1
             // 
             // GroupAdditionalSettings
             // 
+            resources.ApplyResources(this.GroupAdditionalSettings, "GroupAdditionalSettings");
+            this.GroupAdditionalSettings.Controls.Add(this.checkBoxRunInTheBackground);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox4StartCopyingAgain);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox3PermissionToStopCopy);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox1NotifyAboutCopying);
-            resources.ApplyResources(this.GroupAdditionalSettings, "GroupAdditionalSettings");
             this.GroupAdditionalSettings.Name = "GroupAdditionalSettings";
             this.GroupAdditionalSettings.TabStop = false;
+            // 
+            // checkBoxRunInTheBackground
+            // 
+            resources.ApplyResources(this.checkBoxRunInTheBackground, "checkBoxRunInTheBackground");
+            this.checkBoxRunInTheBackground.Name = "checkBoxRunInTheBackground";
+            this.checkBoxRunInTheBackground.UseVisualStyleBackColor = true;
             // 
             // checkBox4StartCopyingAgain
             // 
@@ -147,6 +155,7 @@ namespace WinFormsApp1
             this.GroupLanguage.ResumeLayout(false);
             this.GroupLanguage.PerformLayout();
             this.GroupAdditionalSettings.ResumeLayout(false);
+            this.GroupAdditionalSettings.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -165,5 +174,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.CheckBox checkBox4StartCopyingAgain;
         private System.Windows.Forms.CheckBox checkBox3PermissionToStopCopy;
         private System.Windows.Forms.CheckBox checkBox1NotifyAboutCopying;
+        private System.Windows.Forms.CheckBox checkBoxRunInTheBackground;
     }
 }

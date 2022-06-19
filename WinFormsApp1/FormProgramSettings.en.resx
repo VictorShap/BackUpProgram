@@ -66,9 +66,6 @@
   <data name="GroupProgramSettings.Text" xml:space="preserve">
     <value>General settings</value>
   </data>
-  <data name="GroupLanguage.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="RadioButtonEnglish.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 28</value>
@@ -82,6 +79,9 @@
   <data name="RadioButtonRussian.Text" xml:space="preserve">
     <value>Russian</value>
   </data>
+  <data name="GroupLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
   <data name="ButtonOk.Text" xml:space="preserve">
     <value>Ok</value>
   </data>
@@ -91,8 +91,21 @@
   <data name="ButtonApply.Text" xml:space="preserve">
     <value>Apply</value>
   </data>
-  <data name="GroupAdditionalSettings.Text" xml:space="preserve">
-    <value>Additional settings</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBoxRunInTheBackground.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxRunInTheBackground.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 153</value>
+  </data>
+  <data name="checkBoxRunInTheBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 28</value>
+  </data>
+  <data name="checkBoxRunInTheBackground.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBoxRunInTheBackground.Text" xml:space="preserve">
+    <value>Allow the program to run in the background</value>
   </data>
   <data name="checkBox4StartCopyingAgain.Text" xml:space="preserve">
     <value>If the copying was suddenly interrupted, promt to retry it</value>
@@ -102,6 +115,9 @@
   </data>
   <data name="checkBox1NotifyAboutCopying.Text" xml:space="preserve">
     <value>Notify about the beginning and end of the copying process</value>
+  </data>
+  <data name="GroupAdditionalSettings.Text" xml:space="preserve">
+    <value>Additional settings</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Program settings</value>
