@@ -57,99 +57,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;TextBoxDaysToCopy.Name" xml:space="preserve">
-    <value>TextBoxDaysToCopy</value>
-  </data>
-  <data name="&gt;&gt;TextBoxDaysToCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TextBoxDaysToCopy.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;TextBoxDaysToCopy.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LabelDaysToCopy.Name" xml:space="preserve">
-    <value>LabelDaysToCopy</value>
-  </data>
-  <data name="&gt;&gt;LabelDaysToCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelDaysToCopy.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;LabelDaysToCopy.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TextBoxTypeExtension.Name" xml:space="preserve">
-    <value>TextBoxTypeExtension</value>
-  </data>
-  <data name="&gt;&gt;TextBoxTypeExtension.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TextBoxTypeExtension.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;TextBoxTypeExtension.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LabelTypeExtension.Name" xml:space="preserve">
-    <value>LabelTypeExtension</value>
-  </data>
-  <data name="&gt;&gt;LabelTypeExtension.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelTypeExtension.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;LabelTypeExtension.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sitka Text, 9.749999pt, style=Bold</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>451, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 4</value>
-  </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 4</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>473, 145</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Расширенные настройки</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>Panel</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="TextBoxDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
     <value>312, 103</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TextBoxDaysToCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 4, 5, 4</value>
   </data>
   <data name="TextBoxDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 28</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TextBoxDaysToCopy.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
@@ -243,137 +162,41 @@
   <data name="&gt;&gt;LabelTypeExtension.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Name" xml:space="preserve">
-    <value>CheckBoxCopyAllTheFiles</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ListBoxDirectoriesResult.Name" xml:space="preserve">
-    <value>ListBoxDirectoriesResult</value>
-  </data>
-  <data name="&gt;&gt;ListBoxDirectoriesResult.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListBoxDirectoriesResult.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;ListBoxDirectoriesResult.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LabelDirectoryToCopy.Name" xml:space="preserve">
-    <value>LabelDirectoryToCopy</value>
-  </data>
-  <data name="&gt;&gt;LabelDirectoryToCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelDirectoryToCopy.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;LabelDirectoryToCopy.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.Name" xml:space="preserve">
-    <value>ButtonChooseDirectoryToCopy</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseDirectoryToCopy.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseTargetDirectory.Name" xml:space="preserve">
-    <value>ButtonChooseTargetDirectory</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseTargetDirectory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseTargetDirectory.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;ButtonChooseTargetDirectory.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;LabelTargetDirectory.Name" xml:space="preserve">
-    <value>LabelTargetDirectory</value>
-  </data>
-  <data name="&gt;&gt;LabelTargetDirectory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelTargetDirectory.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;LabelTargetDirectory.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 0</value>
   </data>
-  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 247</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Основные параметры</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>Panel</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="CheckBoxCopyAllTheFiles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 177</value>
-  </data>
-  <data name="CheckBoxCopyAllTheFiles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 4, 5, 4</value>
   </data>
-  <data name="CheckBoxCopyAllTheFiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 62</value>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
-  <data name="CheckBoxCopyAllTheFiles.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 145</value>
   </data>
-  <data name="CheckBoxCopyAllTheFiles.Text" xml:space="preserve">
-    <value>Копировать все файлы из выбранной директории</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Name" xml:space="preserve">
-    <value>CheckBoxCopyAllTheFiles</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Расширенные настройки</value>
   </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListBoxDirectoriesResult.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="ListBoxDirectoriesResult.ItemHeight" type="System.Int32, mscorlib">
     <value>23</value>
@@ -400,6 +223,33 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;ListBoxDirectoriesResult.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 177</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 62</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Text" xml:space="preserve">
+    <value>Копировать все файлы из выбранной директории</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Name" xml:space="preserve">
+    <value>CheckBoxCopyAllTheFiles</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxCopyAllTheFiles.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="LabelDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
@@ -515,6 +365,39 @@
   </data>
   <data name="&gt;&gt;LabelTargetDirectory.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 247</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Основные параметры</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="ButtonOk.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -636,57 +519,6 @@
   <data name="&gt;&gt;LabelTips.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;LabelSelectDate.Name" xml:space="preserve">
-    <value>LabelSelectDate</value>
-  </data>
-  <data name="&gt;&gt;LabelSelectDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelSelectDate.Parent" xml:space="preserve">
-    <value>PanelSelectDate</value>
-  </data>
-  <data name="&gt;&gt;LabelSelectDate.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
-    <value>dateTimePicker</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
-    <value>PanelSelectDate</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PanelSelectDate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sitka Text, 9.749999pt, style=Bold</value>
-  </data>
-  <data name="PanelSelectDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>451, 153</value>
-  </data>
-  <data name="PanelSelectDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 4</value>
-  </data>
-  <data name="PanelSelectDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>473, 49</value>
-  </data>
-  <data name="PanelSelectDate.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;PanelSelectDate.Name" xml:space="preserve">
-    <value>PanelSelectDate</value>
-  </data>
-  <data name="&gt;&gt;PanelSelectDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PanelSelectDate.Parent" xml:space="preserve">
-    <value>Panel</value>
-  </data>
-  <data name="&gt;&gt;PanelSelectDate.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="LabelSelectDate.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 8</value>
   </data>
@@ -744,6 +576,33 @@
   <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="PanelSelectDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="PanelSelectDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 153</value>
+  </data>
+  <data name="PanelSelectDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="PanelSelectDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 49</value>
+  </data>
+  <data name="PanelSelectDate.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;PanelSelectDate.Name" xml:space="preserve">
+    <value>PanelSelectDate</value>
+  </data>
+  <data name="&gt;&gt;PanelSelectDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelSelectDate.Parent" xml:space="preserve">
+    <value>Panel</value>
+  </data>
+  <data name="&gt;&gt;PanelSelectDate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="Panel.Location" type="System.Drawing.Point, System.Drawing">
     <value>-2, 0</value>
   </data>
@@ -765,9 +624,6 @@
   <data name="&gt;&gt;Panel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>en</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

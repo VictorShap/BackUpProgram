@@ -31,7 +31,7 @@ namespace WinFormsApp1
         }
 
 
-        void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
+        private void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
         {
             int index;
             string SourceDirectoryPath1 = SourceDirectoryPath;
@@ -50,26 +50,26 @@ namespace WinFormsApp1
                 }
             }
         }
-
-        void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
+        private void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
         {
             int index;
             string TargetDirectoryPath1 = TargetDirectoryPath;
-            string TargetDirectoryPath2 = Methods.ChooseFolder(TargetDirectoryPath);
+            string TargetDirectoryPath2 = Methods.ChooseFolder(SourceDirectoryPath);
             if (TargetDirectoryPath2 != null)
             {
-                if (SourceDirectoryPath == TargetDirectoryPath2) MessageBox.Show("Директории не должны совпадать");
+                if (TargetDirectoryPath2 == SourceDirectoryPath) MessageBox.Show("Директории не должны совпадать");
                 else
                 {
                     TargetDirectoryPath = TargetDirectoryPath2;
                     index = ListBoxDirectoriesResult.Items.IndexOf("Директория назначения: " + TargetDirectoryPath1);
-                    if (index != -1) ListBoxDirectoriesResult.Items.Insert(index, "Директория назначения: " + TargetDirectoryPath);
+                    if (index! != -1) ListBoxDirectoriesResult.Items.Insert(index, "Директория назначения: " + TargetDirectoryPath);
                     else ListBoxDirectoriesResult.Items.Add("Директория назначения: " + TargetDirectoryPath);
                     ListBoxDirectoriesResult.Items.Remove("Директория назначения: " + TargetDirectoryPath1);
                     if (!ListBoxDirectoriesResult.Visible) ListBoxDirectoriesResult.Visible = true;
                 }
             }
         }
+
         void ButtonApply_Click(object sender, EventArgs e)
         {
         }

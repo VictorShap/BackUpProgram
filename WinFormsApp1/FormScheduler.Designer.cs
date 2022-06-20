@@ -35,8 +35,8 @@
             this.TextBoxTypeExtension = new System.Windows.Forms.TextBox();
             this.LabelTypeExtension = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.CheckBoxCopyAllTheFiles = new System.Windows.Forms.CheckBox();
             this.ListBoxDirectoriesResult = new System.Windows.Forms.ListBox();
+            this.CheckBoxCopyAllTheFiles = new System.Windows.Forms.CheckBox();
             this.LabelDirectoryToCopy = new System.Windows.Forms.Label();
             this.ButtonChooseDirectoryToCopy = new System.Windows.Forms.Button();
             this.ButtonChooseTargetDirectory = new System.Windows.Forms.Button();
@@ -92,8 +92,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.CheckBoxCopyAllTheFiles);
             this.groupBox2.Controls.Add(this.ListBoxDirectoriesResult);
+            this.groupBox2.Controls.Add(this.CheckBoxCopyAllTheFiles);
             this.groupBox2.Controls.Add(this.LabelDirectoryToCopy);
             this.groupBox2.Controls.Add(this.ButtonChooseDirectoryToCopy);
             this.groupBox2.Controls.Add(this.ButtonChooseTargetDirectory);
@@ -103,6 +103,12 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
+            // ListBoxDirectoriesResult
+            // 
+            this.ListBoxDirectoriesResult.FormattingEnabled = true;
+            resources.ApplyResources(this.ListBoxDirectoriesResult, "ListBoxDirectoriesResult");
+            this.ListBoxDirectoriesResult.Name = "ListBoxDirectoriesResult";
+            // 
             // CheckBoxCopyAllTheFiles
             // 
             resources.ApplyResources(this.CheckBoxCopyAllTheFiles, "CheckBoxCopyAllTheFiles");
@@ -110,13 +116,6 @@
             this.CheckBoxCopyAllTheFiles.UseVisualStyleBackColor = true;
             this.CheckBoxCopyAllTheFiles.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             this.CheckBoxCopyAllTheFiles.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
-            // 
-            // ListBoxDirectoriesResult
-            // 
-            this.ListBoxDirectoriesResult.FormattingEnabled = true;
-            resources.ApplyResources(this.ListBoxDirectoriesResult, "ListBoxDirectoriesResult");
-            this.ListBoxDirectoriesResult.Name = "ListBoxDirectoriesResult";
-            this.ListBoxDirectoriesResult.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelDirectoryToCopy
             // 
@@ -129,6 +128,7 @@
             resources.ApplyResources(this.ButtonChooseDirectoryToCopy, "ButtonChooseDirectoryToCopy");
             this.ButtonChooseDirectoryToCopy.Name = "ButtonChooseDirectoryToCopy";
             this.ButtonChooseDirectoryToCopy.UseVisualStyleBackColor = true;
+            this.ButtonChooseDirectoryToCopy.Click += new System.EventHandler(this.ButtonChooseDirectoryToCopy_Click);
             this.ButtonChooseDirectoryToCopy.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonChooseTargetDirectory
@@ -136,6 +136,7 @@
             resources.ApplyResources(this.ButtonChooseTargetDirectory, "ButtonChooseTargetDirectory");
             this.ButtonChooseTargetDirectory.Name = "ButtonChooseTargetDirectory";
             this.ButtonChooseTargetDirectory.UseVisualStyleBackColor = true;
+            this.ButtonChooseTargetDirectory.Click += new System.EventHandler(this.ButtonChooseTargetDirectory_Click);
             this.ButtonChooseTargetDirectory.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTargetDirectory
@@ -243,7 +244,7 @@
         private System.Windows.Forms.CheckBox CheckBoxCopyAllTheFiles;
         private System.Windows.Forms.Label LabelSelectDate;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
-        private System.Windows.Forms.ListBox ListBoxDirectoriesResult;
         private System.Windows.Forms.Panel Panel;
+        private System.Windows.Forms.ListBox ListBoxDirectoriesResult;
     }
 }
