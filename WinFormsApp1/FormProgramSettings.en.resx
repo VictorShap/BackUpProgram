@@ -95,14 +95,8 @@
   <data name="checkBoxRunInTheBackground.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBoxRunInTheBackground.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 153</value>
-  </data>
   <data name="checkBoxRunInTheBackground.Size" type="System.Drawing.Size, System.Drawing">
     <value>406, 28</value>
-  </data>
-  <data name="checkBoxRunInTheBackground.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="checkBoxRunInTheBackground.Text" xml:space="preserve">
     <value>Allow the program to run in the background</value>

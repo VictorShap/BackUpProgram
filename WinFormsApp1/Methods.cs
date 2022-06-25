@@ -17,6 +17,26 @@ namespace WinFormsApp1
             }
             return path;
         }
+        public static void AddFolder(string text, ref string ChoosingDirectoryPath, in string AnotherDirectoryPath, ListBox ListBoxDirectoriesResult)
+        {
+            int index;
+            string ChoosingDirectoryPath1 = ChoosingDirectoryPath;
+            string ChoosingDirectoryPath2 = ChooseFolder(ChoosingDirectoryPath);
+            if (ChoosingDirectoryPath2 != null)
+            {
+                if (ChoosingDirectoryPath2 == AnotherDirectoryPath) MessageBox.Show("Директории не должны совпадать");
+                else
+                {
+                    ChoosingDirectoryPath = ChoosingDirectoryPath2;
+                    index = ListBoxDirectoriesResult.Items.IndexOf(text + ChoosingDirectoryPath1);
+                    if (index! != -1) ListBoxDirectoriesResult.Items.Insert(index, text + ChoosingDirectoryPath);
+                    else ListBoxDirectoriesResult.Items.Add(text + ChoosingDirectoryPath);
+                    ListBoxDirectoriesResult.Items.Remove(text + ChoosingDirectoryPath1);
+                    if (!ListBoxDirectoriesResult.Visible) ListBoxDirectoriesResult.Visible = true;
+                }
+            }
+        }
+
         public static string EnoughSpaceOrThreeDots(string str, int max)
         {
             if (str.Length > max)

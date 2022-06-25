@@ -33,41 +33,11 @@ namespace WinFormsApp1
 
         private void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
         {
-            int index;
-            string SourceDirectoryPath1 = SourceDirectoryPath;
-            string SourceDirectoryPath2 = Methods.ChooseFolder(SourceDirectoryPath);
-            if (SourceDirectoryPath2 != null)
-            {
-                if (SourceDirectoryPath2 == TargetDirectoryPath) MessageBox.Show("Директории не должны совпадать");
-                else
-                {
-                    SourceDirectoryPath = SourceDirectoryPath2;
-                    index = ListBoxDirectoriesResult.Items.IndexOf("Основная директория: " + SourceDirectoryPath1);
-                    if (index! != -1) ListBoxDirectoriesResult.Items.Insert(index, "Основная директория: " + SourceDirectoryPath);
-                    else ListBoxDirectoriesResult.Items.Add("Основная директория: " + SourceDirectoryPath);
-                    ListBoxDirectoriesResult.Items.Remove("Основная директория: " + SourceDirectoryPath1);
-                    if (!ListBoxDirectoriesResult.Visible) ListBoxDirectoriesResult.Visible = true;
-                }
-            }
+            Methods.AddFolder("Основная директория: ", ref SourceDirectoryPath, in TargetDirectoryPath, ListBoxDirectoriesResult);
         }
         private void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
         {
-            int index;
-            string TargetDirectoryPath1 = TargetDirectoryPath;
-            string TargetDirectoryPath2 = Methods.ChooseFolder(SourceDirectoryPath);
-            if (TargetDirectoryPath2 != null)
-            {
-                if (TargetDirectoryPath2 == SourceDirectoryPath) MessageBox.Show("Директории не должны совпадать");
-                else
-                {
-                    TargetDirectoryPath = TargetDirectoryPath2;
-                    index = ListBoxDirectoriesResult.Items.IndexOf("Директория назначения: " + TargetDirectoryPath1);
-                    if (index! != -1) ListBoxDirectoriesResult.Items.Insert(index, "Директория назначения: " + TargetDirectoryPath);
-                    else ListBoxDirectoriesResult.Items.Add("Директория назначения: " + TargetDirectoryPath);
-                    ListBoxDirectoriesResult.Items.Remove("Директория назначения: " + TargetDirectoryPath1);
-                    if (!ListBoxDirectoriesResult.Visible) ListBoxDirectoriesResult.Visible = true;
-                }
-            }
+            Methods.AddFolder("Директория назначения: ", ref TargetDirectoryPath, in SourceDirectoryPath, ListBoxDirectoriesResult);
         }
 
         void ButtonApply_Click(object sender, EventArgs e)
