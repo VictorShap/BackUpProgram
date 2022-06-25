@@ -57,61 +57,94 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CheckedListBoxProgramSettings.Items" xml:space="preserve">
-    <value>Launching the program along with windows</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox2DisplayHints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 23</value>
   </data>
-  <data name="CheckedListBoxProgramSettings.Items1" xml:space="preserve">
+  <data name="checkBox2DisplayHints.Text" xml:space="preserve">
     <value>Hide the tooltip window</value>
+  </data>
+  <data name="checkBox1StartWithWindows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 23</value>
+  </data>
+  <data name="checkBox1StartWithWindows.Text" xml:space="preserve">
+    <value>Launching the program along with windows</value>
   </data>
   <data name="GroupProgramSettings.Text" xml:space="preserve">
     <value>General settings</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GroupLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 76</value>
+  </data>
+  <data name="GroupLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
   <data name="RadioButtonEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 28</value>
+    <value>77, 23</value>
   </data>
   <data name="RadioButtonEnglish.Text" xml:space="preserve">
     <value>English</value>
   </data>
   <data name="RadioButtonRussian.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 28</value>
+    <value>78, 23</value>
   </data>
   <data name="RadioButtonRussian.Text" xml:space="preserve">
     <value>Russian</value>
   </data>
-  <data name="GroupLanguage.Text" xml:space="preserve">
-    <value>Language</value>
+  <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 242</value>
   </data>
   <data name="ButtonOk.Text" xml:space="preserve">
     <value>Ok</value>
   </data>
+  <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 242</value>
+  </data>
   <data name="ButtonCancel.Text" xml:space="preserve">
     <value>Cancel</value>
+  </data>
+  <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 242</value>
   </data>
   <data name="ButtonApply.Text" xml:space="preserve">
     <value>Apply</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="checkBoxRunInTheBackground.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBoxRunInTheBackground.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 28</value>
-  </data>
-  <data name="checkBoxRunInTheBackground.Text" xml:space="preserve">
-    <value>Allow the program to run in the background</value>
-  </data>
-  <data name="checkBox4StartCopyingAgain.Text" xml:space="preserve">
-    <value>If the copying was suddenly interrupted, promt to retry it</value>
-  </data>
-  <data name="checkBox3PermissionToStopCopy.Text" xml:space="preserve">
-    <value>Allow aborting of the copy process</value>
-  </data>
-  <data name="checkBox1NotifyAboutCopying.Text" xml:space="preserve">
-    <value>Notify about the beginning and end of the copying process</value>
+  <data name="GroupAdditionalSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 142</value>
   </data>
   <data name="GroupAdditionalSettings.Text" xml:space="preserve">
     <value>Additional settings</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox6RunProgramAsServise.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox6RunProgramAsServise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 23</value>
+  </data>
+  <data name="checkBox6RunProgramAsServise.Text" xml:space="preserve">
+    <value>Allow the program to run in the background (as a service) </value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 23</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.Text" xml:space="preserve">
+    <value>If the copying was suddenly interrupted, promt to retry it</value>
+  </data>
+  <data name="checkBox4PermissionToStopCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 23</value>
+  </data>
+  <data name="checkBox4PermissionToStopCopy.Text" xml:space="preserve">
+    <value>Allow to abort the copy proces</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 23</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.Text" xml:space="preserve">
+    <value>Notify about the beginning and end of the copy process</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>544, 268</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Program settings</value>

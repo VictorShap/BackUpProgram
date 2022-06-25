@@ -3,6 +3,9 @@ using System;
 using System.Runtime.Serialization;
 using System.Windows.Forms;
 using System.Reflection;
+using WinFormsApp1.AllProgramSettings;
+
+
 namespace WinFormsApp1
 {
     static class Methods
@@ -36,7 +39,48 @@ namespace WinFormsApp1
                 }
             }
         }
-
+        /*-----------------------------Схожие по сути методы-----------------------------*/
+        /*-----------------------------Майби что-то пригодится-----------------------------*/
+        public static void ChooseFolderAndCheckingForSameness(ref string mainFolder, ref string whatToCompareWith) //Выбор папки и проверка на одинаковость
+        {
+            string tempPathBackupFolder = "";
+            tempPathBackupFolder = ChooseFolder(tempPathBackupFolder);
+            if (tempPathBackupFolder != whatToCompareWith)
+            {
+                mainFolder = tempPathBackupFolder;
+            }
+            else
+            {
+                MessageBox.Show(Other.directoriesShouldNotMatchRu);
+            }
+        }
+        public static void ShowFolderOnListBox(string nameFolder, ListBox listBox, string landmark) //обновление listBox 
+        {
+            if (!string.IsNullOrEmpty(nameFolder))
+            {
+                string temp = "";
+                int index = 0;
+                foreach (var item in listBox.Items)
+                {
+                    if (item.ToString().Contains(landmark))
+                    {
+                        index = listBox.Items.IndexOf(item);
+                        temp = item.ToString();
+                        break;
+                    }
+                }
+                if (index != -1)
+                {
+                    listBox.Items.Remove(temp);
+                    listBox.Items.Insert(index, landmark + nameFolder);
+                }
+                else
+                {
+                    listBox.Items.Add(landmark + nameFolder);
+                }
+            }
+        }
+        /*-----------------------------Конец-----------------------------*/
         public static string EnoughSpaceOrThreeDots(string str, int max)
         {
             if (str.Length > max)
@@ -97,7 +141,6 @@ namespace WinFormsApp1
                             fileInfo.CopyTo(newTargetPath);
                         }
                     }
-
                 }
             }
         }

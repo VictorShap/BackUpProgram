@@ -32,8 +32,6 @@ namespace WinFormsApp1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.настройкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label9 = new System.Windows.Forms.Label();
             this.Panel = new System.Windows.Forms.Panel();
@@ -77,22 +75,9 @@ namespace WinFormsApp1
             // 
             // настройкиToolStripMenuItem
             // 
-            this.настройкиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem2});
             resources.ApplyResources(this.настройкиToolStripMenuItem, "настройкиToolStripMenuItem");
             this.настройкиToolStripMenuItem.Name = "настройкиToolStripMenuItem";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuCopy_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.настройкиToolStripMenuItem.Click += new System.EventHandler(this.SettingsToolStripMenuItem_Click);
             // 
             // справкаToolStripMenuItem
             // 
@@ -230,7 +215,7 @@ namespace WinFormsApp1
             resources.ApplyResources(this.ButtonAddSchedule, "ButtonAddSchedule");
             this.ButtonAddSchedule.Name = "ButtonAddSchedule";
             this.ButtonAddSchedule.UseVisualStyleBackColor = true;
-            this.ButtonAddSchedule.Click += new System.EventHandler(this.button1_Click);
+            this.ButtonAddSchedule.Click += new System.EventHandler(this.ButtonAddScheduleButton1_Click);
             this.ButtonAddSchedule.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonChangeSchedule
@@ -308,8 +293,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.ToolStripMenuItem настройкиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.Panel Panel;
         private System.Windows.Forms.GroupBox GroupCurrentSettings;
         private System.Windows.Forms.ListBox ListBoxCurrentSettings;

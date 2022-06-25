@@ -59,97 +59,252 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="настройкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 28</value>
+    <value>74, 23</value>
   </data>
   <data name="настройкиToolStripMenuItem.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
   <data name="справкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 28</value>
+    <value>83, 23</value>
   </data>
   <data name="справкаToolStripMenuItem.Text" xml:space="preserve">
     <value>Reference</value>
   </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1119, 29</value>
+  </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 28</value>
+    <value>180, 24</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Copying</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 28</value>
+    <value>180, 24</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>Program</value>
   </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 140</value>
+  </data>
+  <data name="Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>934, 371</value>
+  </data>
+  <data name="GroupAutoCopying.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 250</value>
+  </data>
+  <data name="GroupAutoCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupAutoCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>503, 118</value>
+  </data>
   <data name="GroupAutoCopying.Text" xml:space="preserve">
     <value>Regular copying</value>
   </data>
+  <data name="ButtonAutoCopyingApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 77</value>
+  </data>
+  <data name="ButtonAutoCopyingApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
+  </data>
   <data name="ButtonAutoCopyingApply.Text" xml:space="preserve">
     <value>Apply</value>
+  </data>
+  <data name="ButtonAutoCopyingSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="ButtonAutoCopyingSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
   </data>
   <data name="ButtonAutoCopyingSettings.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
   <data name="RadioButtonOnceAWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 44</value>
+    <value>294, 33</value>
   </data>
   <data name="RadioButtonOnceAWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 28</value>
+    <value>73, 23</value>
   </data>
   <data name="RadioButtonOnceAWeek.Text" xml:space="preserve">
     <value>Weekly</value>
   </data>
+  <data name="RadioButtonOnceInThreeDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 34</value>
+  </data>
   <data name="RadioButtonOnceInThreeDays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 28</value>
+    <value>123, 23</value>
   </data>
   <data name="RadioButtonOnceInThreeDays.Text" xml:space="preserve">
     <value>Once in  3 days</value>
   </data>
+  <data name="RadioButtonEveryDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
   <data name="RadioButtonEveryDay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 28</value>
+    <value>89, 23</value>
   </data>
   <data name="RadioButtonEveryDay.Text" xml:space="preserve">
     <value>Every day</value>
   </data>
   <data name="RadioButtonNever.Location" type="System.Drawing.Point, System.Drawing">
-    <value>476, 44</value>
+    <value>416, 33</value>
   </data>
   <data name="RadioButtonNever.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 28</value>
+    <value>64, 23</value>
   </data>
   <data name="RadioButtonNever.Text" xml:space="preserve">
     <value>Never</value>
   </data>
+  <data name="GroupCopyingProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 250</value>
+  </data>
+  <data name="GroupCopyingProcess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupCopyingProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 118</value>
+  </data>
   <data name="GroupCopyingProcess.Text" xml:space="preserve">
-    <value>Copying process</value>
+    <value>The process of copying</value>
+  </data>
+  <data name="LabelCopyingInProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="LabelCopyingInProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 45</value>
   </data>
   <data name="LabelCopyingInProgress.Text" xml:space="preserve">
     <value>No copying process is running at the moment.</value>
   </data>
+  <data name="ButtonCancelCopying.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="ButtonCancelCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 28</value>
+  </data>
   <data name="ButtonCancelCopying.Text" xml:space="preserve">
     <value>Cancel</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 26</value>
+  </data>
+  <data name="GroupScheduleCopying.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="GroupScheduleCopying.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupScheduleCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 243</value>
   </data>
   <data name="GroupScheduleCopying.Text" xml:space="preserve">
     <value>Schedule copying process</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListBoxScheduleCopying.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ListBoxScheduleCopying.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="ListBoxScheduleCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ListBoxScheduleCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 175</value>
+  </data>
+  <data name="ButtonAddSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 31</value>
+  </data>
+  <data name="ButtonAddSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
+  </data>
   <data name="ButtonAddSchedule.Text" xml:space="preserve">
     <value>Add</value>
+  </data>
+  <data name="ButtonChangeSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 31</value>
+  </data>
+  <data name="ButtonChangeSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
   </data>
   <data name="ButtonChangeSchedule.Text" xml:space="preserve">
     <value>Change</value>
   </data>
+  <data name="ButtonRemoveSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 31</value>
+  </data>
+  <data name="ButtonRemoveSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
+  </data>
   <data name="ButtonRemoveSchedule.Text" xml:space="preserve">
     <value>Remove</value>
+  </data>
+  <data name="ButtonCopyFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 31</value>
+  </data>
+  <data name="ButtonCopyFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 28</value>
   </data>
   <data name="ButtonCopyFiles.Text" xml:space="preserve">
     <value>Copy</value>
   </data>
+  <data name="GroupCurrentSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 26</value>
+  </data>
+  <data name="GroupCurrentSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupCurrentSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupCurrentSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 243</value>
+  </data>
   <data name="GroupCurrentSettings.Text" xml:space="preserve">
     <value>Current settings</value>
   </data>
+  <data name="ListBoxCurrentSettings.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ListBoxCurrentSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 26</value>
+  </data>
+  <data name="ListBoxCurrentSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ListBoxCurrentSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 194</value>
+  </data>
+  <data name="LabelTips.Location" type="System.Drawing.Point, System.Drawing">
+    <value>934, 26</value>
+  </data>
+  <data name="LabelTips.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LabelTips.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 373</value>
+  </data>
   <data name="LabelTips.Text" xml:space="preserve">
     <value>Hover the cursor over any object in the program and detailed information will be displayed here.</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1119, 400</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Backup program</value>

@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class FormScheduler
+    partial class FormSchedulerSettings
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormScheduler));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSchedulerSettings));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.TextBoxDaysToCopy = new System.Windows.Forms.TextBox();
             this.LabelDaysToCopy = new System.Windows.Forms.Label();
             this.TextBoxTypeExtension = new System.Windows.Forms.TextBox();
             this.LabelTypeExtension = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.ListBoxDirectoriesResult = new System.Windows.Forms.ListBox();
             this.CheckBoxCopyAllTheFiles = new System.Windows.Forms.CheckBox();
+            this.ListBoxDirectoriesResult = new System.Windows.Forms.ListBox();
             this.LabelDirectoryToCopy = new System.Windows.Forms.Label();
             this.ButtonChooseDirectoryToCopy = new System.Windows.Forms.Button();
             this.ButtonChooseTargetDirectory = new System.Windows.Forms.Button();
@@ -92,8 +92,8 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.ListBoxDirectoriesResult);
             this.groupBox2.Controls.Add(this.CheckBoxCopyAllTheFiles);
+            this.groupBox2.Controls.Add(this.ListBoxDirectoriesResult);
             this.groupBox2.Controls.Add(this.LabelDirectoryToCopy);
             this.groupBox2.Controls.Add(this.ButtonChooseDirectoryToCopy);
             this.groupBox2.Controls.Add(this.ButtonChooseTargetDirectory);
@@ -103,19 +103,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
-            // ListBoxDirectoriesResult
-            // 
-            this.ListBoxDirectoriesResult.FormattingEnabled = true;
-            resources.ApplyResources(this.ListBoxDirectoriesResult, "ListBoxDirectoriesResult");
-            this.ListBoxDirectoriesResult.Name = "ListBoxDirectoriesResult";
-            // 
             // CheckBoxCopyAllTheFiles
             // 
             resources.ApplyResources(this.CheckBoxCopyAllTheFiles, "CheckBoxCopyAllTheFiles");
             this.CheckBoxCopyAllTheFiles.Name = "CheckBoxCopyAllTheFiles";
             this.CheckBoxCopyAllTheFiles.UseVisualStyleBackColor = true;
-            this.CheckBoxCopyAllTheFiles.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            this.CheckBoxCopyAllTheFiles.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
+            // 
+            // ListBoxDirectoriesResult
+            // 
+            this.ListBoxDirectoriesResult.FormattingEnabled = true;
+            resources.ApplyResources(this.ListBoxDirectoriesResult, "ListBoxDirectoriesResult");
+            this.ListBoxDirectoriesResult.Name = "ListBoxDirectoriesResult";
             // 
             // LabelDirectoryToCopy
             // 
@@ -150,6 +148,7 @@
             resources.ApplyResources(this.ButtonOk, "ButtonOk");
             this.ButtonOk.Name = "ButtonOk";
             this.ButtonOk.UseVisualStyleBackColor = true;
+            this.ButtonOk.Click += new System.EventHandler(this.ButtonOk_Click);
             this.ButtonOk.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonCancel
@@ -157,6 +156,7 @@
             resources.ApplyResources(this.ButtonCancel, "ButtonCancel");
             this.ButtonCancel.Name = "ButtonCancel";
             this.ButtonCancel.UseVisualStyleBackColor = true;
+            this.ButtonCancel.Click += new System.EventHandler(this.ButtonCancel_Click);
             this.ButtonCancel.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonApply
@@ -164,6 +164,7 @@
             resources.ApplyResources(this.ButtonApply, "ButtonApply");
             this.ButtonApply.Name = "ButtonApply";
             this.ButtonApply.UseVisualStyleBackColor = true;
+            this.ButtonApply.Click += new System.EventHandler(this.ButtonApply_Click);
             this.ButtonApply.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTips
@@ -208,14 +209,13 @@
             this.Panel.Name = "Panel";
             this.Panel.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
-            // FormScheduler
+            // FormSchedulerSettings
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Panel);
-            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "FormScheduler";
+            this.Name = "FormSchedulerSettings";
             this.Load += new System.EventHandler(this.FormScheduler_Load);
             this.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             this.groupBox1.ResumeLayout(false);
@@ -243,10 +243,10 @@
         private System.Windows.Forms.Button ButtonApply;
         private System.Windows.Forms.Label LabelTips;
         private System.Windows.Forms.Panel PanelSelectDate;
-        private System.Windows.Forms.CheckBox CheckBoxCopyAllTheFiles;
         private System.Windows.Forms.Label LabelSelectDate;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
         private System.Windows.Forms.Panel Panel;
         private System.Windows.Forms.ListBox ListBoxDirectoriesResult;
+        private System.Windows.Forms.CheckBox CheckBoxCopyAllTheFiles;
     }
 }

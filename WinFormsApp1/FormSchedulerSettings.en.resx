@@ -58,81 +58,129 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TextBoxDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 65</value>
+  </data>
   <data name="LabelDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 89</value>
+    <value>8, 65</value>
   </data>
   <data name="LabelDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 52</value>
+    <value>296, 24</value>
   </data>
   <data name="LabelDaysToCopy.Text" xml:space="preserve">
     <value>Specify how many last days to back up</value>
   </data>
+  <data name="TextBoxTypeExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 20</value>
+  </data>
   <data name="LabelTypeExtension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>303, 57</value>
+    <value>303, 24</value>
   </data>
   <data name="LabelTypeExtension.Text" xml:space="preserve">
     <value>Specify the extension of the files to be copied</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 109</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Advanced settings</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>447, 247</value>
+    <value>384, 185</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>General Settings</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ListBoxDirectoriesResult.HorizontalScrollbar" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="CheckBoxCopyAllTheFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 21</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Text" xml:space="preserve">
+    <value>Copy all the files from the selected directory</value>
   </data>
   <data name="ListBoxDirectoriesResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 98</value>
+    <value>2, 76</value>
   </data>
-  <data name="ListBoxDirectoriesResult.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 96</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ListBoxDirectoriesResult.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="CheckBoxCopyAllTheFiles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 202</value>
-  </data>
-  <data name="CheckBoxCopyAllTheFiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 36</value>
-  </data>
-  <data name="CheckBoxCopyAllTheFiles.Text" xml:space="preserve">
-    <value>Copy all files from the selected directory</value>
+  <data name="LabelDirectoryToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 29</value>
   </data>
   <data name="LabelDirectoryToCopy.Text" xml:space="preserve">
     <value>Choose main directory</value>
   </data>
+  <data name="ButtonChooseDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 19</value>
+  </data>
   <data name="ButtonChooseDirectoryToCopy.Text" xml:space="preserve">
     <value>Open</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 47</value>
   </data>
   <data name="ButtonChooseTargetDirectory.Text" xml:space="preserve">
     <value>Open</value>
   </data>
+  <data name="LabelTargetDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 23</value>
+  </data>
   <data name="LabelTargetDirectory.Text" xml:space="preserve">
     <value>Choose target directory</value>
+  </data>
+  <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>793, 162</value>
   </data>
   <data name="ButtonOk.Text" xml:space="preserve">
     <value>Ok</value>
   </data>
+  <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 162</value>
+  </data>
   <data name="ButtonCancel.Text" xml:space="preserve">
     <value>Cancel</value>
+  </data>
+  <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 162</value>
   </data>
   <data name="ButtonApply.Text" xml:space="preserve">
     <value>Apply</value>
   </data>
+  <data name="LabelTips.Location" type="System.Drawing.Point, System.Drawing">
+    <value>870, 3</value>
+  </data>
+  <data name="LabelTips.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 182</value>
+  </data>
   <data name="LabelTips.Text" xml:space="preserve">
     <value>Hover the cursor over any object in the program and detailed information will be displayed here.</value>
+  </data>
+  <data name="PanelSelectDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 115</value>
+  </data>
+  <data name="PanelSelectDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 37</value>
+  </data>
+  <data name="LabelSelectDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 6</value>
   </data>
   <data name="LabelSelectDate.Text" xml:space="preserve">
     <value>Select the date</value>
   </data>
   <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 8</value>
+    <value>200, 6</value>
+  </data>
+  <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1059, 188</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1061, 192</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Scheduler</value>
