@@ -8,13 +8,13 @@ using System.Windows.Forms;
 namespace WinFormsApp1
 {
 
-    public partial class FormCopyingSettings : Form
+    public partial class FormAutoCopyingSettings : Form
     {
         AutoCopy settings = new AutoCopy();
         string SettingsFile = "Settings.xml";
         static string SourceDirectoryPath;
         static string TargetDirectoryPath;
-        public FormCopyingSettings()
+        public FormAutoCopyingSettings()
         {
             InitializeComponent();
         }

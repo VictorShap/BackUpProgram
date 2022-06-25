@@ -8,7 +8,7 @@ namespace WinFormsApp1
     static class Methods
     {
         static int ForCopying = 0;
-        public static string ChooseFolder(string path)
+        private static string ChooseFolder(string path)
         {
             FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
             if (folderBrowserDialog.ShowDialog() != DialogResult.Cancel)

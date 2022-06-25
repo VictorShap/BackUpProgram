@@ -33,7 +33,7 @@ namespace WinFormsApp1
 
         private void toolStripMenuCopy_Click(object sender, EventArgs e)
         {
-            FormCopyingSettings f = new FormCopyingSettings();
+            FormAutoCopyingSettings f = new FormAutoCopyingSettings();
             f.Show();
         }
 
@@ -48,7 +48,7 @@ namespace WinFormsApp1
 
         private void ButtonAutoCopyingSettings_Click(object sender, EventArgs e)
         {
-            FormCopyingSettings formCopyingSettings = new FormCopyingSettings();
+            FormAutoCopyingSettings formCopyingSettings = new FormAutoCopyingSettings();
             formCopyingSettings.Show();
         }
 

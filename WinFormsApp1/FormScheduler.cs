@@ -41,5 +41,11 @@ namespace WinFormsApp1
         {
             Methods.AddFolder("Директория назначения: ", ref TargetDirectoryPath, in SourceDirectoryPath, ListBoxDirectoriesResult);
         }
+
+        private void dateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            DateTimePicker dateTimePicker = sender as DateTimePicker;
+            if(DateTimePicker.)
+        }
     }
 }

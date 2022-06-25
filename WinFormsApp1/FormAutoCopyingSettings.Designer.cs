@@ -1,7 +1,7 @@
 ﻿
 namespace WinFormsApp1
 {
-    partial class FormCopyingSettings
+    partial class FormAutoCopyingSettings
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace WinFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCopyingSettings));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAutoCopyingSettings));
             this.GroupAutoCopying = new System.Windows.Forms.GroupBox();
             this.ListBoxDirectoriesResult = new System.Windows.Forms.ListBox();
             this.LabelTargetDirectory = new System.Windows.Forms.Label();
