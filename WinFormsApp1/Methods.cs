@@ -10,7 +10,7 @@ namespace WinFormsApp1
 {
     static class Methods
     {
-        static int ForCopying = 0;
+        static bool forCopying;
         private static string ChooseFolder(string path)
         {
             FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
@@ -20,26 +20,26 @@ namespace WinFormsApp1
             }
             return path;
         }
-        public static void AddFolder(string text, ref string ChoosingDirectoryPath, in string AnotherDirectoryPath, ListBox ListBoxDirectoriesResult)
+        public static void AddFolder(string text, ref string choosingDirectoryPath, in string anotherDirectoryPath, ListBox listBoxDirectoriesResult)
         {
             int index;
-            string ChoosingDirectoryPath1 = ChoosingDirectoryPath;
-            string ChoosingDirectoryPath2 = ChooseFolder(ChoosingDirectoryPath);
-            if (ChoosingDirectoryPath2 != null)
+            string choosingDirectoryPath1 = choosingDirectoryPath;
+            string choosingDirectoryPath2 = ChooseFolder(choosingDirectoryPath);
+            if (choosingDirectoryPath2 != null)
             {
-                if (ChoosingDirectoryPath2 == AnotherDirectoryPath) MessageBox.Show("Директории не должны совпадать");
+                if (choosingDirectoryPath2 == anotherDirectoryPath) MessageBox.Show("Директории не должны совпадать");
                 else
                 {
-                    ChoosingDirectoryPath = ChoosingDirectoryPath2;
-                    index = ListBoxDirectoriesResult.Items.IndexOf(text + ChoosingDirectoryPath1);
-                    if (index! != -1) ListBoxDirectoriesResult.Items.Insert(index, text + ChoosingDirectoryPath);
-                    else ListBoxDirectoriesResult.Items.Add(text + ChoosingDirectoryPath);
-                    ListBoxDirectoriesResult.Items.Remove(text + ChoosingDirectoryPath1);
-                    if (!ListBoxDirectoriesResult.Visible) ListBoxDirectoriesResult.Visible = true;
+                    choosingDirectoryPath = choosingDirectoryPath2;
+                    index = listBoxDirectoriesResult.Items.IndexOf(text + choosingDirectoryPath1);
+                    if (index! != -1) listBoxDirectoriesResult.Items.Insert(index, text + choosingDirectoryPath);
+                    else listBoxDirectoriesResult.Items.Add(text + choosingDirectoryPath);
+                    listBoxDirectoriesResult.Items.Remove(text + choosingDirectoryPath);
+                    if (!listBoxDirectoriesResult.Visible) listBoxDirectoriesResult.Visible = true;
                 }
             }
         }
-        /*-----------------------------Схожие по сути методы-----------------------------*/
+        #region Пхожие по сути методы
         /*-----------------------------Майби что-то пригодится-----------------------------*/
         public static void ChooseFolderAndCheckingForSameness(ref string mainFolder, ref string whatToCompareWith) //Выбор папки и проверка на одинаковость
         {
@@ -80,7 +80,7 @@ namespace WinFormsApp1
                 }
             }
         }
-        /*-----------------------------Конец-----------------------------*/
+        #endregion 
         public static string EnoughSpaceOrThreeDots(string str, int max)
         {
             if (str.Length > max)
@@ -90,54 +90,54 @@ namespace WinFormsApp1
             }
             return str;
         }
-        public static void CopyFolder(string SourcePath, string TargertPath)
+        public static void CopyFolder(string sourcePath, string targetPath)
         {
-            if (ForCopying == 0)
+            if (forCopying)
             {
-                TargertPath = Directory.CreateDirectory(TargertPath + SourcePath.Substring(SourcePath.LastIndexOf('\\'))).FullName;
-                ForCopying++;
-                CopyFolder(SourcePath, TargertPath);
+                targetPath = Directory.CreateDirectory(targetPath + sourcePath.Substring(sourcePath.LastIndexOf('\\'))).FullName;
+                forCopying = false;
+                CopyFolder(sourcePath, targetPath);
             }
             else
             {
-                foreach (string directory in Directory.GetDirectories(SourcePath))
+                foreach (string directory in Directory.GetDirectories(sourcePath))
                 {
-                    CopyFolder(directory, TargertPath + directory.Substring(directory.LastIndexOf('\\')));
+                    CopyFolder(directory, targetPath + directory.Substring(directory.LastIndexOf('\\')));
                 }
-                if (Directory.GetFiles(SourcePath).Length == 0) Directory.CreateDirectory(TargertPath);
-                foreach (string file in Directory.GetFiles(SourcePath))
+                if (Directory.GetFiles(sourcePath).Length == 0) Directory.CreateDirectory(targetPath);
+                foreach (string file in Directory.GetFiles(sourcePath))
                 {
                     FileInfo fileInfo = new FileInfo(file);
-                    Directory.CreateDirectory(TargertPath);
-                    string newTargetPath = TargertPath + fileInfo.FullName.Substring(fileInfo.FullName.LastIndexOf('\\'));
+                    Directory.CreateDirectory(targetPath);
+                    string newTargetPath = targetPath + fileInfo.FullName.Substring(fileInfo.FullName.LastIndexOf('\\'));
                     fileInfo.CopyTo(newTargetPath);
                 }
             }
         }
-        public static void CopyFolder(string SourcePath, string TargertPath, string[] Extentions, int Days)
+        public static void CopyFolder(string sourcePath, string targetPath, string[] extentions, int days)
         {
-            if (ForCopying == 0)
+            if (forCopying)
             {
-                TargertPath = Directory.CreateDirectory(TargertPath + SourcePath.Substring(SourcePath.LastIndexOf('\\'))).FullName;
-                ForCopying++;
-                CopyFolder(SourcePath, TargertPath, Extentions, Days);
+                targetPath = Directory.CreateDirectory(targetPath + sourcePath.Substring(sourcePath.LastIndexOf('\\'))).FullName;
+                forCopying = false;
+                CopyFolder(sourcePath, targetPath, extentions, days);
             }
             else
             {
-                foreach (string directory in Directory.GetDirectories(SourcePath))
+                foreach (string directory in Directory.GetDirectories(sourcePath))
                 {
-                    CopyFolder(directory, TargertPath + directory.Substring(directory.LastIndexOf('\\')), Extentions, Days);
+                    CopyFolder(directory, targetPath + directory.Substring(directory.LastIndexOf('\\')), extentions, days);
                 }
-                if (Directory.GetFiles(SourcePath).Length == 0) Directory.CreateDirectory(TargertPath);
-                foreach (string file in Directory.GetFiles(SourcePath))
+                if (Directory.GetFiles(sourcePath).Length == 0) Directory.CreateDirectory(targetPath);
+                foreach (string file in Directory.GetFiles(sourcePath))
                 {
                     FileInfo fileInfo = new FileInfo(file);
-                    foreach (string extension in Extentions)
+                    foreach (string extension in extentions)
                     {
-                        if (fileInfo.Extension == extension && DateTime.Now - fileInfo.LastWriteTime < new TimeSpan(Days, 0, 0, 0))
+                        if (fileInfo.Extension == extension && DateTime.Now - fileInfo.LastWriteTime < new TimeSpan(days, 0, 0, 0))
                         {
-                            Directory.CreateDirectory(TargertPath);
-                            string newTargetPath = TargertPath + fileInfo.FullName.Substring(fileInfo.FullName.LastIndexOf('\\'));
+                            Directory.CreateDirectory(targetPath);
+                            string newTargetPath = targetPath + fileInfo.FullName.Substring(fileInfo.FullName.LastIndexOf('\\'));
                             fileInfo.CopyTo(newTargetPath);
                         }
                     }
@@ -146,11 +146,11 @@ namespace WinFormsApp1
         }
         public static void ShowTips(string name, Label label)
         {
-            foreach (string key in ToolTips.RussianToolTips.Keys)
+            foreach (string key in ToolTips.russianToolTips.Keys)
             {
                 if (key == name)
                 {
-                    label.Text = ToolTips.RussianToolTips[name];
+                    label.Text = ToolTips.russianToolTips[name];
                     break;
                 }
             }

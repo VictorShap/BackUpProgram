@@ -13,6 +13,7 @@ namespace WinFormsApp1.AllProgramSettings
     [DataContract]
     public class AutoCopySettings
     {
+        #region serializationProperties
         [DataMember(Order = 0)]
         private bool copyOnceEveryDay { get; set; } //копирование раз в день
         [DataMember(Order = 1)]
@@ -32,7 +33,7 @@ namespace WinFormsApp1.AllProgramSettings
         [DataMember(Order = 8)]
         private bool copyAllFilesFromFolder { get; set; } //копировать ли все типы файлов из маин папки
 
-
+        #endregion
         public AutoCopySettings() { }
 
         public void SetTimeToCopy(bool copyOnceEveryDay, bool copyOnceInThreeDays, bool copyOnceOnceAWeek, bool copyNever)

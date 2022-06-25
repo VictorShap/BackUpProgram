@@ -11,6 +11,7 @@ namespace WinFormsApp1.AllProgramSettings
     [DataContract]
     public class ProgramSettings
     {
+        #region serializationProperties
         [DataMember(Order = 0)]
         public bool startWithWindows { get; set; } //запускать программу вместе с windows
         [DataMember(Order = 1)]
@@ -27,7 +28,7 @@ namespace WinFormsApp1.AllProgramSettings
         public bool russianLanguage { get; set; } //язык интерфейса русский
         [DataMember(Order = 7)]
         public bool englishLanguage { get; set; } //язык интерфейса английский 
-
+        #endregion
 
 
         public ProgramSettings() { }

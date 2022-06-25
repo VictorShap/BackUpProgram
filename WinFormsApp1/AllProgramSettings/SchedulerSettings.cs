@@ -12,6 +12,7 @@ namespace WinFormsApp1.AllProgramSettings
     [DataContract]
     public class SchedulerSettings
     {
+        #region serializationProperties
         [DataMember(Order = 0)]
         private string sourceDirectoryPath { get; set; } //основная директория 
         [DataMember(Order = 1)]
@@ -24,7 +25,7 @@ namespace WinFormsApp1.AllProgramSettings
         private bool copyAllFilesFromFolder { get; set; } //копировать ли все типы файлов из маин папки
         [DataMember(Order = 5)]
         public DateTime dateTime;
-
+        #endregion
         public SchedulerSettings() { }
         public void SetPlanningSettings(string sourceDirectoryPath, string targetDirectoryPath, string fileExtensionsToCopy, string countDays, bool copyAllFilesFromFolder, DateTime dateTime)
         {

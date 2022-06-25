@@ -6,9 +6,9 @@ namespace WinFormsApp1
 {
     class ToolTips
     {
-        static string RussianLabelDefault = "Наведите курсор на любой объект в программе - и тут отобразится подробная информация.";
-        static string EnglishLabelDefault = "Hover the cursor over any object in the program and detailed information will be displayed here.";
-        public static Dictionary<string, string> RussianToolTips = new Dictionary<string, string>()
+        static string russianLabelDefault = "Наведите курсор на любой объект в программе - и тут отобразится подробная информация.";
+        static string englishLabelDefault = "Hover the cursor over any object in the program and detailed information will be displayed here.";
+        public static Dictionary<string, string> russianToolTips = new Dictionary<string, string>()
         {
             {"ButtonAddSchedule", "Настроить и добавить запланированную задачу копирования"},
             {"ButtonChangeSchedule", "Выберите одиночным кликом мышки задачу, которую нужно редактировать, и нажмите на кнопку."},
@@ -34,8 +34,8 @@ namespace WinFormsApp1
             {"LabelDaysToCopy", "Укажите, за сколько последних дней осуществлять копирование. Дни указывайте числом."},
             {"CheckBoxCopyAllTheFiles", "Будут скопированы все файлы из выбранной директории."},
             {"GroupAdditionalSettings", "Здесь вы можете добавить дополнительные настройки."},
-            {"LabelTips", RussianLabelDefault},
-            {"menuStrip1", RussianLabelDefault},
+            {"LabelTips", russianLabelDefault},
+            {"menuStrip1", russianLabelDefault},
             {"checkBox1NotifyAboutCopying", "Программа оповестит вас о начале и завершении копирования."},
             {"checkBox3PermissionToStopCopy", "На в начальном окне программы появится кнопка, позволяющая прервать процесс копированя."},
             {"checkBox4StartCopyingAgain", "В случае прерывания процесса копирования будет предложено повторить его попытку."},
@@ -46,10 +46,10 @@ namespace WinFormsApp1
             {"ButtonChooseTargetDirectory", "Выберите директорию, в которую будет осуществляться копирование."},
             {"TextBoxTypeExtension", "Укажите, с каким расширением файлы нужно копировать. Раcширения указывайте, разделяя запятой."},
             {"TextBoxDaysToCopy", "Укажите, за сколько последних дней осуществлять копирование. Дни указывайте числом."},
-            {"Panel", RussianLabelDefault},
+            {"Panel", russianLabelDefault},
             {"PanelSelectDate", "Выберите дату, когда нужно будет выполнить задачу копирования."}
         };
-        public static Dictionary<string, string> EnglishToolTips = new Dictionary<string, string>()
+        public static Dictionary<string, string> englishToolTips = new Dictionary<string, string>()
         {
             {"ButtonAddSchedule", "Configure and add a scheduled copy task"},
             {"ButtonChangeSchedule", "Select the task you want to edit with a single mouse click and click the button."},
@@ -75,8 +75,8 @@ namespace WinFormsApp1
             {"LabelDaysToCopy", "Specify how many last days to back up. Days had to be given as a number."},
             {"CheckBoxCopyAllTheFiles", "All files from the selected directory will be copied."},
             {"GroupAdditionalSettings", "Here you can add additional settings."},
-            {"LabelTips", EnglishLabelDefault},
-            {"menuStrip1", EnglishLabelDefault},
+            {"LabelTips", englishLabelDefault},
+            {"menuStrip1", englishLabelDefault},
             {"checkBox1NotifyAboutCopying", "The program will notify you about the start and end of copying."},
             {"checkBox3PermissionToStopCopy", "A button will appear in the initial window of the program, that allow you to interrupt the copying process."},
             {"checkBox4StartCopyingAgain", "If the copying process is interrupted, you will be promted to try it again."},
@@ -87,7 +87,7 @@ namespace WinFormsApp1
             {"ButtonChooseTargetDirectory", "Select the directory to copy to."},
             {"TextBoxTypeExtension", "Specify the extension with which the files should be copied. Specify extensions separated by commas."},
             {"TextBoxDaysToCopy", "Specify how many last days to back up. Days had to be given as a number."},
-            {"Panel", EnglishLabelDefault},
+            {"Panel", englishLabelDefault},
             {"PanelSelectDate", "Select the date when you want the copy task to be completed."}
         };
     }
