@@ -20,7 +20,6 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             formMain = owner;
-            formMain.UpdateAutoCopySettings = false;
         }
         
         private void FormCopyingSettings_Load(object sender, EventArgs e)
