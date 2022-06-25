@@ -57,48 +57,170 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListBoxDirectoriesResult.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ListBoxDirectoriesResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="ListBoxDirectoriesResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 80</value>
+  </data>
+  <data name="LabelTargetDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="LabelTargetDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 23</value>
+  </data>
   <data name="LabelTargetDirectory.Text" xml:space="preserve">
     <value>Choose target directory</value>
+  </data>
+  <data name="LabelDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="LabelDirectoryToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 29</value>
   </data>
   <data name="LabelDirectoryToCopy.Text" xml:space="preserve">
     <value>Choose main directory</value>
   </data>
+  <data name="ButtonChooseTargetDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 50</value>
+  </data>
+  <data name="ButtonChooseTargetDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
   <data name="ButtonChooseTargetDirectory.Text" xml:space="preserve">
     <value>Open</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 22</value>
+  </data>
+  <data name="ButtonChooseDirectoryToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
   </data>
   <data name="ButtonChooseDirectoryToCopy.Text" xml:space="preserve">
     <value>Open</value>
   </data>
+  <data name="GroupAutoCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 181</value>
+  </data>
   <data name="GroupAutoCopying.Text" xml:space="preserve">
     <value>Regular copying</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TextBoxDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 63</value>
+  </data>
+  <data name="TextBoxDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 24</value>
+  </data>
+  <data name="LabelDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
   <data name="LabelDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 53</value>
+    <value>267, 40</value>
   </data>
   <data name="LabelDaysToCopy.Text" xml:space="preserve">
     <value>Specify how many last days to back up</value>
   </data>
+  <data name="TextBoxTypeExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 24</value>
+  </data>
+  <data name="TextBoxTypeExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 24</value>
+  </data>
+  <data name="LabelTypeExtension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="LabelTypeExtension.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 40</value>
+  </data>
   <data name="LabelTypeExtension.Text" xml:space="preserve">
     <value>Specify the extension of the files to be copied</value>
   </data>
+  <data name="CheckBoxCopyAllTheFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 46</value>
+  </data>
   <data name="CheckBoxCopyAllTheFiles.Text" xml:space="preserve">
-    <value>Copy all files from the selected directory</value>
+    <value>Copy all the files from the selected directory</value>
+  </data>
+  <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 167</value>
+  </data>
+  <data name="ButtonApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
   </data>
   <data name="ButtonApply.Text" xml:space="preserve">
     <value>Apply</value>
   </data>
+  <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 167</value>
+  </data>
+  <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
   <data name="ButtonCancel.Text" xml:space="preserve">
     <value>Cancel</value>
+  </data>
+  <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 167</value>
+  </data>
+  <data name="ButtonOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
   </data>
   <data name="ButtonOk.Text" xml:space="preserve">
     <value>Ok</value>
   </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 1</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 108</value>
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Copying settings</value>
   </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 115</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 50</value>
+  </data>
+  <data name="LabelTips.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 8</value>
+  </data>
+  <data name="LabelTips.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LabelTips.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 174</value>
+  </data>
   <data name="LabelTips.Text" xml:space="preserve">
     <value>Hover the cursor over any object in the program and detailed information will be displayed here.</value>
+  </data>
+  <data name="Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 9</value>
+  </data>
+  <data name="Panel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>976, 194</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>976, 204</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Regular copying</value>

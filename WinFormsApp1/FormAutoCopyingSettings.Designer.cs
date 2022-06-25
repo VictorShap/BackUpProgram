@@ -117,7 +117,6 @@ namespace WinFormsApp1
             // 
             resources.ApplyResources(this.TextBoxTypeExtension, "TextBoxTypeExtension");
             this.TextBoxTypeExtension.Name = "TextBoxTypeExtension";
-            this.TextBoxTypeExtension.TextChanged += new System.EventHandler(this.TextBoxTypeExtension_TextChanged);
             this.TextBoxTypeExtension.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // LabelTypeExtension
@@ -146,6 +145,7 @@ namespace WinFormsApp1
             resources.ApplyResources(this.ButtonCancel, "ButtonCancel");
             this.ButtonCancel.Name = "ButtonCancel";
             this.ButtonCancel.UseVisualStyleBackColor = true;
+            this.ButtonCancel.Click += new System.EventHandler(this.ButtonCancel_Click);
             this.ButtonCancel.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonOk
@@ -153,6 +153,7 @@ namespace WinFormsApp1
             resources.ApplyResources(this.ButtonOk, "ButtonOk");
             this.ButtonOk.Name = "ButtonOk";
             this.ButtonOk.UseVisualStyleBackColor = true;
+            this.ButtonOk.Click += new System.EventHandler(this.ButtonOk_Click);
             this.ButtonOk.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // groupBox1
@@ -194,14 +195,14 @@ namespace WinFormsApp1
             this.Panel.Name = "Panel";
             this.Panel.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
-            // FormCopyingSettings
+            // FormAutoCopyingSettings
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Panel);
-            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "FormCopyingSettings";
+            this.Name = "FormAutoCopyingSettings";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAutoCopyingSettings_FormClosing);
             this.Load += new System.EventHandler(this.FormCopyingSettings_Load);
             this.GroupAutoCopying.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
