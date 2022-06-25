@@ -45,7 +45,7 @@ namespace WinFormsApp1
         private void dateTimePicker_ValueChanged(object sender, EventArgs e)
         {
             DateTimePicker dateTimePicker = sender as DateTimePicker;
-            if(DateTimePicker.)
+            if (dateTimePicker.Value <= DateTime.Now) dateTimePicker.Value = DateTime.Today;
         }
     }
 }

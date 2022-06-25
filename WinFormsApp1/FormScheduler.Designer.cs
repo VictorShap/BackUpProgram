@@ -190,8 +190,8 @@
             // dateTimePicker
             // 
             resources.ApplyResources(this.dateTimePicker, "dateTimePicker");
-            this.dateTimePicker.MinDate = new System.DateTime(2022, 6, 25, 0, 0, 0, 0);
             this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Value = new System.DateTime(2022, 6, 25, 11, 38, 45, 0);
             this.dateTimePicker.ValueChanged += new System.EventHandler(this.dateTimePicker_ValueChanged);
             // 
             // Panel
