@@ -39,19 +39,59 @@ namespace WinFormsApp1
                 }
             }
         }
+        public static void AddFolder2(string text, ref string choosingDirectoryPath, in string anotherDirectoryPath, ListBox listBoxDirectoriesResult)
+        {
+            int index;
+            string choosingDirectoryPath1 = choosingDirectoryPath;
+            string choosingDirectoryPath2 = ChooseFolder(choosingDirectoryPath);
+            if (!string.IsNullOrEmpty(choosingDirectoryPath2))
+            {
+                if (string.IsNullOrEmpty(choosingDirectoryPath))
+                {
+                    if (choosingDirectoryPath2 == anotherDirectoryPath) MessageBox.Show("Директории не должны совпадать");
+                    else
+                    {
+                        choosingDirectoryPath = choosingDirectoryPath2;
+                        listBoxDirectoriesResult.Items.Add(text + choosingDirectoryPath);
+                    }
+                }
+                else
+                {
+                    if (choosingDirectoryPath2 == anotherDirectoryPath) MessageBox.Show("Директории не должны совпадать");
+                    else
+                    {
+                        choosingDirectoryPath = choosingDirectoryPath2;
+                        index = listBoxDirectoriesResult.Items.IndexOf(text + choosingDirectoryPath1);
+                        if (index! != -1)
+                        {
+                            listBoxDirectoriesResult.Items.Insert(index, text + choosingDirectoryPath);
+                        }
+                        else
+                        {
+                            listBoxDirectoriesResult.Items.Add(text + choosingDirectoryPath);
+                        }
+                        listBoxDirectoriesResult.Items.Remove(text + choosingDirectoryPath);
+                        if (!listBoxDirectoriesResult.Visible) listBoxDirectoriesResult.Visible = true;
+                    }
+                }
+            }
+        }
         #region Пхожие по сути методы
         /*-----------------------------Майби что-то пригодится-----------------------------*/
         public static void ChooseFolderAndCheckingForSameness(ref string mainFolder, ref string whatToCompareWith) //Выбор папки и проверка на одинаковость
         {
             string tempPathBackupFolder = "";
             tempPathBackupFolder = ChooseFolder(tempPathBackupFolder);
-            if (tempPathBackupFolder != whatToCompareWith)
+            if (!string.IsNullOrEmpty(tempPathBackupFolder))
             {
-                mainFolder = tempPathBackupFolder;
-            }
-            else
-            {
-                MessageBox.Show(Other.directoriesShouldNotMatchRu);
+                if (tempPathBackupFolder != whatToCompareWith)
+                {
+                    mainFolder = tempPathBackupFolder;
+                }
+                else
+                {
+                    MessageBox.Show(Other.directoriesShouldNotMatchRu);
+                }
             }
         }
         public static void ShowFolderOnListBox(string nameFolder, ListBox listBox, string landmark) //обновление listBox 

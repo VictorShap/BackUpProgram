@@ -40,11 +40,15 @@ namespace WinFormsApp1
 
         private void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
         {
-            Methods.AddFolder(Other.mainDirectoryRu, ref sourceDirectoryPath, in targetDirectoryPath, ListBoxDirectoriesResult);
+            //Methods.AddFolder2(Other.mainDirectoryRu, ref sourceDirectoryPath, in targetDirectoryPath, ListBoxDirectoriesResult);
+            Methods.ChooseFolderAndCheckingForSameness(ref sourceDirectoryPath, ref targetDirectoryPath);
+            Methods.ShowFolderOnListBox(sourceDirectoryPath, ListBoxDirectoriesResult, Other.mainDirectoryRu);
         }
         private void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
         {
-            Methods.AddFolder(Other.targetDirectoryRu, ref targetDirectoryPath, in sourceDirectoryPath, ListBoxDirectoriesResult);
+            //Methods.AddFolder2(Other.targetDirectoryRu, ref targetDirectoryPath, in sourceDirectoryPath, ListBoxDirectoriesResult);
+            Methods.ChooseFolderAndCheckingForSameness(ref targetDirectoryPath, ref sourceDirectoryPath);
+            Methods.ShowFolderOnListBox(targetDirectoryPath, ListBoxDirectoriesResult, Other.targetDirectoryRu);
         }
 
         private void ButtonApply_Click(object sender, EventArgs e)
