@@ -14,7 +14,11 @@ using WinFormsApp1.AllProgramSettings;
 namespace WinFormsApp1
 {
     public partial class FormMain : Form
-    { 
+    {
+        static FormMain formMain;
+        static int mainFormWidth = 1296;
+        static int scheduleFormWidth = 1215;
+        static int regularFormWidth = 1133;
         AutoCopySettings autoCopySettings = new AutoCopySettings();
         ProgramSettings programSettings = new ProgramSettings();
         SchedulerSettings schedulerSettings = new SchedulerSettings();
@@ -52,8 +56,8 @@ namespace WinFormsApp1
         }
         public FormMain()
         {
+            formMain = this;
             InitializeComponent();
-
         }
         private void FormMain_Load(object sender, EventArgs e)
         {
@@ -112,7 +116,6 @@ namespace WinFormsApp1
 
         private void ButtonCopyFiles_Click(object sender, EventArgs e)
         {
-
         }
     }
 }

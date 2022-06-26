@@ -59,14 +59,14 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="TextBoxDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 77</value>
+    <value>314, 103</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TextBoxDaysToCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TextBoxDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 24</value>
+    <value>153, 28</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TextBoxDaysToCopy.TabIndex" type="System.Int32, mscorlib">
@@ -85,13 +85,13 @@
     <value>0</value>
   </data>
   <data name="LabelDaysToCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 63</value>
+    <value>6, 84</value>
   </data>
   <data name="LabelDaysToCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelDaysToCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 39</value>
+    <value>315, 52</value>
   </data>
   <data name="LabelDaysToCopy.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -112,13 +112,13 @@
     <value>1</value>
   </data>
   <data name="TextBoxTypeExtension.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 25</value>
+    <value>314, 33</value>
   </data>
   <data name="TextBoxTypeExtension.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TextBoxTypeExtension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 24</value>
+    <value>153, 28</value>
   </data>
   <data name="TextBoxTypeExtension.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -136,13 +136,13 @@
     <value>2</value>
   </data>
   <data name="LabelTypeExtension.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 20</value>
+    <value>7, 27</value>
   </data>
   <data name="LabelTypeExtension.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelTypeExtension.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 43</value>
+    <value>314, 57</value>
   </data>
   <data name="LabelTypeExtension.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -166,16 +166,16 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 0</value>
+    <value>498, 0</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>414, 109</value>
+    <value>473, 145</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -200,10 +200,13 @@
     <value>NoControl</value>
   </data>
   <data name="CheckBoxCopyAllTheFiles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 159</value>
+    <value>13, 212</value>
+  </data>
+  <data name="CheckBoxCopyAllTheFiles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="CheckBoxCopyAllTheFiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 26</value>
+    <value>451, 35</value>
   </data>
   <data name="CheckBoxCopyAllTheFiles.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -227,13 +230,16 @@
     <value>True</value>
   </data>
   <data name="ListBoxDirectoriesResult.ItemHeight" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>23</value>
   </data>
   <data name="ListBoxDirectoriesResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 77</value>
+    <value>7, 103</value>
+  </data>
+  <data name="ListBoxDirectoriesResult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ListBoxDirectoriesResult.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 80</value>
+    <value>431, 96</value>
   </data>
   <data name="ListBoxDirectoriesResult.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -251,13 +257,13 @@
     <value>1</value>
   </data>
   <data name="LabelDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 20</value>
+    <value>7, 27</value>
   </data>
   <data name="LabelDirectoryToCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelDirectoryToCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 29</value>
+    <value>297, 39</value>
   </data>
   <data name="LabelDirectoryToCopy.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -281,13 +287,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonChooseDirectoryToCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 18</value>
+    <value>323, 24</value>
   </data>
   <data name="ButtonChooseDirectoryToCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ButtonChooseDirectoryToCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 23</value>
+    <value>107, 31</value>
   </data>
   <data name="ButtonChooseDirectoryToCopy.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -311,13 +317,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonChooseTargetDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 48</value>
+    <value>323, 64</value>
   </data>
   <data name="ButtonChooseTargetDirectory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ButtonChooseTargetDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 23</value>
+    <value>107, 31</value>
   </data>
   <data name="ButtonChooseTargetDirectory.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -338,13 +344,13 @@
     <value>4</value>
   </data>
   <data name="LabelTargetDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
+    <value>7, 63</value>
   </data>
   <data name="LabelTargetDirectory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelTargetDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 23</value>
+    <value>341, 31</value>
   </data>
   <data name="LabelTargetDirectory.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -370,8 +376,14 @@
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 0</value>
   </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 185</value>
+    <value>487, 247</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -395,13 +407,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>780, 162</value>
+    <value>891, 216</value>
   </data>
   <data name="ButtonOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ButtonOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 23</value>
+    <value>79, 31</value>
   </data>
   <data name="ButtonOk.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -425,13 +437,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>698, 162</value>
+    <value>798, 216</value>
   </data>
   <data name="ButtonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 23</value>
+    <value>85, 31</value>
   </data>
   <data name="ButtonCancel.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -455,13 +467,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 162</value>
+    <value>698, 216</value>
   </data>
   <data name="ButtonApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ButtonApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>86, 31</value>
   </data>
   <data name="ButtonApply.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -485,13 +497,13 @@
     <value>Sitka Text, 9.749999pt, style=Italic</value>
   </data>
   <data name="LabelTips.Location" type="System.Drawing.Point, System.Drawing">
-    <value>858, 8</value>
+    <value>981, 11</value>
   </data>
   <data name="LabelTips.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelTips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 177</value>
+    <value>208, 235</value>
   </data>
   <data name="LabelTips.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -512,13 +524,13 @@
     <value>2</value>
   </data>
   <data name="LabelSelectDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 6</value>
+    <value>6, 8</value>
   </data>
   <data name="LabelSelectDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelSelectDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 24</value>
+    <value>174, 32</value>
   </data>
   <data name="LabelSelectDate.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -545,10 +557,13 @@
     <value>Tahoma, 9.75pt</value>
   </data>
   <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 10</value>
+    <value>181, 13</value>
+  </data>
+  <data name="dateTimePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 23</value>
+    <value>284, 27</value>
   </data>
   <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -569,13 +584,13 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="PanelSelectDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 115</value>
+    <value>498, 153</value>
   </data>
   <data name="PanelSelectDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="PanelSelectDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>414, 37</value>
+    <value>473, 49</value>
   </data>
   <data name="PanelSelectDate.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -595,11 +610,8 @@
   <data name="Panel.Location" type="System.Drawing.Point, System.Drawing">
     <value>-2, 0</value>
   </data>
-  <data name="Panel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
   <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1044, 188</value>
+    <value>1193, 251</value>
   </data>
   <data name="Panel.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -620,13 +632,16 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+    <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1047, 190</value>
+    <value>1197, 253</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>

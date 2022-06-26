@@ -214,6 +214,22 @@ namespace WinFormsApp1
 .AddText(text2)
 .Show();
         }
+        public static void HideTipsWindow(bool flag, ref int main, ref int schedule, ref int regular)
+        {
+            if (flag)
+            {
+                main = 1077;
+                schedule = 991;
+                regular = 908;
+                
+            }
+            else
+            {
+                main = 1296;
+                schedule = 1215;
+                regular = 1133;
+            }
+        }
          
     }
 }
