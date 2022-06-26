@@ -230,6 +230,17 @@ namespace WinFormsApp1
                 regular = 1133;
             }
         }
-         
+         public static bool AllowAbortingCopyProcess(bool flag, ref int size)
+        {
+            if (flag)
+            {
+                size = 312;
+                return flag;
+            }
+            else {
+                size = 453;
+                return flag;
+            }
+        }
     }
 }

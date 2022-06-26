@@ -57,399 +57,345 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;checkBox2DisplayHints.Name" xml:space="preserve">
-    <value>checkBox2DisplayHints</value>
+  <data name="checkBox6RunProgramAsServise.Text" xml:space="preserve">
+    <value>Разрешить программе работать в фоновом режиме(как служба)</value>
   </data>
-  <data name="&gt;&gt;checkBox2DisplayHints.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkBox2DisplayHints.Text" xml:space="preserve">
+    <value>Скрыть окно подсказок </value>
   </data>
-  <data name="&gt;&gt;checkBox2DisplayHints.Parent" xml:space="preserve">
-    <value>GroupProgramSettings</value>
-  </data>
-  <data name="&gt;&gt;checkBox2DisplayHints.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.Name" xml:space="preserve">
-    <value>checkBox1StartWithWindows</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.Parent" xml:space="preserve">
-    <value>GroupProgramSettings</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;ButtonOk.Name" xml:space="preserve">
+    <value>ButtonOk</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="GroupProgramSettings.Font" type="System.Drawing.Font, System.Drawing">
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
-  <data name="GroupProgramSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 16</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="GroupProgramSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="GroupProgramSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="GroupProgramSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 101</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="GroupProgramSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="GroupProgramSettings.Text" xml:space="preserve">
-    <value>Общие настройки</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.Name" xml:space="preserve">
-    <value>GroupProgramSettings</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="checkBox2DisplayHints.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox2DisplayHints.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 65</value>
-  </data>
   <data name="checkBox2DisplayHints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
-  </data>
-  <data name="checkBox2DisplayHints.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 28</value>
-  </data>
-  <data name="checkBox2DisplayHints.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="checkBox2DisplayHints.Text" xml:space="preserve">
-    <value>Скрыть окно подсказок </value>
-  </data>
-  <data name="&gt;&gt;checkBox2DisplayHints.Name" xml:space="preserve">
-    <value>checkBox2DisplayHints</value>
-  </data>
-  <data name="&gt;&gt;checkBox2DisplayHints.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox2DisplayHints.Parent" xml:space="preserve">
-    <value>GroupProgramSettings</value>
-  </data>
-  <data name="&gt;&gt;checkBox2DisplayHints.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="checkBox1StartWithWindows.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox1StartWithWindows.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 31</value>
-  </data>
-  <data name="checkBox1StartWithWindows.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="checkBox1StartWithWindows.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 28</value>
-  </data>
-  <data name="checkBox1StartWithWindows.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="checkBox1StartWithWindows.Text" xml:space="preserve">
-    <value>Запуск программы вместе с windows</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.Name" xml:space="preserve">
-    <value>checkBox1StartWithWindows</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.Parent" xml:space="preserve">
-    <value>GroupProgramSettings</value>
-  </data>
-  <data name="&gt;&gt;checkBox1StartWithWindows.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="RadioButtonEnglish.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButtonEnglish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 64</value>
-  </data>
-  <data name="RadioButtonEnglish.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="RadioButtonEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 28</value>
-  </data>
-  <data name="RadioButtonEnglish.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="RadioButtonEnglish.Text" xml:space="preserve">
-    <value>Английский</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEnglish.Name" xml:space="preserve">
-    <value>RadioButtonEnglish</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEnglish.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEnglish.Parent" xml:space="preserve">
-    <value>GroupLanguage</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEnglish.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="RadioButtonRussian.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButtonRussian.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 31</value>
-  </data>
-  <data name="RadioButtonRussian.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="RadioButtonRussian.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 28</value>
-  </data>
-  <data name="RadioButtonRussian.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="RadioButtonRussian.Text" xml:space="preserve">
-    <value>Русский</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonRussian.Name" xml:space="preserve">
-    <value>RadioButtonRussian</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonRussian.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonRussian.Parent" xml:space="preserve">
-    <value>GroupLanguage</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonRussian.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="GroupLanguage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sitka Text, 9.749999pt, style=Bold</value>
-  </data>
-  <data name="GroupLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 16</value>
-  </data>
-  <data name="GroupLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="GroupLanguage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="GroupLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 101</value>
-  </data>
-  <data name="GroupLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="GroupLanguage.Text" xml:space="preserve">
     <value>Язык</value>
   </data>
-  <data name="&gt;&gt;GroupLanguage.Name" xml:space="preserve">
-    <value>GroupLanguage</value>
-  </data>
-  <data name="&gt;&gt;GroupLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GroupLanguage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GroupLanguage.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="ButtonOk.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>692, 322</value>
-  </data>
-  <data name="ButtonOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="ButtonOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 31</value>
-  </data>
-  <data name="ButtonOk.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="ButtonOk.Text" xml:space="preserve">
-    <value>Ок</value>
-  </data>
-  <data name="&gt;&gt;ButtonOk.Name" xml:space="preserve">
-    <value>ButtonOk</value>
-  </data>
-  <data name="&gt;&gt;ButtonOk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonOk.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonOk.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ButtonCancel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 322</value>
-  </data>
-  <data name="ButtonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 31</value>
-  </data>
-  <data name="ButtonCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="ButtonCancel.Text" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="&gt;&gt;ButtonCancel.Name" xml:space="preserve">
-    <value>ButtonCancel</value>
-  </data>
-  <data name="&gt;&gt;ButtonCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonCancel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonCancel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ButtonApply.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>525, 322</value>
-  </data>
-  <data name="ButtonApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="ButtonApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 31</value>
-  </data>
-  <data name="ButtonApply.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="ButtonApply.Text" xml:space="preserve">
-    <value>Принять</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ButtonApply.Name" xml:space="preserve">
     <value>ButtonApply</value>
   </data>
-  <data name="&gt;&gt;ButtonApply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonApply.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonApply.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="checkBox6RunProgramAsServise.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox6RunProgramAsServise.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 144</value>
-  </data>
-  <data name="checkBox6RunProgramAsServise.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="GroupLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="checkBox6RunProgramAsServise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>748, 32</value>
-  </data>
-  <data name="checkBox6RunProgramAsServise.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="checkBox6RunProgramAsServise.Text" xml:space="preserve">
-    <value>Разрешить программе выполнять копирование в фоновом режиме(как служба)</value>
-  </data>
-  <data name="&gt;&gt;checkBox6RunProgramAsServise.Name" xml:space="preserve">
-    <value>checkBox6RunProgramAsServise</value>
-  </data>
-  <data name="&gt;&gt;checkBox6RunProgramAsServise.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox6RunProgramAsServise.Parent" xml:space="preserve">
-    <value>GroupAdditionalSettings</value>
-  </data>
-  <data name="&gt;&gt;checkBox6RunProgramAsServise.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="checkBox5StartCopyingAgain.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox5StartCopyingAgain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox5StartCopyingAgain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 108</value>
-  </data>
-  <data name="checkBox5StartCopyingAgain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="checkBox5StartCopyingAgain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>668, 28</value>
-  </data>
-  <data name="checkBox5StartCopyingAgain.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="checkBox5StartCopyingAgain.Text" xml:space="preserve">
-    <value>Если копирование было внезапно прервано, предлагать повторить его</value>
-  </data>
-  <data name="&gt;&gt;checkBox5StartCopyingAgain.Name" xml:space="preserve">
-    <value>checkBox5StartCopyingAgain</value>
-  </data>
-  <data name="&gt;&gt;checkBox5StartCopyingAgain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox5StartCopyingAgain.Parent" xml:space="preserve">
-    <value>GroupAdditionalSettings</value>
-  </data>
-  <data name="&gt;&gt;checkBox5StartCopyingAgain.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="checkBox4PermissionToStopCopy.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox4PermissionToStopCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox4PermissionToStopCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 69</value>
+  <data name="ButtonOk.Text" xml:space="preserve">
+    <value>Ок</value>
   </data>
   <data name="checkBox4PermissionToStopCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="checkBox4PermissionToStopCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 28</value>
+  <data name="&gt;&gt;RadioButtonEnglish.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="checkBox4PermissionToStopCopy.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;RadioButtonRussian.Name" xml:space="preserve">
+    <value>RadioButtonRussian</value>
+  </data>
+  <data name="ButtonOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox2DisplayHints.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>668, 28</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>701, 355</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonRussian.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupLanguage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;GroupLanguage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GroupProgramSettings.Text" xml:space="preserve">
+    <value>Общие настройки</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonEnglish.Name" xml:space="preserve">
+    <value>RadioButtonEnglish</value>
+  </data>
+  <data name="GroupAdditionalSettings.Text" xml:space="preserve">
+    <value>Дополнительные настройки</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 101</value>
+  </data>
+  <data name="GroupAdditionalSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;checkBox6RunProgramAsServise.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox2DisplayHints.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButtonRussian.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 28</value>
+  </data>
+  <data name="&gt;&gt;ButtonApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox2DisplayHints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 28</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox4PermissionToStopCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupAdditionalSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 125</value>
+  </data>
+  <data name="checkBox2DisplayHints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 65</value>
+  </data>
+  <data name="checkBox1StartWithWindows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 28</value>
+  </data>
+  <data name="checkBox6RunProgramAsServise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>664, 32</value>
+  </data>
+  <data name="ButtonApply.Text" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="ButtonOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="ButtonApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;checkBox2DisplayHints.Name" xml:space="preserve">
+    <value>checkBox2DisplayHints</value>
+  </data>
+  <data name="&gt;&gt;checkBox3NotifyAboutCopying.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 322</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GroupLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="GroupLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonEnglish.Parent" xml:space="preserve">
+    <value>GroupLanguage</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox1StartWithWindows.Text" xml:space="preserve">
+    <value>Запуск программы вместе с windows</value>
+  </data>
+  <data name="RadioButtonEnglish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 64</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;checkBox1StartWithWindows.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadioButtonRussian.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 31</value>
+  </data>
+  <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="&gt;&gt;ButtonApply.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RadioButtonEnglish.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GroupAdditionalSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>683, 189</value>
+  </data>
+  <data name="GroupAdditionalSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;checkBox6RunProgramAsServise.Name" xml:space="preserve">
+    <value>checkBox6RunProgramAsServise</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonRussian.Parent" xml:space="preserve">
+    <value>GroupLanguage</value>
+  </data>
+  <data name="RadioButtonRussian.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox6RunProgramAsServise.Parent" xml:space="preserve">
+    <value>GroupAdditionalSettings</value>
+  </data>
+  <data name="&gt;&gt;checkBox3NotifyAboutCopying.Parent" xml:space="preserve">
+    <value>GroupAdditionalSettings</value>
+  </data>
+  <data name="ButtonApply.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 322</value>
+  </data>
+  <data name="&gt;&gt;checkBox5StartCopyingAgain.Name" xml:space="preserve">
+    <value>checkBox5StartCopyingAgain</value>
+  </data>
+  <data name="&gt;&gt;checkBox5StartCopyingAgain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox6RunProgramAsServise.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkBox1StartWithWindows.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonOk.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ButtonOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox4PermissionToStopCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.Name" xml:space="preserve">
+    <value>ButtonCancel</value>
+  </data>
+  <data name="GroupAdditionalSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="checkBox4PermissionToStopCopy.Text" xml:space="preserve">
     <value>Разрешить прерывание процесса копирования</value>
   </data>
-  <data name="&gt;&gt;checkBox4PermissionToStopCopy.Name" xml:space="preserve">
-    <value>checkBox4PermissionToStopCopy</value>
+  <data name="&gt;&gt;checkBox1StartWithWindows.Name" xml:space="preserve">
+    <value>checkBox1StartWithWindows</value>
   </data>
-  <data name="&gt;&gt;checkBox4PermissionToStopCopy.Type" xml:space="preserve">
+  <data name="ButtonApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="checkBox6RunProgramAsServise.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 144</value>
+  </data>
+  <data name="&gt;&gt;GroupAdditionalSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2DisplayHints.Parent" xml:space="preserve">
+    <value>GroupProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;checkBox2DisplayHints.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.Name" xml:space="preserve">
+    <value>GroupProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;GroupLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GroupProgramSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 101</value>
+  </data>
+  <data name="&gt;&gt;checkBox6RunProgramAsServise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupAdditionalSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="checkBox4PermissionToStopCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="&gt;&gt;checkBox1StartWithWindows.Parent" xml:space="preserve">
+    <value>GroupProgramSettings</value>
+  </data>
+  <data name="RadioButtonRussian.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox6RunProgramAsServise.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonApply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="checkBox1StartWithWindows.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox1StartWithWindows.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 16</value>
+  </data>
+  <data name="RadioButtonEnglish.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RadioButtonRussian.Text" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="RadioButtonEnglish.Text" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="&gt;&gt;checkBox5StartCopyingAgain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox4PermissionToStopCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 69</value>
+  </data>
+  <data name="checkBox4PermissionToStopCopy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Разрешить программе выполнять копирование в фоновом режиме</value>
+  </data>
+  <data name="GroupProgramSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ButtonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ButtonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;checkBox4PermissionToStopCopy.Parent" xml:space="preserve">
     <value>GroupAdditionalSettings</value>
@@ -457,94 +403,124 @@
   <data name="&gt;&gt;checkBox4PermissionToStopCopy.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="checkBox3NotifyAboutCopying.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox3NotifyAboutCopying.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox3NotifyAboutCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 31</value>
-  </data>
-  <data name="checkBox3NotifyAboutCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="checkBox6RunProgramAsServise.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="checkBox3NotifyAboutCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>553, 28</value>
-  </data>
-  <data name="checkBox3NotifyAboutCopying.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="checkBox3NotifyAboutCopying.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="checkBox3NotifyAboutCopying.Text" xml:space="preserve">
     <value>Оповещать о начале и завершении процесса копирования</value>
   </data>
-  <data name="&gt;&gt;checkBox3NotifyAboutCopying.Name" xml:space="preserve">
-    <value>checkBox3NotifyAboutCopying</value>
-  </data>
-  <data name="&gt;&gt;checkBox3NotifyAboutCopying.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox3NotifyAboutCopying.Parent" xml:space="preserve">
-    <value>GroupAdditionalSettings</value>
-  </data>
-  <data name="&gt;&gt;checkBox3NotifyAboutCopying.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="GroupAdditionalSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sitka Text, 9.749999pt, style=Bold</value>
-  </data>
-  <data name="GroupAdditionalSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 125</value>
-  </data>
-  <data name="GroupAdditionalSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="GroupAdditionalSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="GroupAdditionalSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>767, 189</value>
-  </data>
-  <data name="GroupAdditionalSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="GroupAdditionalSettings.Text" xml:space="preserve">
-    <value>Дополнительные настройки</value>
-  </data>
-  <data name="&gt;&gt;GroupAdditionalSettings.Name" xml:space="preserve">
-    <value>GroupAdditionalSettings</value>
-  </data>
-  <data name="&gt;&gt;GroupAdditionalSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GroupAdditionalSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GroupAdditionalSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>789, 355</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Разрешить программе выполнять копирование в фоновом режиме</value>
+  <data name="&gt;&gt;ButtonOk.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormProgramSettings</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ButtonApply.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
+  <data name="&gt;&gt;checkBox3NotifyAboutCopying.Name" xml:space="preserve">
+    <value>checkBox3NotifyAboutCopying</value>
+  </data>
+  <data name="&gt;&gt;GroupAdditionalSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox2DisplayHints.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RadioButtonRussian.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="checkBox1StartWithWindows.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;checkBox5StartCopyingAgain.Parent" xml:space="preserve">
+    <value>GroupAdditionalSettings</value>
+  </data>
+  <data name="&gt;&gt;checkBox4PermissionToStopCopy.Name" xml:space="preserve">
+    <value>checkBox4PermissionToStopCopy</value>
+  </data>
+  <data name="GroupProgramSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;ButtonOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButtonEnglish.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonRussian.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 108</value>
+  </data>
+  <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 322</value>
+  </data>
+  <data name="GroupProgramSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RadioButtonEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 28</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonEnglish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupAdditionalSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupProgramSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 16</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.Text" xml:space="preserve">
+    <value>Если копирование было внезапно прервано, предлагать повторить его</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 28</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GroupAdditionalSettings.Name" xml:space="preserve">
+    <value>GroupAdditionalSettings</value>
+  </data>
+  <data name="checkBox4PermissionToStopCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 28</value>
+  </data>
+  <data name="&gt;&gt;checkBox3NotifyAboutCopying.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox1StartWithWindows.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="&gt;&gt;GroupLanguage.Name" xml:space="preserve">
+    <value>GroupLanguage</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

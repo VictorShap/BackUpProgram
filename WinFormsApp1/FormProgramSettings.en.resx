@@ -59,13 +59,13 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkBox2DisplayHints.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 23</value>
+    <value>239, 28</value>
   </data>
   <data name="checkBox2DisplayHints.Text" xml:space="preserve">
     <value>Hide the tooltip window</value>
   </data>
   <data name="checkBox1StartWithWindows.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 23</value>
+    <value>408, 28</value>
   </data>
   <data name="checkBox1StartWithWindows.Text" xml:space="preserve">
     <value>Launching the program along with windows</value>
@@ -74,43 +74,43 @@
     <value>General settings</value>
   </data>
   <data name="GroupLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 76</value>
+    <value>195, 101</value>
   </data>
   <data name="GroupLanguage.Text" xml:space="preserve">
     <value>Language</value>
   </data>
   <data name="RadioButtonEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 23</value>
+    <value>95, 28</value>
   </data>
   <data name="RadioButtonEnglish.Text" xml:space="preserve">
     <value>English</value>
   </data>
   <data name="RadioButtonRussian.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 23</value>
+    <value>99, 28</value>
   </data>
   <data name="RadioButtonRussian.Text" xml:space="preserve">
     <value>Russian</value>
   </data>
   <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>466, 242</value>
+    <value>553, 320</value>
   </data>
   <data name="ButtonOk.Text" xml:space="preserve">
     <value>Ok</value>
   </data>
   <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>393, 242</value>
+    <value>459, 320</value>
   </data>
   <data name="ButtonCancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 242</value>
+    <value>367, 320</value>
   </data>
   <data name="ButtonApply.Text" xml:space="preserve">
     <value>Apply</value>
   </data>
   <data name="GroupAdditionalSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>521, 142</value>
+    <value>640, 187</value>
   </data>
   <data name="GroupAdditionalSettings.Text" xml:space="preserve">
     <value>Additional settings</value>
@@ -120,31 +120,31 @@
     <value>True</value>
   </data>
   <data name="checkBox6RunProgramAsServise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 23</value>
+    <value>530, 28</value>
   </data>
   <data name="checkBox6RunProgramAsServise.Text" xml:space="preserve">
     <value>Allow the program to run in the background (as a service) </value>
   </data>
   <data name="checkBox5StartCopyingAgain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>397, 23</value>
+    <value>523, 28</value>
   </data>
   <data name="checkBox5StartCopyingAgain.Text" xml:space="preserve">
     <value>If the copying was suddenly interrupted, promt to retry it</value>
   </data>
   <data name="checkBox4PermissionToStopCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 23</value>
+    <value>298, 28</value>
   </data>
   <data name="checkBox4PermissionToStopCopy.Text" xml:space="preserve">
-    <value>Allow to abort the copy proces</value>
+    <value>Allow to abort the copy process</value>
   </data>
   <data name="checkBox3NotifyAboutCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>382, 23</value>
+    <value>499, 28</value>
   </data>
   <data name="checkBox3NotifyAboutCopying.Text" xml:space="preserve">
     <value>Notify about the beginning and end of the copy process</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>544, 268</value>
+    <value>663, 353</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Program settings</value>

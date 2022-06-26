@@ -51,9 +51,9 @@ namespace WinFormsApp1
             // 
             // GroupProgramSettings
             // 
+            resources.ApplyResources(this.GroupProgramSettings, "GroupProgramSettings");
             this.GroupProgramSettings.Controls.Add(this.checkBox2DisplayHints);
             this.GroupProgramSettings.Controls.Add(this.checkBox1StartWithWindows);
-            resources.ApplyResources(this.GroupProgramSettings, "GroupProgramSettings");
             this.GroupProgramSettings.Name = "GroupProgramSettings";
             this.GroupProgramSettings.TabStop = false;
             // 
@@ -71,9 +71,9 @@ namespace WinFormsApp1
             // 
             // GroupLanguage
             // 
+            resources.ApplyResources(this.GroupLanguage, "GroupLanguage");
             this.GroupLanguage.Controls.Add(this.RadioButtonEnglish);
             this.GroupLanguage.Controls.Add(this.RadioButtonRussian);
-            resources.ApplyResources(this.GroupLanguage, "GroupLanguage");
             this.GroupLanguage.Name = "GroupLanguage";
             this.GroupLanguage.TabStop = false;
             // 
@@ -114,11 +114,11 @@ namespace WinFormsApp1
             // 
             // GroupAdditionalSettings
             // 
+            resources.ApplyResources(this.GroupAdditionalSettings, "GroupAdditionalSettings");
             this.GroupAdditionalSettings.Controls.Add(this.checkBox6RunProgramAsServise);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox5StartCopyingAgain);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox4PermissionToStopCopy);
             this.GroupAdditionalSettings.Controls.Add(this.checkBox3NotifyAboutCopying);
-            resources.ApplyResources(this.GroupAdditionalSettings, "GroupAdditionalSettings");
             this.GroupAdditionalSettings.Name = "GroupAdditionalSettings";
             this.GroupAdditionalSettings.TabStop = false;
             // 
