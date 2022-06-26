@@ -117,6 +117,11 @@ namespace WinFormsApp1
         private void ButtonCopyFiles_Click(object sender, EventArgs e)
         {
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

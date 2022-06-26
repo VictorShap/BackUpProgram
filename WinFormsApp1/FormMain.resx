@@ -313,7 +313,7 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupAutoCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 333</value>
+    <value>10, 250</value>
   </data>
   <data name="GroupAutoCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
@@ -434,7 +434,7 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupCopyingProcess.Location" type="System.Drawing.Point, System.Drawing">
-    <value>593, 333</value>
+    <value>519, 250</value>
   </data>
   <data name="GroupCopyingProcess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 5, 3, 5</value>
@@ -464,30 +464,24 @@
     <value>1</value>
   </data>
   <data name="ListBoxScheduleCopying.ItemHeight" type="System.Int32, mscorlib">
-    <value>23</value>
+    <value>19</value>
   </data>
   <data name="ListBoxScheduleCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 80</value>
+    <value>6, 60</value>
   </data>
   <data name="ListBoxScheduleCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ListBoxScheduleCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>569, 211</value>
+    <value>498, 175</value>
   </data>
-  <data name="ListBoxScheduleCopying.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ListBoxScheduleCopying.Name" xml:space="preserve">
-    <value>ListBoxScheduleCopying</value>
-  </data>
-  <data name="&gt;&gt;ListBoxScheduleCopying.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListBoxScheduleCopying.Parent" xml:space="preserve">
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
     <value>GroupScheduleCopying</value>
   </data>
-  <data name="&gt;&gt;ListBoxScheduleCopying.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="ButtonAddSchedule.Font" type="System.Drawing.Font, System.Drawing">
@@ -623,7 +617,7 @@
     <value>3, 5, 3, 5</value>
   </data>
   <data name="GroupScheduleCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>582, 324</value>
+    <value>509, 243</value>
   </data>
   <data name="GroupScheduleCopying.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -647,7 +641,7 @@
     <value>0, 35</value>
   </data>
   <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1067, 495</value>
+    <value>934, 371</value>
   </data>
   <data name="Panel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -677,7 +671,7 @@
     <value>3, 5, 3, 5</value>
   </data>
   <data name="ListBoxCurrentSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>451, 257</value>
+    <value>395, 194</value>
   </data>
   <data name="ListBoxCurrentSettings.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -707,7 +701,7 @@
     <value>3, 5, 3, 5</value>
   </data>
   <data name="GroupCurrentSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 324</value>
+    <value>408, 243</value>
   </data>
   <data name="GroupCurrentSettings.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -737,7 +731,7 @@
     <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelTips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 497</value>
+    <value>182, 373</value>
   </data>
   <data name="LabelTips.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -767,10 +761,7 @@
     <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1279, 533</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>1119, 400</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

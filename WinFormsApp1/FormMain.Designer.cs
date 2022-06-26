@@ -47,7 +47,6 @@ namespace WinFormsApp1
             this.ButtonCancelCopying = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.GroupScheduleCopying = new System.Windows.Forms.GroupBox();
-            this.ListBoxScheduleCopying = new System.Windows.Forms.ListBox();
             this.ButtonAddSchedule = new System.Windows.Forms.Button();
             this.ButtonChangeSchedule = new System.Windows.Forms.Button();
             this.ButtonRemoveSchedule = new System.Windows.Forms.Button();
@@ -55,12 +54,14 @@ namespace WinFormsApp1
             this.GroupCurrentSettings = new System.Windows.Forms.GroupBox();
             this.ListBoxCurrentSettings = new System.Windows.Forms.ListBox();
             this.LabelTips = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
             this.Panel.SuspendLayout();
             this.GroupAutoCopying.SuspendLayout();
             this.GroupCopyingProcess.SuspendLayout();
             this.GroupScheduleCopying.SuspendLayout();
             this.GroupCurrentSettings.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -193,7 +194,7 @@ namespace WinFormsApp1
             // GroupScheduleCopying
             // 
             this.GroupScheduleCopying.BackColor = System.Drawing.SystemColors.Control;
-            this.GroupScheduleCopying.Controls.Add(this.ListBoxScheduleCopying);
+            this.GroupScheduleCopying.Controls.Add(this.dataGridView1);
             this.GroupScheduleCopying.Controls.Add(this.ButtonAddSchedule);
             this.GroupScheduleCopying.Controls.Add(this.ButtonChangeSchedule);
             this.GroupScheduleCopying.Controls.Add(this.ButtonRemoveSchedule);
@@ -202,13 +203,6 @@ namespace WinFormsApp1
             this.GroupScheduleCopying.Name = "GroupScheduleCopying";
             this.GroupScheduleCopying.TabStop = false;
             this.GroupScheduleCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
-            // 
-            // ListBoxScheduleCopying
-            // 
-            this.ListBoxScheduleCopying.FormattingEnabled = true;
-            resources.ApplyResources(this.ListBoxScheduleCopying, "ListBoxScheduleCopying");
-            this.ListBoxScheduleCopying.Name = "ListBoxScheduleCopying";
-            this.ListBoxScheduleCopying.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // ButtonAddSchedule
             // 
@@ -262,6 +256,14 @@ namespace WinFormsApp1
             this.LabelTips.Name = "LabelTips";
             this.LabelTips.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -283,6 +285,7 @@ namespace WinFormsApp1
             this.GroupCopyingProcess.ResumeLayout(false);
             this.GroupScheduleCopying.ResumeLayout(false);
             this.GroupCurrentSettings.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -309,12 +312,12 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label LabelCopyingInProgress;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.GroupBox GroupScheduleCopying;
-        private System.Windows.Forms.ListBox ListBoxScheduleCopying;
         private System.Windows.Forms.Button ButtonAddSchedule;
         private System.Windows.Forms.Button ButtonChangeSchedule;
         private System.Windows.Forms.Button ButtonRemoveSchedule;
         private System.Windows.Forms.Button ButtonCopyFiles;
         private System.Windows.Forms.Label LabelTips;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
