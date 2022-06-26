@@ -68,13 +68,13 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="настройкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 23</value>
+    <value>121, 28</value>
   </data>
   <data name="настройкиToolStripMenuItem.Text" xml:space="preserve">
     <value>Настройки</value>
   </data>
   <data name="справкаToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 23</value>
+    <value>97, 28</value>
   </data>
   <data name="справкаToolStripMenuItem.Text" xml:space="preserve">
     <value>Справка</value>
@@ -82,8 +82,12 @@
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 3, 0, 3</value>
+  </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1119, 27</value>
+    <value>1279, 34</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
@@ -105,7 +109,7 @@
     <value>4</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>831, 140</value>
+    <value>950, 187</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 0</value>
@@ -129,10 +133,13 @@
     <value>Sitka Text, 9pt, style=Bold</value>
   </data>
   <data name="ButtonAutoCopyingApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 77</value>
+    <value>443, 103</value>
+  </data>
+  <data name="ButtonAutoCopyingApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonAutoCopyingApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 28</value>
+    <value>113, 37</value>
   </data>
   <data name="ButtonAutoCopyingApply.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -156,10 +163,13 @@
     <value>Sitka Text, 9pt, style=Bold</value>
   </data>
   <data name="ButtonAutoCopyingSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 77</value>
+    <value>7, 103</value>
+  </data>
+  <data name="ButtonAutoCopyingSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonAutoCopyingSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 28</value>
+    <value>113, 37</value>
   </data>
   <data name="ButtonAutoCopyingSettings.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -183,10 +193,13 @@
     <value>True</value>
   </data>
   <data name="RadioButtonOnceAWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 33</value>
+    <value>305, 44</value>
+  </data>
+  <data name="RadioButtonOnceAWeek.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="RadioButtonOnceAWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 23</value>
+    <value>148, 28</value>
   </data>
   <data name="RadioButtonOnceAWeek.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -210,10 +223,13 @@
     <value>True</value>
   </data>
   <data name="RadioButtonOnceInThreeDays.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 34</value>
+    <value>154, 45</value>
+  </data>
+  <data name="RadioButtonOnceInThreeDays.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="RadioButtonOnceInThreeDays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>153, 28</value>
   </data>
   <data name="RadioButtonOnceInThreeDays.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -237,10 +253,13 @@
     <value>True</value>
   </data>
   <data name="RadioButtonEveryDay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 33</value>
+    <value>7, 44</value>
+  </data>
+  <data name="RadioButtonEveryDay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="RadioButtonEveryDay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 23</value>
+    <value>152, 28</value>
   </data>
   <data name="RadioButtonEveryDay.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -264,10 +283,13 @@
     <value>True</value>
   </data>
   <data name="RadioButtonNever.Location" type="System.Drawing.Point, System.Drawing">
-    <value>396, 34</value>
+    <value>453, 45</value>
+  </data>
+  <data name="RadioButtonNever.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="RadioButtonNever.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 23</value>
+    <value>107, 28</value>
   </data>
   <data name="RadioButtonNever.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -291,14 +313,16 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupAutoCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 250</value>
+    <value>11, 333</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="GroupAutoCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="GroupAutoCopying.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="GroupAutoCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>503, 118</value>
+    <value>575, 157</value>
   </data>
   <data name="GroupAutoCopying.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -322,10 +346,10 @@
     <value>Sitka Text, 9.749999pt, style=Bold, Italic</value>
   </data>
   <data name="LabelCopyingInProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 61</value>
+    <value>7, 81</value>
   </data>
   <data name="LabelCopyingInProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 45</value>
+    <value>452, 59</value>
   </data>
   <data name="LabelCopyingInProgress.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -349,10 +373,13 @@
     <value>Sitka Text, 9pt, style=Bold</value>
   </data>
   <data name="ButtonCancelCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 22</value>
+    <value>325, 29</value>
+  </data>
+  <data name="ButtonCancelCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonCancelCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 28</value>
+    <value>135, 37</value>
   </data>
   <data name="ButtonCancelCopying.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -376,10 +403,13 @@
     <value>1</value>
   </data>
   <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
+    <value>7, 31</value>
+  </data>
+  <data name="progressBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 26</value>
+    <value>453, 35</value>
   </data>
   <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -400,13 +430,16 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupCopyingProcess.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 250</value>
+    <value>593, 333</value>
   </data>
   <data name="GroupCopyingProcess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="GroupCopyingProcess.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="GroupCopyingProcess.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 118</value>
+    <value>466, 157</value>
   </data>
   <data name="GroupCopyingProcess.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -427,16 +460,16 @@
     <value>1</value>
   </data>
   <data name="ListBoxScheduleCopying.ItemHeight" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>23</value>
   </data>
   <data name="ListBoxScheduleCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 60</value>
+    <value>7, 80</value>
   </data>
   <data name="ListBoxScheduleCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="ListBoxScheduleCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>498, 175</value>
+    <value>569, 211</value>
   </data>
   <data name="ListBoxScheduleCopying.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -457,10 +490,13 @@
     <value>Sitka Text, 9pt, style=Bold</value>
   </data>
   <data name="ButtonAddSchedule.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 31</value>
+    <value>33, 41</value>
+  </data>
+  <data name="ButtonAddSchedule.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonAddSchedule.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 28</value>
+    <value>113, 37</value>
   </data>
   <data name="ButtonAddSchedule.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -484,10 +520,13 @@
     <value>Sitka Text, 9pt, style=Bold</value>
   </data>
   <data name="ButtonChangeSchedule.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 31</value>
+    <value>165, 41</value>
+  </data>
+  <data name="ButtonChangeSchedule.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonChangeSchedule.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 28</value>
+    <value>113, 37</value>
   </data>
   <data name="ButtonChangeSchedule.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -511,10 +550,13 @@
     <value>Sitka Text, 9pt, style=Bold</value>
   </data>
   <data name="ButtonRemoveSchedule.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 31</value>
+    <value>298, 41</value>
+  </data>
+  <data name="ButtonRemoveSchedule.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonRemoveSchedule.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 28</value>
+    <value>113, 37</value>
   </data>
   <data name="ButtonRemoveSchedule.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -538,10 +580,13 @@
     <value>Sitka Text, 9pt, style=Bold</value>
   </data>
   <data name="ButtonCopyFiles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>381, 31</value>
+    <value>435, 41</value>
+  </data>
+  <data name="ButtonCopyFiles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonCopyFiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 28</value>
+    <value>113, 37</value>
   </data>
   <data name="ButtonCopyFiles.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -565,13 +610,16 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupScheduleCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 0</value>
+    <value>5, 0</value>
   </data>
-  <data name="GroupScheduleCopying.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="GroupScheduleCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
+  <data name="GroupScheduleCopying.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
   <data name="GroupScheduleCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>509, 243</value>
+    <value>582, 324</value>
   </data>
   <data name="GroupScheduleCopying.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -592,13 +640,10 @@
     <value>2</value>
   </data>
   <data name="Panel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 26</value>
-  </data>
-  <data name="Panel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>0, 35</value>
   </data>
   <data name="Panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>934, 371</value>
+    <value>1067, 495</value>
   </data>
   <data name="Panel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -619,16 +664,16 @@
     <value>True</value>
   </data>
   <data name="ListBoxCurrentSettings.ItemHeight" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>23</value>
   </data>
   <data name="ListBoxCurrentSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 26</value>
+    <value>8, 35</value>
   </data>
   <data name="ListBoxCurrentSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="ListBoxCurrentSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 194</value>
+    <value>451, 257</value>
   </data>
   <data name="ListBoxCurrentSettings.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -649,16 +694,16 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupCurrentSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 26</value>
+    <value>593, 35</value>
   </data>
   <data name="GroupCurrentSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="GroupCurrentSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>3, 5, 3, 5</value>
   </data>
   <data name="GroupCurrentSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 243</value>
+    <value>466, 324</value>
   </data>
   <data name="GroupCurrentSettings.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -682,13 +727,13 @@
     <value>Sitka Text, 9.749999pt, style=Italic</value>
   </data>
   <data name="LabelTips.Location" type="System.Drawing.Point, System.Drawing">
-    <value>934, 26</value>
+    <value>1067, 35</value>
   </data>
   <data name="LabelTips.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LabelTips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 373</value>
+    <value>208, 497</value>
   </data>
   <data name="LabelTips.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -715,10 +760,13 @@
     <value>42</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+    <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1119, 400</value>
+    <value>1279, 533</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">

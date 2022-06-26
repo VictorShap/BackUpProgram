@@ -57,16 +57,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;checkBox2DisplayHints.Name" xml:space="preserve">
+    <value>checkBox2DisplayHints</value>
+  </data>
+  <data name="&gt;&gt;checkBox2DisplayHints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2DisplayHints.Parent" xml:space="preserve">
+    <value>GroupProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;checkBox2DisplayHints.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox1StartWithWindows.Name" xml:space="preserve">
+    <value>checkBox1StartWithWindows</value>
+  </data>
+  <data name="&gt;&gt;checkBox1StartWithWindows.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1StartWithWindows.Parent" xml:space="preserve">
+    <value>GroupProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;checkBox1StartWithWindows.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GroupProgramSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sitka Text, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="GroupProgramSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 16</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GroupProgramSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupProgramSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupProgramSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 101</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GroupProgramSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GroupProgramSettings.Text" xml:space="preserve">
+    <value>Общие настройки</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.Name" xml:space="preserve">
+    <value>GroupProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupProgramSettings.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="checkBox2DisplayHints.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkBox2DisplayHints.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 49</value>
+    <value>7, 65</value>
+  </data>
+  <data name="checkBox2DisplayHints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="checkBox2DisplayHints.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 23</value>
+    <value>245, 28</value>
   </data>
   <data name="checkBox2DisplayHints.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -90,10 +151,13 @@
     <value>True</value>
   </data>
   <data name="checkBox1StartWithWindows.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
+    <value>7, 31</value>
+  </data>
+  <data name="checkBox1StartWithWindows.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="checkBox1StartWithWindows.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 23</value>
+    <value>362, 28</value>
   </data>
   <data name="checkBox1StartWithWindows.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -113,41 +177,17 @@
   <data name="&gt;&gt;checkBox1StartWithWindows.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="GroupProgramSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sitka Text, 9.749999pt, style=Bold</value>
-  </data>
-  <data name="GroupProgramSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="GroupProgramSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 76</value>
-  </data>
-  <data name="GroupProgramSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="GroupProgramSettings.Text" xml:space="preserve">
-    <value>Общие настройки</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.Name" xml:space="preserve">
-    <value>GroupProgramSettings</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GroupProgramSettings.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="RadioButtonEnglish.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="RadioButtonEnglish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 48</value>
+    <value>9, 64</value>
+  </data>
+  <data name="RadioButtonEnglish.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="RadioButtonEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
+    <value>141, 28</value>
   </data>
   <data name="RadioButtonEnglish.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -171,10 +211,13 @@
     <value>True</value>
   </data>
   <data name="RadioButtonRussian.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 23</value>
+    <value>9, 31</value>
+  </data>
+  <data name="RadioButtonRussian.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="RadioButtonRussian.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>102, 28</value>
   </data>
   <data name="RadioButtonRussian.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -198,10 +241,16 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>402, 12</value>
+    <value>459, 16</value>
+  </data>
+  <data name="GroupLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupLanguage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="GroupLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 76</value>
+    <value>322, 101</value>
   </data>
   <data name="GroupLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -225,10 +274,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 242</value>
+    <value>692, 322</value>
+  </data>
+  <data name="ButtonOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 23</value>
+    <value>77, 31</value>
   </data>
   <data name="ButtonOk.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -252,10 +304,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 242</value>
+    <value>608, 322</value>
+  </data>
+  <data name="ButtonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 23</value>
+    <value>77, 31</value>
   </data>
   <data name="ButtonCancel.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -279,10 +334,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ButtonApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 242</value>
+    <value>525, 322</value>
+  </data>
+  <data name="ButtonApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="ButtonApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 23</value>
+    <value>77, 31</value>
   </data>
   <data name="ButtonApply.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -307,10 +365,13 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox6RunProgramAsServise.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 110</value>
+    <value>7, 144</value>
+  </data>
+  <data name="checkBox6RunProgramAsServise.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="checkBox6RunProgramAsServise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 24</value>
+    <value>748, 32</value>
   </data>
   <data name="checkBox6RunProgramAsServise.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -337,10 +398,13 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox5StartCopyingAgain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 81</value>
+    <value>7, 108</value>
+  </data>
+  <data name="checkBox5StartCopyingAgain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="checkBox5StartCopyingAgain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>513, 23</value>
+    <value>668, 28</value>
   </data>
   <data name="checkBox5StartCopyingAgain.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -367,10 +431,13 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox4PermissionToStopCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 52</value>
+    <value>7, 69</value>
+  </data>
+  <data name="checkBox4PermissionToStopCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="checkBox4PermissionToStopCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 23</value>
+    <value>453, 28</value>
   </data>
   <data name="checkBox4PermissionToStopCopy.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -397,10 +464,13 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox3NotifyAboutCopying.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
+    <value>7, 31</value>
+  </data>
+  <data name="checkBox3NotifyAboutCopying.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="checkBox3NotifyAboutCopying.Size" type="System.Drawing.Size, System.Drawing">
-    <value>424, 23</value>
+    <value>553, 28</value>
   </data>
   <data name="checkBox3NotifyAboutCopying.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -424,10 +494,16 @@
     <value>Sitka Text, 9.749999pt, style=Bold</value>
   </data>
   <data name="GroupAdditionalSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 94</value>
+    <value>14, 125</value>
+  </data>
+  <data name="GroupAdditionalSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupAdditionalSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="GroupAdditionalSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>579, 142</value>
+    <value>767, 189</value>
   </data>
   <data name="GroupAdditionalSettings.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -451,10 +527,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+    <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>595, 266</value>
+    <value>789, 355</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

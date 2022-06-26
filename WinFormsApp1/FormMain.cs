@@ -14,7 +14,7 @@ using WinFormsApp1.AllProgramSettings;
 namespace WinFormsApp1
 {
     public partial class FormMain : Form
-    {
+    { 
         AutoCopySettings autoCopySettings = new AutoCopySettings();
         ProgramSettings programSettings = new ProgramSettings();
         SchedulerSettings schedulerSettings = new SchedulerSettings();
@@ -26,12 +26,12 @@ namespace WinFormsApp1
             {
                 return updateAutoCopySettings;
             }
-            
+
             set
             {
                 if (value == true)
                     updateAutoCopySettings = true;
-                    autoCopySettings = (AutoCopySettings)SaveSettings.DeserializeXML(FileNames.autoCopyFile, autoCopySettings);
+                autoCopySettings = (AutoCopySettings)SaveSettings.DeserializeXML(FileNames.autoCopyFile, autoCopySettings);
             }
         }
         public bool UpdateProgSettings
@@ -108,6 +108,11 @@ namespace WinFormsApp1
             {
                 new FormProgramSettings(this).Show();
             }
+        }
+
+        private void ButtonCopyFiles_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

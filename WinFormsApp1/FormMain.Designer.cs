@@ -237,6 +237,7 @@ namespace WinFormsApp1
             resources.ApplyResources(this.ButtonCopyFiles, "ButtonCopyFiles");
             this.ButtonCopyFiles.Name = "ButtonCopyFiles";
             this.ButtonCopyFiles.UseVisualStyleBackColor = true;
+            this.ButtonCopyFiles.Click += new System.EventHandler(this.ButtonCopyFiles_Click);
             this.ButtonCopyFiles.MouseHover += new System.EventHandler(this.ShowToolTips_MouseHover);
             // 
             // GroupCurrentSettings

@@ -4,8 +4,7 @@ using System.Runtime.Serialization;
 using System.Windows.Forms;
 using System.Reflection;
 using WinFormsApp1.AllProgramSettings;
-
-
+using Microsoft.Toolkit.Uwp.Notifications;
 namespace WinFormsApp1
 {
     static class Methods
@@ -171,7 +170,50 @@ namespace WinFormsApp1
             key.DeleteValue("WinFormsApp1", false);
             key.Close();
         }
-
-
+        public static void NotifyCopyProcess(bool started, bool en)
+        {
+            string text1;
+            string text2;
+            string img;
+            if (en)
+            {
+                if (started)
+                {
+                    img = Other.imageStarted;
+                    text1 = Other.notificationTextStartedEng;
+                    text2 = Other.notificationTextDefaultEng;
+                }
+                else
+                {
+                    img = Other.imageDone;
+                    text1 = Other.notificationTextDoneEng;
+                    text2 = Other.notificationTextDefaultEng;
+                }
+            }
+            else
+            {
+                if (started)
+                {
+                    img = Other.imageStarted;
+                    text1 = Other.notificationTextStartedRus;
+                    text2 = Other.notificationTextDefaultRus;
+                }
+                else
+                {
+                    img=Other.imageDone;
+                    text1 = Other.notificationTextDoneRus;
+                    text2 = Other.notificationTextDefaultRus;
+                }
+         
+            }
+            new ToastContentBuilder()
+.AddArgument("action", "viewConversation")
+.AddArgument("conversationId", 9813)
+.AddText(text1)
+.AddAppLogoOverride(new Uri(img))
+.AddText(text2)
+.Show();
+        }
+         
     }
 }

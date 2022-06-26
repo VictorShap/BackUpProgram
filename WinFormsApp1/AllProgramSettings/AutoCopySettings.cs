@@ -35,7 +35,7 @@ namespace WinFormsApp1.AllProgramSettings
 
         #endregion
         public AutoCopySettings() { }
-
+        
         public void SetTimeToCopy(bool copyOnceEveryDay, bool copyOnceInThreeDays, bool copyOnceOnceAWeek, bool copyNever)
         {
             this.copyOnceEveryDay = copyOnceEveryDay;
