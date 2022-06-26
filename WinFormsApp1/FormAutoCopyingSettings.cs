@@ -15,19 +15,19 @@ namespace WinFormsApp1
         static string sourceDirectoryPath;
         static string targetDirectoryPath;
         FormMain formMain;
-        
+
         public FormAutoCopyingSettings(FormMain owner)
         {
             InitializeComponent();
             formMain = owner;
         }
-        
+
         private void FormCopyingSettings_Load(object sender, EventArgs e)
         {
             if (File.Exists(FileNames.autoCopyFile))
             {
                 autoCopySettings = (AutoCopySettings)SaveSettings.DeserializeXML(FileNames.autoCopyFile, autoCopySettings);
-                autoCopySettings.ShowMainSettingsOnForm(ref sourceDirectoryPath, ref targetDirectoryPath, TextBoxTypeExtension, TextBoxDaysToCopy, CheckBoxCopyAllTheFiles);                
+                autoCopySettings.ShowMainSettingsOnForm(ref sourceDirectoryPath, ref targetDirectoryPath, TextBoxTypeExtension, TextBoxDaysToCopy, CheckBoxCopyAllTheFiles);
                 Methods.ShowFolderOnListBox(sourceDirectoryPath, ListBoxDirectoriesResult, Other.mainDirectoryRu);
                 Methods.ShowFolderOnListBox(targetDirectoryPath, ListBoxDirectoriesResult, Other.targetDirectoryRu);
             }
@@ -40,15 +40,11 @@ namespace WinFormsApp1
 
         private void ButtonChooseDirectoryToCopy_Click(object sender, EventArgs e)
         {
-            //Methods.AddFolder2(Other.mainDirectoryRu, ref sourceDirectoryPath, in targetDirectoryPath, ListBoxDirectoriesResult);
-            Methods.ChooseFolderAndCheckingForSameness(ref sourceDirectoryPath, ref targetDirectoryPath);
-            Methods.ShowFolderOnListBox(sourceDirectoryPath, ListBoxDirectoriesResult, Other.mainDirectoryRu);
+            Methods.AddFolder(Other.mainDirectoryRu, ref sourceDirectoryPath, in targetDirectoryPath, ListBoxDirectoriesResult);
         }
         private void ButtonChooseTargetDirectory_Click(object sender, EventArgs e)
         {
-            //Methods.AddFolder2(Other.targetDirectoryRu, ref targetDirectoryPath, in sourceDirectoryPath, ListBoxDirectoriesResult);
-            Methods.ChooseFolderAndCheckingForSameness(ref targetDirectoryPath, ref sourceDirectoryPath);
-            Methods.ShowFolderOnListBox(targetDirectoryPath, ListBoxDirectoriesResult, Other.targetDirectoryRu);
+            Methods.AddFolder(Other.targetDirectoryRu, ref targetDirectoryPath, in sourceDirectoryPath, ListBoxDirectoriesResult);
         }
 
         private void ButtonApply_Click(object sender, EventArgs e)
